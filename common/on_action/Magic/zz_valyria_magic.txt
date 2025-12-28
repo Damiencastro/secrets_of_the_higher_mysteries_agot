@@ -87,6 +87,98 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
+		character:Setenon_02 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = character:Setenon_02  
+				}
+			}
+		}
+		character:Setenon_03 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_04 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_05 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_06 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_07 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_08 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+
 		dynasty:dynn_Setenon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 		dynasty:dynn_Setenon = { set_variable = agot_allow_adelphogamous_incest }
 		dynasty:dynn_Setenon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
