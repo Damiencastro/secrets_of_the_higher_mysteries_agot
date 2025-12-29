@@ -19,15 +19,15 @@ arcane_mage_lords = {
 			zz_mage_lords_1 = yes
 		}
 		powerful_family_top_liege_modifier = {
-			trait_track_drops_of_power_xp_gain_mult = 0.1
+			trait_track_drops_of_power_mult_xp_gain_mult = 0.1
 		}
 
 		house_head_modifier = {
-			trait_track_drops_of_power_xp_gain_mult = 0.1
+			trait_track_drops_of_power_mult_xp_gain_mult = 0.1
 		}
 
 		powerful_family_member_modifier = {
-			trait_track_drops_of_power_xp_gain_mult = 0.1
+			trait_track_drops_of_power_mult_xp_gain_mult = 0.1
 		}
 		
 		ai_score = {

@@ -1559,17 +1559,7 @@ magic_blood_bad_1 = {
 	trait_track_fire_magic_xp_gain_mult = -0.05
 	trait_track_air_magic_xp_gain_mult = -0.05
 	trait_track_water_magic_xp_gain_mult = -0.05
-	trait_track_drops_of_power_xp_gain_mult = -0.25
-	trait_track_stores_of_power_01_xp_gain_mult = -0.25
-	trait_track_stores_of_power_02_xp_gain_mult = -0.25
-	trait_track_stores_of_power_03_xp_gain_mult = -0.25
-	trait_track_stores_of_power_04_xp_gain_mult = -0.25
-	trait_track_stores_of_power_05_xp_gain_mult = -0.25
-	trait_track_stores_of_power_06_xp_gain_mult = -0.25
-	trait_track_stores_of_power_07_xp_gain_mult = -0.25
-	trait_track_stores_of_power_08_xp_gain_mult = -0.25
-	trait_track_stores_of_power_09_xp_gain_mult = -0.25
-	trait_track_stores_of_power_10_xp_gain_mult = -0.25
+	trait_track_drops_of_power_mult_xp_gain_mult = -0.25
 	
 	tracks = {
 
@@ -1622,17 +1612,7 @@ magic_blood_bad_2 = {
 	trait_track_fire_magic_xp_gain_mult = -0.15
 	trait_track_air_magic_xp_gain_mult = -0.15
 	trait_track_water_magic_xp_gain_mult = -0.15
-	trait_track_drops_of_power_xp_gain_mult = -0.5
-	trait_track_stores_of_power_01_xp_gain_mult = -0.5
-	trait_track_stores_of_power_02_xp_gain_mult = -0.5
-	trait_track_stores_of_power_03_xp_gain_mult = -0.5
-	trait_track_stores_of_power_04_xp_gain_mult = -0.5
-	trait_track_stores_of_power_05_xp_gain_mult = -0.5
-	trait_track_stores_of_power_06_xp_gain_mult = -0.5
-	trait_track_stores_of_power_07_xp_gain_mult = -0.5
-	trait_track_stores_of_power_08_xp_gain_mult = -0.5
-	trait_track_stores_of_power_09_xp_gain_mult = -0.5
-	trait_track_stores_of_power_10_xp_gain_mult = -0.5
+	trait_track_drops_of_power_mult_xp_gain_mult = -0.5
 	
 	tracks = {
 
@@ -1685,17 +1665,7 @@ magic_blood_bad_3 = {
 	trait_track_fire_magic_xp_gain_mult = -0.25
 	trait_track_air_magic_xp_gain_mult = -0.25
 	trait_track_water_magic_xp_gain_mult = -0.25
-	trait_track_drops_of_power_xp_gain_mult = -0.75
-	trait_track_stores_of_power_01_xp_gain_mult = -0.75
-	trait_track_stores_of_power_02_xp_gain_mult = -0.75
-	trait_track_stores_of_power_03_xp_gain_mult = -0.75
-	trait_track_stores_of_power_04_xp_gain_mult = -0.75
-	trait_track_stores_of_power_05_xp_gain_mult = -0.75
-	trait_track_stores_of_power_06_xp_gain_mult = -0.75
-	trait_track_stores_of_power_07_xp_gain_mult = -0.75
-	trait_track_stores_of_power_08_xp_gain_mult = -0.75
-	trait_track_stores_of_power_09_xp_gain_mult = -0.75
-	trait_track_stores_of_power_10_xp_gain_mult = -0.75
+	trait_track_drops_of_power_mult_xp_gain_mult = -0.75
 	
 	tracks = {
 
@@ -1910,7 +1880,7 @@ born_beneath_the_comet = {
 	# ai_boldness = 20
 	# ai_energy = 20
 	
-	trait_track_drops_of_power_xp_gain_mult = 0.25
+	trait_track_drops_of_power_mult_xp_gain_mult = 0.25
 
 }
 
