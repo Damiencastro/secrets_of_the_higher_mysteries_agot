@@ -2379,6 +2379,26 @@ zz_valyria_magic_dragon_magic_05_value = {
 	}
 }
 
+zz_valyria_magic_dragon_magic_06_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			min = 1
+		}
+	}
+}
+
+zz_valyria_magic_dragon_magic_07_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_dragon_magic_base_value
+			min = 1
+		}
+	}
+}
+
 
 ###Old 
 

@@ -4635,3 +4635,32 @@ zz_valyria_magic_dragon_magic_06 = {
 	}
 }
 
+zz_valyria_magic_dragon_magic_07 = {
+	categories = { positive magic dragon_magic }
+	icon = "activity_zz_magic_education.dds"
+
+	description = {
+		random_valid = {
+			desc = zz_valyria_magic_dragon_magic_07.memory_desc
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dragon_magic_07.memory_desc_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = zz_valyria_magic_dragon_magic_07.memory_desc_third_perspective
+		}
+	}
+
+	participants = {  }
+
+	duration = {
+		years = 100000
+	}
+}
+

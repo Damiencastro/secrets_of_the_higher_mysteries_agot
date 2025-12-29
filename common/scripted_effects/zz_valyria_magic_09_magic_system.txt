@@ -3532,6 +3532,12 @@ zz_random_gain_magic_spell = {
 					zz_valyria_knows_spell  = {
 						SPELL = zz_valyria_magic_dragon_magic_05
 					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_06
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_dragon_magic_07
+					}
 				}
 			}
 			
@@ -3855,6 +3861,17 @@ zz_scroll_05_effect = {
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_05 }}
 	}
 }
+zz_scroll_07_effect = {
+	random_list = {
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_01 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_02 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_03 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_04 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_05 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_06 }}
+		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_07 }}
+	}
+}
 zz_scroll_11_effect = {
 	random_list = {
 		100 = { zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_$MAGIC$_magic_01 }}
@@ -4028,7 +4045,7 @@ zz_gain_water_magic_scroll = {
 }
 
 zz_gain_dragon_magic_scroll = { 
-	zz_scroll_05_effect = { 
+	zz_scroll_07_effect = { 
 		MAGIC = dragon
 	}	
 }
@@ -4252,6 +4269,8 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dragon_magic_03 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dragon_magic_04 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dragon_magic_05 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dragon_magic_06 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dragon_magic_07 }
 }
 
 
@@ -4432,6 +4451,8 @@ zz_magic_list_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_03 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_04 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_05 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_06 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_07 }
 }
 
 zz_magic_list_cast_effect = {
@@ -4599,4 +4620,6 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_03 EVENT = zz_valyria_magic_dragon_magic_spells.003 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_04 EVENT = zz_valyria_magic_dragon_magic_spells.004 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_05 EVENT = zz_valyria_magic_dragon_magic_spells.005 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_06 EVENT = zz_valyria_magic_dragon_magic_spells.006 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dragon_magic_07 EVENT = zz_valyria_magic_dragon_magic_spells.007 }
 }

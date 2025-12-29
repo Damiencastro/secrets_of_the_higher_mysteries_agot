@@ -1,32 +1,4 @@
-﻿zz_agot_bond_dragon_relation_effect = {
-	agot_set_as_owned_dragon = { # Set as owned if not
-		OWNER = $ACTOR$
-		DRAGON = $DRAGON$
-	}
-	$ACTOR$ = { # Set relation
-		if = {
-			limit = {
-				is_alive = yes # Needed for history files
-				NOT = { has_relation_agot_dragon = $DRAGON$ }
-			}
-			set_relation_agot_dragon = { reason = test_friend_desc target = $DRAGON$ }
-			create_character_memory = {
-				type = agot_bonded_a_dragon
-				participants = { tamed_dragon = $DRAGON$ }
-			}
-		}
-
-		#Fucking Vaegon
-		if = {
-			limit = {
-				has_nickname = nick_the_dragonless
-			}
-			remove_nickname = yes
-		}
-	}
-}
-
-zz_agot_tame_dragon = {
+﻿zz_agot_tame_dragon = {
 
 	agot_set_as_rider = { # Set rider
 		RIDER = $TAMER$

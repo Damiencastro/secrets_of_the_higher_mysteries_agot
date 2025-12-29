@@ -44,3 +44,13 @@
   zz_valyria_magic_dragon_magic_05.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$ $zz_mem_loc$"
   zz_valyria_magic_dragon_magic_05.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$ $zz_mem_loc$"
   zz_valyria_magic_dragon_magic_05.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_05_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_dragon_magic_06: "[dragon_magic] - $zz_valyria_magic_dragon_magic_06_name$"
+  zz_valyria_magic_dragon_magic_06.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_06_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_06.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_06_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_06.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_06_name$ $zz_mem_loc$"
+
+  zz_valyria_magic_dragon_magic_07: "[dragon_magic] - $zz_valyria_magic_dragon_magic_07_name$"
+  zz_valyria_magic_dragon_magic_07.memory_desc: "$zz_mem_01$ [dragon_magic] - $zz_valyria_magic_dragon_magic_07_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_07.memory_desc_second_perspective: "$zz_mem_02$ [dragon_magic] - $zz_valyria_magic_dragon_magic_07_name$ $zz_mem_loc$"
+  zz_valyria_magic_dragon_magic_07.memory_desc_third_perspective: "$zz_mem_03$ [dragon_magic] - $zz_valyria_magic_dragon_magic_07_name$ $zz_mem_loc$"

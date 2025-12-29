@@ -267,6 +267,14 @@ zz_valyria_magic.0011 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_05
 		}
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_06 }
+		scope:newly_created_artifact = {
+			save_scope_as = magic_scroll_06
+		}
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_07 }
+		scope:newly_created_artifact = {
+			save_scope_as = magic_scroll_07
+		}
 	}
 
 	trigger = {
