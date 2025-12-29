@@ -102,6 +102,30 @@ zz_valyria_magic_blood_magic_01_effect = {
 					remove_character_modifier = gangrene_modifier
 				}
 			}
+			if = { 
+				limit = {
+					has_character_modifier = reduced_sex_drive_modifier
+				}
+				remove_character_modifier = reduced_sex_drive_modifier
+			}
+			if = { 
+				limit = {
+					has_character_modifier = compromised_fertility_modifier
+				}
+				remove_character_modifier = compromised_fertility_modifier
+			}
+			if = { 
+				limit = {
+					has_character_modifier = no_longer_fecund_modifier
+				}
+				remove_character_modifier = no_longer_fecund_modifier
+			}
+			if = { 
+				limit = {
+					has_character_modifier = no_more_children_modifier
+				}
+				remove_character_modifier = no_more_children_modifier
+			}
 			else = { 
 				switch = { 
 					trigger = has_trait 

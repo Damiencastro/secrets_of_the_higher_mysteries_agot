@@ -18,7 +18,9 @@
 	can_pick_for_hybridization = {
 		always = yes
 	}
-
+	character_modifier = {
+		zz_drops_of_power_advantage = 100
+	}
 	parameters = {
 		magister_lords_of_valyria = yes 
 	}
@@ -49,7 +51,9 @@ tradition_zz_sorcerous_studies = {
 	can_pick = {
 		always = yes
 	}
-	
+	character_modifier = {
+		zz_drops_of_power_development_growth_factor = 0.5
+	}
 	can_pick_for_hybridization = {
 		always = yes
 	}
