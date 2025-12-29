@@ -92,58 +92,77 @@ zz_valyria_mana_gain_mult = {
 		limit = {
 			has_court_position = zz_valyria_court_mages_court_position
 		}
-		if = {
-			limit = {
-				this.aptitude:zz_valyria_court_mages_court_position >= 4
-			}
-			add = 0.2
-		}
-		else_if = {
-			limit = {
-				this.aptitude:zz_valyria_court_mages_court_position = 3
-			}
-			add = 0.15
-		}
-		else_if = {
-			limit = {
-				this.aptitude:zz_valyria_court_mages_court_position = 2
-			}
-			add = 0.1
-		}
-		else_if = {
-			limit = {
-				this.aptitude:zz_valyria_court_mages_court_position = 1
-			}
-			add = 0.05
-		}
+		add = 0.25
 	}
 	every_court_position_holder ?= {
 		type = zz_valyria_court_mages_court_position
 		if = {
 			limit = {
-				this.aptitude:zz_valyria_court_mages_court_position >= 4
+				this.aptitude:zz_valyria_court_mages_court_position = 4
 			}
-			add = 0.5
+			add = 0.25
 		}
 		else_if = {
 			limit = {
 				this.aptitude:zz_valyria_court_mages_court_position = 3
 			}
-			add = 0.4
+			add = 0.2
 		}
 		else_if = {
 			limit = {
 				this.aptitude:zz_valyria_court_mages_court_position = 2
 			}
-			add = 0.3
+			add = 0.15
 		}
 		else_if = {
 			limit = {
 				this.aptitude:zz_valyria_court_mages_court_position = 1
 			}
-			add = 0.2
+			add = 0.1
+		}
+		else_if = {
+			limit = {
+				this.aptitude:zz_valyria_court_mages_court_position = 0
+			}
+			add = 0.05
 		}
 	}
+	employer ?= {
+		every_court_position_holder ?= {
+			type = zz_valyria_court_mages_court_position
+			if = {
+				limit = {
+					this.aptitude:zz_valyria_court_mages_court_position = 4
+				}
+				add = 0.25
+			}
+			else_if = {
+				limit = {
+					this.aptitude:zz_valyria_court_mages_court_position = 3
+				}
+				add = 0.2
+			}
+			else_if = {
+				limit = {
+					this.aptitude:zz_valyria_court_mages_court_position = 2
+				}
+				add = 0.15
+			}
+			else_if = {
+				limit = {
+					this.aptitude:zz_valyria_court_mages_court_position = 1
+				}
+				add = 0.1
+			}
+			else_if = {
+				limit = {
+					this.aptitude:zz_valyria_court_mages_court_position = 0
+				}
+				add = 0.05
+			}
+		}
+	}
+	
 	if = {
 		limit = { 
 			culture = { has_cultural_tradition = tradition_zz_sorcerous_studies }
@@ -247,22 +266,22 @@ zz_valyria_mana_gain_mult = {
 	}
 	every_noble_family = { 
 		limit = {
-			house ?= {
-				OR = {
-					has_house_power_parameter = zz_mage_lord_1
-					has_house_power_parameter = zz_mage_lords_2
-					has_house_power_parameter = zz_mage_lords_3
+			holder ?= {
+				house ?= {
+					OR = {
+						has_house_power_parameter = zz_mage_lords_1
+						has_house_power_parameter = zz_mage_lords_2
+						has_house_power_parameter = zz_mage_lords_3
+					}
+					
 				}
-				
 			}
 		}
 		add = 0.10
 	}
 	if = { 
 		limit = {
-			culture = {
-				has_cultural_parameter = mage_scholars
-			}
+			culture = { has_cultural_tradition = tradition_zz_magic_studies }
 		}
 		add = 0.5
 	}
@@ -291,7 +310,16 @@ zz_valyria_mana_gain_mult = {
 }
 
 
-
+zz_valyria_mana_gain_mult_percentage = {
+	value = 0 
+	if = {
+		limit = {
+			exists = this 
+		}
+		value = this.zz_valyria_mana_gain_mult
+		multiply = 100 
+	}
+}
 
 zz_valyria_drops_power_passive_gain = { 
 	value = 0 
@@ -337,7 +365,7 @@ zz_valyria_drops_power_passive_gain = {
 				add = this.var:mystery_potency
 			}
 		}
-		multiply = zz_valyria_mana_gain_mult
+		multiply = this.zz_valyria_mana_gain_mult
 	}
 }
 

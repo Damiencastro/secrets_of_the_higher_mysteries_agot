@@ -2139,7 +2139,7 @@ zz_valyria_mana_gain = {
 	set_variable = { name = managain value = $MANAGAIN$}
 	change_variable = {
 		name = managain 
-		multiply = zz_valyria_mana_gain_mult
+		multiply = this.zz_valyria_mana_gain_mult
 	}
 	
 	while = {
