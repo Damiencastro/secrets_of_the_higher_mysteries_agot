@@ -24,6 +24,39 @@ trait_track_drops_of_power_mult_xp_gain_mult = {
 
 
 
+## Drops of Power Number
+zz_drops_of_power_attrition_mult = {
+    decimals = 0
+	percent = yes
+	hidden = no 
+}
+
+## Drops of Power Cap
+zz_drops_of_power_advantage= {
+    decimals = 0
+	percent = no
+	hidden = no 
+}
+
+
+## Drops of Power Passive Gain 
+zz_drops_of_power_development_growth= {
+    decimals = 2
+	percent = no
+	hidden = no 
+}
+
+
+## Drops of Power gain multiplier
+zz_drops_of_power_development_growth_factor = {
+    decimals = 0
+	percent = yes
+	hidden = no 
+}
+
+
+
+
 trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = {
     decimals = 0
 	percent = yes

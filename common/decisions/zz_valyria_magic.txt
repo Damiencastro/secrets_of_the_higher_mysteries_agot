@@ -135,8 +135,8 @@ manage_grant_culture_trait_decision = {
 			is_valid = {
 
 			}
-			current_description = go_trait_cap_desc
-			localization = go_trait_cap_desc
+			current_description = tradition_zz_valyrian_practices_desc
+			localization = tradition_zz_valyrian_practices_name
 			icon = "gfx/interface/icons/government_types/administrative_government.dds"
 			ai_chance = {
 				value = 10

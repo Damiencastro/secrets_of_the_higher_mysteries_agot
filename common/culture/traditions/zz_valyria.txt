@@ -90,7 +90,9 @@ tradition_zz_magic_studies = {
 	can_pick_for_hybridization = {
 		always = yes
 	}
-
+	character_modifier = {
+		zz_drops_of_power_development_growth_factor = 0.5
+	}
 	parameters = {
 		mage_scholars = yes 
 	}
@@ -116,7 +118,7 @@ tradition_zz_valyrian_practices = {
 	}
 	
 	is_shown = {
-		always = yes
+		has_game_rule = debug_mode_on
 	}
 	
 	can_pick = {

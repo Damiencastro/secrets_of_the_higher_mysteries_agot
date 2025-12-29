@@ -258,7 +258,40 @@ zz_valyria_mana_gain_mult = {
 		}
 		add = 0.10
 	}
+	if = { 
+		limit = {
+			culture = {
+				has_cultural_parameter = mage_scholars
+			}
+		}
+		add = 0.5
+	}
+	if = { 
+		limit = {
+			domicile ?= {
+				has_domicile_parameter = zz_library_archives_03
+			}			
+		}
+		add = 0.1
+	}
+	if = { 
+		limit = {
+			domicile ?= {
+				has_domicile_parameter = zz_library_archives_04
+			}			
+		}
+		add = 0.2
+	}
+	every_directly_owned_province = { 
+		limit = {
+			has_building_with_flag = zz_mages_tower_tower_01		
+		}
+		add = 0.2
+	}
 }
+
+
+
 
 zz_valyria_drops_power_passive_gain = { 
 	value = 0 
