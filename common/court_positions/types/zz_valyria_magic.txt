@@ -26,7 +26,7 @@
 
 		if = {
 			limit = {
-				knows_language = language_valyrian # Valyrian Speaker
+				knows_language = language_agot_valyrian # Valyrian Speaker
 			}
 			add = {
 				value = 5

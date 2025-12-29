@@ -428,7 +428,7 @@ zz_valyria_magic_further_education.1010 = {
 			NOT = { has_variable = had_chanting_event }
 		}
 		NOT = { has_trait = mute }
-		knows_language = language_valyrian
+		knows_language = language_agot_valyrian
 	}
 	immediate = {
 		scope:scheme = {
@@ -559,7 +559,7 @@ zz_valyria_magic_further_education.1020 = {
 		scope:scheme = {
 			NOT = { has_variable = had_reading_event }
 		}
-		knows_language = language_valyrian
+		knows_language = language_agot_valyrian
 	}
 	immediate = {
 		scope:scheme = {
@@ -583,7 +583,7 @@ zz_valyria_magic_further_education.1020 = {
 				}
 				modifier = {
 					add = 25
-					knows_language = language_valyrian
+					knows_language = language_agot_valyrian
 				}
 				show_as_tooltip = {
 					scope:scheme = {
@@ -607,7 +607,7 @@ zz_valyria_magic_further_education.1020 = {
 				}
 				modifier = {
 					add = -50
-					NOT = { knows_language = language_valyrian }
+					NOT = { knows_language = language_agot_valyrian }
 				}
 				show_as_tooltip = {
 					scope:scheme = {
