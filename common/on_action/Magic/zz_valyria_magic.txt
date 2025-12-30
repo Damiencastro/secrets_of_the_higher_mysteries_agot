@@ -218,8 +218,8 @@ quarterly_playable_pulse = {
 
 random_yearly_everyone_pulse = {
 	on_actions = {
-		zz_valyria_magic_dragon_life_extension
-		zz_valyria_magic_dragon_life_extension_lost 
+		#zz_valyria_magic_dragon_life_extension
+		#zz_valyria_magic_dragon_life_extension_lost 
 		zz_valyria_mana_gain_on_actions
 		zz_valyria_dynn_setenon_scroll_generation
 	}
