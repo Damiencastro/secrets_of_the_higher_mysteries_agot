@@ -21,6 +21,19 @@
 			add = 400
 		}
 	}
+	if = { 
+		limit = { 
+			any_equipped_character_artifact = {
+				has_artifact_modifier =  item_modifier_22
+			}
+		}
+		every_equipped_character_artifact = { 
+			limit = {
+				has_artifact_modifier =  item_modifier_22
+			}
+			add = this.var:item_mana_cap_add
+		}
+	}
 	if = {
 		limit = { 
 			culture = { has_cultural_tradition = tradition_zz_cultural_mage_lords }

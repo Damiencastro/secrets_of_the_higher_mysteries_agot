@@ -332,6 +332,10 @@ zz_valyria_magic_alchemy_magic_spells.00601 = {
 			name = possible_flags
 			target = flag:item_modifier_21
 		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:item_modifier_22
+		}
 		set_variable = {
 			name = selected_flag
 			value = flag:item_modifier_none

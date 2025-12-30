@@ -225,6 +225,10 @@
 					name = zz_valyria_modifier_list
 					target = flag:item_modifier_21
 				}
+				add_to_variable_list = {
+					name = zz_valyria_modifier_list
+					target = flag:item_modifier_22
+				}
 
 				remove_variable = zz_item_ui
 				clear_variable_list = zz_valyria_sword_list

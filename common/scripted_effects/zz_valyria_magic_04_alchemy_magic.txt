@@ -78,6 +78,28 @@
 						}
 					}
 				}
+				else_if = { 
+					limit = { 
+						root = {
+							scope:modifier = flag:item_modifier_22
+						}
+					}
+					if = {
+						limit = {
+							exists = var:item_mana_cap_add
+						}
+						change_variable = {
+							name = item_mana_cap_add
+							add = 5
+						}
+					}
+					else = {
+						set_variable = {
+							name = item_mana_cap_add
+							value = 5
+						}
+					}
+				}
 				add_artifact_modifier = $MODIFIER$
 			}
 		}

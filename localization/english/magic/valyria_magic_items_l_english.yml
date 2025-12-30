@@ -243,7 +243,9 @@
   item_modifier_20_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
   item_modifier_21:0 "Monthly Income Multiplier"
   item_modifier_21_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
-  item_modifier_22:0 ""
+  item_modifier_22:0 "Drops of Power Capacity"
+  item_modifier_21_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
+  
 
   item_ring_desc:0 "An enchanted ring of magic, carrying within it a great power to change the world."
 
