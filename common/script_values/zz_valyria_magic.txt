@@ -198,6 +198,16 @@ zz_valyria_mana_gain_mult = {
 				has_trait_xp = {
 					trait = starwalker
 					track = chosen_of_the_heavens
+					value >= 25
+				}
+			}
+			add = 0.25
+		}
+		if = { 
+			limit = {
+				has_trait_xp = {
+					trait = starwalker
+					track = chosen_of_the_heavens
 					value >= 50
 				}
 			}

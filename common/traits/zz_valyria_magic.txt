@@ -324,6 +324,9 @@ starwalker = {
 	learning = 1
 	intrigue = 1
 	monthly_prestige = 0.5
+	zz_drops_of_power_advantage = 1000
+	zz_drops_of_power_development_growth_factor = 0.25
+	zz_drops_of_power_development_growth = 1 
 	culture_modifier = {
 		parameter = starwalker
 		direct_vassal_opinion = 10
@@ -339,6 +342,7 @@ starwalker = {
 	tracks = {
 		chosen_of_the_heavens = {
 			25 = {
+				zz_drops_of_power_development_growth_factor = 0.25
 				trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.50
 				trait_track_blood_magic_xp_gain_mult = 0.50
 				trait_track_shadow_magic_xp_gain_mult = 0.50
@@ -349,6 +353,7 @@ starwalker = {
 				trait_track_water_magic_xp_gain_mult = 0.50
 			}
 			50 = {
+				zz_drops_of_power_development_growth_factor = 0.25
 				trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.50
 				trait_track_blood_magic_xp_gain_mult = 0.50
 				trait_track_shadow_magic_xp_gain_mult = 0.50
@@ -359,6 +364,7 @@ starwalker = {
 				trait_track_water_magic_xp_gain_mult = 0.50
 			}
 			75 = {
+				zz_drops_of_power_development_growth_factor = 0.25
 				trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.50
 				trait_track_blood_magic_xp_gain_mult = 0.50
 				trait_track_shadow_magic_xp_gain_mult = 0.50
@@ -369,6 +375,8 @@ starwalker = {
 				trait_track_water_magic_xp_gain_mult = 0.50
 			}
 			100 = {
+				zz_drops_of_power_advantage = 100000
+				zz_drops_of_power_development_growth_factor = 0.25
 				trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.50
 				trait_track_blood_magic_xp_gain_mult = 0.50
 				trait_track_shadow_magic_xp_gain_mult = 0.50
@@ -1331,6 +1339,8 @@ magic_blood_bad_1 = {
 	
 	birth = 0.00
 	random_creation = 0.00
+	zz_drops_of_power_advantage = -25
+	zz_drops_of_power_development_growth_factor = -0.25
 	trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = -0.05
 	trait_track_blood_magic_xp_gain_mult = -0.05
 	trait_track_shadow_magic_xp_gain_mult = -0.05
@@ -1384,6 +1394,8 @@ magic_blood_bad_2 = {
 	
 	birth = 0.00
 	random_creation = 0.00
+	zz_drops_of_power_advantage = -50
+	zz_drops_of_power_development_growth_factor = -0.50
 	trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = -0.15
 	trait_track_blood_magic_xp_gain_mult = -0.15
 	trait_track_shadow_magic_xp_gain_mult = -0.15
@@ -1437,6 +1449,8 @@ magic_blood_bad_3 = {
 	
 	birth = 0.00
 	random_creation = 0.00
+	zz_drops_of_power_advantage = -75
+	zz_drops_of_power_development_growth_factor = -0.75
 	trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = -0.25
 	trait_track_blood_magic_xp_gain_mult = -0.25
 	trait_track_shadow_magic_xp_gain_mult = -0.25
@@ -1490,6 +1504,8 @@ magic_blood_good_1 = {
 	
 	birth = 0.00
 	random_creation = 0.00
+	zz_drops_of_power_advantage = 50
+	zz_drops_of_power_development_growth_factor = 0.25
 	trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.05
 	trait_track_blood_magic_xp_gain_mult = 0.05
 	trait_track_shadow_magic_xp_gain_mult = 0.05
@@ -1543,6 +1559,8 @@ magic_blood_good_2 = {
 	
 	birth = 0.00
 	random_creation = 0.00
+	zz_drops_of_power_advantage = 150
+	zz_drops_of_power_development_growth_factor = 0.50
 	trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.1
 	trait_track_blood_magic_xp_gain_mult = 0.1
 	trait_track_shadow_magic_xp_gain_mult = 0.1
@@ -1595,6 +1613,8 @@ magic_blood_good_3 = {
 	
 	birth = 0.00
 	random_creation = 0.00
+	zz_drops_of_power_advantage = 400
+	zz_drops_of_power_development_growth_factor = 1
 	trait_track_secrets_of_the_higher_mysteries_xp_gain_mult = 0.1
 	trait_track_blood_magic_xp_gain_mult = 0.1
 	trait_track_shadow_magic_xp_gain_mult = 0.1
@@ -1660,6 +1680,8 @@ born_beneath_the_comet = {
 	# ai_boldness = 20
 	# ai_energy = 20
 	
+	zz_drops_of_power_advantage = 500
+	zz_drops_of_power_development_growth_factor = 0.25
 	trait_track_drops_of_power_mult_xp_gain_mult = 0.25
 
 }
