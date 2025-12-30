@@ -1254,35 +1254,35 @@ zz_valyria_magic_blood_magic_spells.022 = {
 		character = scope:secondary_recipient
 	}
 	right_portrait = scope:recipient
-
 	immediate = {
-		zz_valyria_living_dragon_egg_list = yes
-
+		zz_valyria_immortality_ritual_list = yes
 	}
-
 	widget = {
 		is_shown = {
-			is_ai = no
+			root = {
+				any_in_list = {
+					variable = zz_valyria_possible_characters
+					count > 0
+				}
+			}
 		}
-		gui = "event_window_artifact_selection_tall"
+		gui = "event_window_character_selection_five_options"
 		container = "custom_widgets_container"
 	}
 	option = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.a
-		trigger = {
-		}
 		hidden_effect = {
-			var:zz_valyria_selected_artifact?= { 
-				save_scope_as = target
+			var:zz_valyria_selected_character = {
+				save_scope_as = target_char_01
 			}
 			trigger_event = zz_valyria_magic_blood_magic_spells.02201
 		}
+		
 	}
 	option = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.z
 	}
 }
-
 zz_valyria_magic_blood_magic_spells.02201 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
@@ -1316,7 +1316,7 @@ zz_valyria_magic_blood_magic_spells.02201 = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.a
 		hidden_effect = {
 			var:zz_valyria_selected_character = {
-				save_scope_as = target_char_01
+				save_scope_as = target_char_02
 			}
 			trigger_event = zz_valyria_magic_blood_magic_spells.02202
 		}
@@ -1359,7 +1359,7 @@ zz_valyria_magic_blood_magic_spells.02202 = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.a
 		hidden_effect = {
 			var:zz_valyria_selected_character = {
-				save_scope_as = target_char_02
+				save_scope_as = target_char_03
 			}
 			trigger_event = zz_valyria_magic_blood_magic_spells.02203
 		}
@@ -1402,7 +1402,7 @@ zz_valyria_magic_blood_magic_spells.02203 = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.a
 		hidden_effect = {
 			var:zz_valyria_selected_character = {
-				save_scope_as = target_char_03
+				save_scope_as = target_char_04
 			}
 			trigger_event = zz_valyria_magic_blood_magic_spells.02204
 		}
@@ -1445,7 +1445,7 @@ zz_valyria_magic_blood_magic_spells.02204 = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.a
 		hidden_effect = {
 			var:zz_valyria_selected_character = {
-				save_scope_as = target_char_04
+				save_scope_as = target_char_05
 			}
 			trigger_event = zz_valyria_magic_blood_magic_spells.02205
 		}
@@ -1488,7 +1488,7 @@ zz_valyria_magic_blood_magic_spells.02205 = {
 		name = zz_valyria_magic_blood_magic_spells.022.opt.a
 		hidden_effect = {
 			var:zz_valyria_selected_character = {
-				save_scope_as = target_char_05
+				save_scope_as = target_char_06
 			}
 			trigger_event = zz_valyria_magic_blood_magic_spells.02206
 		}
@@ -1499,49 +1499,6 @@ zz_valyria_magic_blood_magic_spells.02205 = {
 	}
 }
 zz_valyria_magic_blood_magic_spells.02206 = {
-	type = character_event
-	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_blood_magic_spells.022.t
-	desc = zz_valyria_magic_blood_magic_spells.022.desc
-	theme = university 
-	override_background = {
-		reference = zz_blood_magic
-	}
-	left_portrait = root
-	lower_center_portrait = {
-		character = scope:secondary_recipient
-	}
-	right_portrait = scope:recipient
-	immediate = {
-		zz_valyria_immortality_ritual_list = yes
-	}
-	widget = {
-		is_shown = {
-			root = {
-				any_in_list = {
-					variable = zz_valyria_possible_characters
-					count > 0
-				}
-			}
-		}
-		gui = "event_window_character_selection_five_options"
-		container = "custom_widgets_container"
-	}
-	option = {
-		name = zz_valyria_magic_blood_magic_spells.022.opt.a
-		hidden_effect = {
-			var:zz_valyria_selected_character = {
-				save_scope_as = target_char_06
-			}
-			trigger_event = zz_valyria_magic_blood_magic_spells.02207
-		}
-		
-	}
-	option = {
-		name = zz_valyria_magic_blood_magic_spells.022.opt.z
-	}
-}
-zz_valyria_magic_blood_magic_spells.02207 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
 	title = zz_valyria_magic_blood_magic_spells.022.t

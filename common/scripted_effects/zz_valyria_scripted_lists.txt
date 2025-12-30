@@ -30,8 +30,11 @@ zz_valyria_living_dragon_egg_cradled_pitted_list = {
 		every_character_artifact = {
 			limit = {
 				has_variable = dragon_egg
-				has_variable = cradled_egg
-				has_variable = pitted_egg
+				OR = {
+					has_variable = cradled_egg
+					has_variable = pitted_egg
+				}
+				
 				NOT = {has_variable = dud_egg }
 			}
 			root = {

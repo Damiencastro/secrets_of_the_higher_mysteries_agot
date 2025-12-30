@@ -517,12 +517,15 @@ zz_valyria_mystery_human_not_dragonblood_trigger = {
 			}
 		}
 		var:zz_magic_target = {
-			NOR = {
+			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
 					has_trait = dragon
 				}
-				agot_is_dragonblood_character = yes
+			}
+
+			NOT = {
+				agot_has_dragonblood_heritage = yes 
 			}
 		}
 	}
@@ -924,8 +927,10 @@ zz_valyria_mystery_has_dragon_egg_cradled_or_pitted_trigger = {
 		var:zz_magic_target = {
 			any_character_artifact = {
 				has_variable = dragon_egg
-				has_variable = cradled_egg
-				has_variable = pitted_egg
+				OR = {
+					has_variable = cradled_egg
+					has_variable = pitted_egg
+				}
 			}
 			NOT = {
 				custom_tooltip = {
@@ -957,8 +962,17 @@ zz_valyria_mystery_has_dragon_egg_has_seven_dragonbloods_trigger = {
 				NOT = { has_variable = pitted_egg }
 			}
 			any_courtier = {
-				dragonblood_percent >0 
-				count >= 7
+				:0
+				OR = {
+					dragonblood_percent > 0 
+					has_trait = zz_magister
+					has_trait = magic_blood_good_1
+					has_trait = magic_blood_good_2
+					has_trait = magic_blood_good_3
+					has_trait = lifespan_good_1
+					has_trait = lifespan_good_2
+					has_trait = lifespan_good_3
+				}
 			}
 		}
 		var:zz_magic_target = {
@@ -1140,7 +1154,7 @@ zz_valyria_scroll_human_not_dragonblood_trigger = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
 					has_trait = dragon
 				}
-				agot_is_dragonblood_character = yes
+				agot_has_dragonblood_heritage = yes
 			}
 		}
 	}
@@ -1494,8 +1508,10 @@ zz_valyria_scroll_has_dragon_egg_cradled_or_pitted_trigger = {
 			any_character_artifact = {
 				has_variable = dragon_egg
 				NOT =  {has_variable = dud_egg }
-				has_variable = cradled_egg
-				has_variable = pitted_egg
+				OR = {
+					has_variable = cradled_egg
+					has_variable = pitted_egg
+				}
 			}
 			NOT = {
 				custom_tooltip = {
@@ -1523,8 +1539,17 @@ zz_valyria_scroll_has_dragon_egg_has_seven_dragonbloods_trigger = {
 				NOT = { has_variable = pitted_egg }
 			}
 			any_courtier = {
-				dragonblood_percent >0 
 				count >= 7
+				OR = {
+					dragonblood_percent > 0 
+					has_trait = zz_magister
+					has_trait = magic_blood_good_1
+					has_trait = magic_blood_good_2
+					has_trait = magic_blood_good_3
+					has_trait = lifespan_good_1
+					has_trait = lifespan_good_2
+					has_trait = lifespan_good_3
+				}
 			}
 		}
 		var:zz_magic_target = {

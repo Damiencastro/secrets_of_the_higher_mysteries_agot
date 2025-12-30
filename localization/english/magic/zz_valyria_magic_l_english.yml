@@ -1,6 +1,14 @@
 ﻿l_english:
 
-
+  lifestyle_01:0 "Learning Lifestyle"
+  lifestyle_02:0 "Diplomacy Lifestyle"
+  lifestyle_03:0 "Stewardship Lifestyle"
+  lifestyle_04:0 "Intrigue Lifestyle"
+  lifestyle_05:0 "Martial Lifestyle"
+  lifestyle_06:0 "Wandering Lifestyle"
+  lifestyle_07:0 "Prowess Lifestyle"
+  lifestyle_08:0 "Leadership Lifestyle"
+  
   dynn_Setenon:0 "Setenonys"
   dynn_Setenon_motto:0 "Through Spells of Word and Feats of Mind"
 

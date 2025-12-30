@@ -101,8 +101,9 @@ zz_valyria_magic_blood_magic_20_cost = {
 zz_valyria_magic_blood_magic_21_cost = {
 	value = 25
 }
+## Humann Immortality
 zz_valyria_magic_blood_magic_22_cost = {
-	value = 100
+	value = 1000
 }
 zz_valyria_magic_blood_magic_23_cost = {
 	value = 15
@@ -546,10 +547,10 @@ zz_valyria_magic_dragon_magic_01_cost = {
 }
 
 zz_valyria_magic_dragon_magic_02_cost = {
-	value = 10
+	value = 75
 }
 zz_valyria_magic_dragon_magic_03_cost = {
-	value = 1
+	value = 100
 }
 zz_valyria_magic_dragon_magic_04_cost = {
 	value = 60
@@ -560,6 +561,7 @@ zz_valyria_magic_dragon_magic_05_cost = {
 zz_valyria_magic_dragon_magic_06_cost = {
 	value = 100
 }
+# Dragon Immortality
 zz_valyria_magic_dragon_magic_07_cost = {
-	value = 1000
+	value = 3000
 }

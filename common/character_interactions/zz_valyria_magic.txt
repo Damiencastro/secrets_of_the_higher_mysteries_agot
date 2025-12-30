@@ -1484,7 +1484,30 @@ zz_valyria_magic_02.interaction = {
 					}
 				}
 			}
-			
+			if = {
+				limit = {
+					scope:set_asexual = yes
+				}
+				set_sexuality = asexual
+			}
+			if = {
+				limit = {
+					scope:set_bisexual = yes
+				}
+				set_sexuality = bisexual
+			}
+			if = {
+				limit = {
+					scope:set_heterosexual = yes
+				}
+				set_sexuality = heterosexual
+			}
+			if = {
+				limit = {
+					scope:set_homsexual = yes
+				}
+				set_sexuality = homosexual
+			}
 		}
 	}
 	auto_accept = yes
@@ -1564,6 +1587,22 @@ zz_valyria_magic_02.interaction = {
 	send_option = {
 		flag = commit_suicide
 		localization = zz_commit_suicide
+	}
+	send_option = {
+		flag = set_asexual
+		localization = set_asexual
+	}
+	send_option = {
+		flag = set_bisexual
+		localization = set_bisexual
+	}
+	send_option = {
+		flag = set_heterosexual
+		localization = set_heterosexual
+	}
+	send_option = {
+		flag = set_homsexual
+		localization = set_homsexual
 	}
 	
 }

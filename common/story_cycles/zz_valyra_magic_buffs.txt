@@ -1278,6 +1278,10 @@ zz_valyria_magic_dragon_magic_03_story = { #Used for the Scholarship progress ev
 			name = mystery_duration
 			value = zz_valyria_magic_dragon_magic_03_mysteries_of_draconic_duration_value
 		}
+		set_variable = {
+			name = mystery_caster
+			value = scope:secondary_recipient
+		}
 	}
 
 	on_end = {
@@ -1311,20 +1315,29 @@ zz_valyria_magic_dragon_magic_03_story = { #Used for the Scholarship progress ev
 							desc = zz_blood_magic_draconic_enchantment.desc
 							left_icon = THIS
 							add_prowess_skill = scope:story.var:mystery_potency 
-							change_dragon_size = {
-								VALUE = scope:story.var:mystery_potency 							
+							while = {
+								count = scope:story.var:mystery_potency 
+								change_dragon_size = {
+									VALUE = 1			
+								}
 							}
+							
 						}
-						var:current_rider ?= { 
-							save_scope_as = rider 
-						}
-						scope:rider ?= {
-							send_interface_toast = {
-								type = send_interface_message_as_feed_spell_buff_proc
-								title = zz_blood_magic_draconic_enchantment
-								desc = zz_blood_magic_draconic_enchantment.desc
-								left_icon = scope:rider
-								right_icon = scope:story_owner
+						if = { 
+							limit = {
+								has_variable = current_rider
+							}
+							var:current_rider ?= { 
+								save_scope_as = rider 
+							}
+							scope:rider ?= {
+								send_interface_toast = {
+									type = send_interface_message_as_feed_spell_buff_proc
+									title = zz_blood_magic_draconic_enchantment
+									desc = zz_blood_magic_draconic_enchantment.desc
+									left_icon = scope:rider
+									right_icon = scope:story_owner
+								}
 							}
 						}
 					}

@@ -145,7 +145,7 @@ zz_valyria_magic_dragon_magic_spells.004 = {
 		trigger = {
 			scope:recipient = {
 				NOT = {
-					agot_is_dragonblood_character = yes
+					agot_has_dragonblood_heritage = yes
 				}
 				NOT = {
 					has_trait = dragon

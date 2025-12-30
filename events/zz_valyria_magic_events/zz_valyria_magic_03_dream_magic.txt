@@ -175,14 +175,109 @@ zz_valyria_magic_dream_magic_spells.003 = {
 	}
 	right_portrait = scope:recipient
 
-
+	immediate = {
+		remove_variable = selected_flag
+		clear_variable_list = possible_flags
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_01
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_02
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_03
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_04
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_05
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_06
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_07
+		}
+		add_to_variable_list = {
+			name = possible_flags
+			target = flag:lifestyle_08
+		}
+		set_variable = {
+			name = selected_flag
+			value = flag:lifestyle_01
+		}
+	}
+	widget = {
+		is_shown = {
+			is_ai = no
+		}
+		gui = "event_window_flag_selection"
+		container = "custom_widgets_container"
+	}
 	option = {
 		name = zz_valyria_magic_dream_magic_spells.003.opt.a
 		hidden_effect = {
-			save_scope_value_as = {
-				name = option_01
-				value = yes 
-			} 
+			switch = {
+				trigger = var:selected_flag
+				flag:lifestyle_01 = {
+					save_scope_value_as = {
+						name = option_01
+						value = yes 
+					} 
+				}
+				flag:lifestyle_02 = {
+					save_scope_value_as = {
+						name = option_02
+						value = yes 
+					} 
+				}
+				flag:lifestyle_03 = {
+					save_scope_value_as = {
+						name = option_03
+						value = yes 
+					} 
+				}
+				flag:lifestyle_04 = {
+					save_scope_value_as = {
+						name = option_04
+						value = yes 
+					} 
+				}
+				flag:lifestyle_05 = {
+					save_scope_value_as = {
+						name = option_05
+						value = yes 
+					} 
+				}
+				flag:lifestyle_06 = {
+					save_scope_value_as = {
+						name = option_06
+						value = yes 
+					} 
+				}
+				flag:lifestyle_07 = {
+					save_scope_value_as = {
+						name = option_07
+						value = yes 
+					} 
+				}
+				flag:lifestyle_08 = {
+					save_scope_value_as = {
+						name = option_08
+						value = yes 
+					} 
+				}
+			}
+			
+			
 			zz_valyria_magic_cast_effect = { 
 				SKILL = dream_magic
 				SPELL  = zz_valyria_magic_dream_magic_03
@@ -190,97 +285,6 @@ zz_valyria_magic_dream_magic_spells.003 = {
 		}
 
 		
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.b
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_02
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.c
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_03
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.d
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_04
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.e
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_05
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.f
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_06
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.g
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_07
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
-	}
-	option = {
-		name = zz_valyria_magic_dream_magic_spells.003.opt.h
-		hidden_effect = {
-			save_scope_value_as = {
-				name = option_08
-				value = yes 
-			} 
-			zz_valyria_magic_cast_effect = { 
-				SKILL = dream_magic
-				SPELL  = zz_valyria_magic_dream_magic_03
-			}
-		}
 	}
 	option = {
 		name = zz_valyria_magic_dream_magic_spells.003.opt.z

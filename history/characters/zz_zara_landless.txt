@@ -359,6 +359,7 @@ Setenon_21 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -400,6 +401,7 @@ Setenon_22 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -442,6 +444,7 @@ Setenon_23 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -483,6 +486,7 @@ Setenon_24 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -525,6 +529,7 @@ Setenon_25 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -567,6 +572,7 @@ Setenon_02 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -613,6 +619,7 @@ Setenon_06 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
+		add_character_flag = historical_dragonseed
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}

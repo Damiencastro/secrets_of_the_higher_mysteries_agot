@@ -1639,9 +1639,6 @@ zz_valyria_magic_blood_magic_22_effect = {
 				right_icon = scope:recipient
 				custom_tooltip = zz_valyria_magic_blood_magic_22.toast.tt
 			}
-			scope:target = {
-				agot_dudify_egg = yes
-			}
 			scope:recipient = {		
 				add_trait_force_tooltip = zz_valyrian_longevity
 			}
