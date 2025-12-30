@@ -517,15 +517,13 @@ zz_valyria_mystery_human_not_dragonblood_trigger = {
 			}
 		}
 		var:zz_magic_target = {
+			is_human = yes
+			zz_agot_has_dragonblood_heritage = no
 			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
 					has_trait = dragon
 				}
-			}
-
-			NOT = {
-				agot_has_dragonblood_heritage = yes 
 			}
 		}
 	}
@@ -955,14 +953,8 @@ zz_valyria_mystery_has_dragon_egg_has_seven_dragonbloods_trigger = {
 			}
 		}
 		var:zz_magic_user = {
-			any_character_artifact = {
-				has_variable = dragon_egg
-				NOT = {has_variable = dud_egg}
-				NOT = { has_variable = cradled_egg }
-				NOT = { has_variable = pitted_egg }
-			}
 			any_courtier = {
-				:0
+				count >= 7
 				OR = {
 					dragonblood_percent > 0 
 					has_trait = zz_magister
@@ -1149,12 +1141,13 @@ zz_valyria_scroll_human_not_dragonblood_trigger = {
 		var:zz_item_caster = { 
 		}
 		var:zz_magic_target = {
-			NOR = {
+			is_human = yes
+			zz_agot_has_dragonblood_heritage = no
+			NOT = {
 				custom_tooltip = {
 					text = zz_valyria_magic_cannot_cast_on_dragon
 					has_trait = dragon
 				}
-				agot_has_dragonblood_heritage = yes
 			}
 		}
 	}
@@ -1532,12 +1525,6 @@ zz_valyria_scroll_has_dragon_egg_has_seven_dragonbloods_trigger = {
 		var:zz_item_caster = { 
 		}
 		var:zz_magic_user = {
-			any_character_artifact = {
-				has_variable = dragon_egg
-				NOT =  {has_variable = dud_egg }
-				NOT = { has_variable = cradled_egg }
-				NOT = { has_variable = pitted_egg }
-			}
 			any_courtier = {
 				count >= 7
 				OR = {

@@ -76,7 +76,7 @@ zz_valyria_magic_dragon_magic_spells.002 = {
 				has_trait = dragon
 				is_female = yes
 				NOT = { 
-					has_character_flag = zz_valyria_magic_dragon_magic_08_effect_flag
+					has_character_flag = zz_valyria_magic_dragon_magic_02_effect_flag
 				}
 			}
 		}
@@ -144,9 +144,7 @@ zz_valyria_magic_dragon_magic_spells.004 = {
 		name = zz_valyria_magic_dragon_magic_spells.004.opt.a
 		trigger = {
 			scope:recipient = {
-				NOT = {
-					agot_has_dragonblood_heritage = yes
-				}
+				zz_agot_has_dragonblood_heritage = yes
 				NOT = {
 					has_trait = dragon
 				}

@@ -510,7 +510,9 @@ zz_valyria_magic_dragon_magic_06_effect = {
 				else = {
 					scope:target = { 
 						if = {
-							has_variable = pitted_egg
+							limit = {
+								has_variable = pitted_egg
+							}
 						}
 						save_scope_as = egg
 						artifact_owner = { save_scope_as = head_dragonkeeper }

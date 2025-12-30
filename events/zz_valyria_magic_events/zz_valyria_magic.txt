@@ -251,29 +251,13 @@ zz_valyria_magic.0011 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_01
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_02 }
+		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_04 }
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_02
 		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_03 }
-		scope:newly_created_artifact = {
-			save_scope_as = magic_scroll_03
-		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_04 }
-		scope:newly_created_artifact = {
-			save_scope_as = magic_scroll_04
-		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_05 }
-		scope:newly_created_artifact = {
-			save_scope_as = magic_scroll_05
-		}
 		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_06 }
 		scope:newly_created_artifact = {
-			save_scope_as = magic_scroll_06
-		}
-		zz_scroll_making_effect = { POTENCY = 50 SPELL = zz_valyria_magic_dragon_magic_07 }
-		scope:newly_created_artifact = {
-			save_scope_as = magic_scroll_07
+			save_scope_as = magic_scroll_03
 		}
 	}
 
@@ -320,8 +304,6 @@ zz_valyria_magic.0011 = {
 			destroy_artifact = scope:magic_scroll_01
 			destroy_artifact = scope:magic_scroll_02
 			destroy_artifact = scope:magic_scroll_03
-			destroy_artifact = scope:magic_scroll_04
-			destroy_artifact = scope:magic_scroll_05
 		}
 	}
 	option = {
@@ -334,8 +316,6 @@ zz_valyria_magic.0011 = {
 			destroy_artifact = scope:magic_scroll_01
 			destroy_artifact = scope:magic_scroll_02
 			destroy_artifact = scope:magic_scroll_03
-			destroy_artifact = scope:magic_scroll_04
-			destroy_artifact = scope:magic_scroll_05
 		}
 	}
 }

@@ -61,6 +61,7 @@
     zz_fire_school:0 "[fire_magic|E]"
     zz_air_school:0 "[air_magic|E]"
     zz_water_school:0 "[water_magic|E]"
+    zz_dragon_school:0 "[dragon_magic|E]"
     zz_higher_mysteries:0 "[higher_mysteries|E]"
     zz_drops_of_power:0 "[drops_of_power|E]"
     zz_all_magic:0 "Magic Study"

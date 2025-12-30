@@ -121,6 +121,14 @@
 				}
 				add_to_variable_list = {
 					name = zz_valyria_item_list
+					target = flag:item_crown
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
+					target = flag:item_rod
+				}
+				add_to_variable_list = {
+					name = zz_valyria_item_list
 					target = flag:item_glass_candle
 				}
 				add_to_variable_list = {
