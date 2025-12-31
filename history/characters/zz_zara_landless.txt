@@ -164,6 +164,9 @@
 				SPELL = zz_valyria_magic_shadow_magic_14
 			}
 			zz_add_spell = { 
+				SPELL = zz_valyria_magic_shadow_magic_15
+			}
+			zz_add_spell = { 
 				SPELL = zz_valyria_magic_alchemy_magic_03
 			}
 			zz_add_spell = { 

@@ -1653,6 +1653,7 @@ zz_magic_list_trigger_check_trigger = {
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_12 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_14 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_15 }
 	
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dream_magic_01 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -1827,6 +1828,7 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_12 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_14 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_15 }
 	
 	zz_valyria_$TRIGGER_TYPE$_human_only_cannot_cast_on_caster_cannot_cast_on_self_trigger = { SPELL = zz_valyria_magic_dream_magic_01 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_dream_magic_02 }

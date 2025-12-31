@@ -179,3 +179,17 @@ l_english:
   zz_valyria_magic_shadow_magic_14.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
   zz_valyria_magic_shadow_magic_14.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic_14.toast.tt:0 "$zz_valyria_magic_shadow_magic_14.toast.desc$"
+
+
+
+  ## Interaction
+  zz_valyria_magic_shadow_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
+  ## event
+  zz_valyria_magic_shadow_magic_spells.015.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_15_name$"
+  zz_valyria_magic_shadow_magic_spells.015.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to wipe away the magical mistakes of [recipient.GetName]."
+  zz_valyria_magic_shadow_magic_spells.015.opt.a:0 "Yes, soothe their souls them!"
+  zz_valyria_magic_shadow_magic_spells.015.opt.z:0 "No, do not cast!"
+  ## Spell Toast
+  zz_valyria_magic_shadow_magic_15.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_15_name$"
+  zz_valyria_magic_shadow_magic_15.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic_15.toast.tt:0 "$zz_valyria_magic_shadow_magic_15.toast.desc$"

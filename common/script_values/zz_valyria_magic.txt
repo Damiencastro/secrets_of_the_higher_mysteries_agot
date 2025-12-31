@@ -1139,6 +1139,16 @@ zz_valyria_magic_shadow_magic_14_value = {
 		}
 	}
 } 
+zz_valyria_magic_shadow_magic_15_value = { 
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value  = zz_valyria_magic_shadow_magic_base_value
+			divide = 20
+			min = 1
+		}
+	}
+} 
 
 zz_valyria_magic_shadow_magic_15_value = { 
 	value = 0

@@ -87,7 +87,7 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
-		character:Setenon_02 = {
+		character:Setenon_21 = {
 			if = { 
 				limit = {
 					NOT = {
@@ -96,24 +96,11 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 				death = {
 					death_reason = death_ascension_magic
-					killer = character:Setenon_02  
+					killer = character:Setenon_21  
 				}
 			}
 		}
-		character:Setenon_03 = {
-			if = { 
-				limit = {
-					NOT = {
-						has_game_rule = debug_mode_on
-					}
-				}
-				death = {
-					death_reason = death_ascension_magic
-					killer = THIS 
-				}
-			}
-		}
-		character:Setenon_04 = {
+		character:Setenon_22 = {
 			if = { 
 				limit = {
 					NOT = {
@@ -126,7 +113,7 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
-		character:Setenon_05 = {
+		character:Setenon_23 = {
 			if = { 
 				limit = {
 					NOT = {
@@ -139,7 +126,7 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
-		character:Setenon_06 = {
+		character:Setenon_24 = {
 			if = { 
 				limit = {
 					NOT = {
@@ -152,7 +139,7 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
-		character:Setenon_07 = {
+		character:Setenon_25 = {
 			if = { 
 				limit = {
 					NOT = {
@@ -165,7 +152,20 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
-		character:Setenon_08 = {
+		character:Setenon_26 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_27 = {
 			if = { 
 				limit = {
 					NOT = {

@@ -169,6 +169,9 @@ zz_valyria_magic_shadow_magic_14_cost = {
 	value = 75
 }
 zz_valyria_magic_shadow_magic_15_cost = {
+	value = 200
+}
+zz_valyria_magic_shadow_magic_15_cost = {
 	value = 10
 }
 zz_valyria_magic_dream_magic_01_cost = {

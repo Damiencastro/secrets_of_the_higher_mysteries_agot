@@ -326,6 +326,12 @@ zzSpellScroll = {
 	}
 	text = {
 		trigger = {
+			var:spell = flag:zz_valyria_magic_shadow_magic_15
+		}
+		localization_key = zz_valyria_magic_shadow_magic_15
+	}
+	text = {
+		trigger = {
 			var:spell = flag:zz_valyria_magic_dream_magic_01
 		}
 		localization_key = zz_valyria_magic_dream_magic_01

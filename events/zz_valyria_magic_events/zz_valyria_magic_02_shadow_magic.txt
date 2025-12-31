@@ -492,3 +492,33 @@ zz_valyria_magic_shadow_magic_spells.014 = {
 		name = zz_valyria_magic_shadow_magic_spells.014.opt.z
 	}
 }
+
+zz_valyria_magic_shadow_magic_spells.015 = {
+	type = character_event
+	window = zz_valyria_magic_character_event
+	title = zz_valyria_magic_shadow_magic_spells.015.t
+	desc = zz_valyria_magic_shadow_magic_spells.015.desc
+	theme = university 
+	override_background = {
+		reference = zz_shadow_magic
+	}
+	left_portrait = root
+	lower_center_portrait = {
+		character = scope:secondary_recipient
+	}
+	right_portrait = scope:recipient
+
+	option = {
+		name = zz_valyria_magic_shadow_magic_spells.015.opt.a
+		hidden_effect = {
+			zz_valyria_magic_cast_effect = { 
+				SKILL = shadow_magic
+				SPELL = zz_valyria_magic_shadow_magic_15
+			}
+		}
+		
+	}
+	option = {
+		name = zz_valyria_magic_shadow_magic_spells.015.opt.z
+	}
+}

@@ -2236,7 +2236,22 @@ zz_valyria_magic_cast_ui_effect = {
 			custom_tooltip = zz_spell_succes
 		}
 		60 = { 
+			modifier = {
+				has_variable = zz_miscast_protection_count
+				var:zz_miscast_protection_count < 1 
+				add = -1000
+			}
 			zz_valyria_spell_failure_effect = yes
+		}
+	}
+	if = {
+		limit = {
+			has_variable = zz_miscast_protection_count
+			var:zz_miscast_protection_count < 1 
+		}
+		change_variable = {
+			name = zz_miscast_protection_count
+			subtract = 1
 		}
 	}
 }	
@@ -3142,6 +3157,9 @@ zz_random_gain_magic_spell = {
 					}
 					zz_valyria_knows_spell  = {
 						SPELL = zz_valyria_magic_shadow_magic_14
+					}
+					zz_valyria_knows_spell  = {
+						SPELL = zz_valyria_magic_shadow_magic_15
 					}
 				}
 			}
@@ -4309,6 +4327,7 @@ zz_copy_memories = {
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_12 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_14 }
+	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_shadow_magic_15 }
 	
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_01 }
 	zz_valyria_magic_learning_compare_memory = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -4492,6 +4511,7 @@ zz_magic_list_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_12 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_14 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_15 }
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_01 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -4660,6 +4680,7 @@ zz_magic_list_cast_effect = {
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_12 EVENT = zz_valyria_magic_shadow_magic_spells.012 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_13 EVENT = zz_valyria_magic_shadow_magic_spells.013 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_14 EVENT = zz_valyria_magic_shadow_magic_spells.014 }
+	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_shadow_magic_15 EVENT = zz_valyria_magic_shadow_magic_spells.015 }
 	
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_01 EVENT = zz_valyria_magic_dream_magic_spells.001 }
 	$MAGIC_EFFECT$ = { SPELL = zz_valyria_magic_dream_magic_02 EVENT = zz_valyria_magic_dream_magic_spells.002 }
