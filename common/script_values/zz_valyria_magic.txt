@@ -520,6 +520,12 @@ zz_valyria_higher_mysteries_stat_gui = {
 		}
 		add  = "has_trait_xp(zz_magister|secrets_of_the_higher_mysteries)"
 	}
+	if = {
+		limit = {
+			has_variable = secrets_of_the_higher_mysteries_overcap 
+		}
+		add = this.var:secrets_of_the_higher_mysteries_overcap
+	}
 	
 }
 zz_valyria_blood_magic_stat_gui = {
@@ -1149,7 +1155,26 @@ zz_valyria_magic_shadow_magic_15_value = {
 		}
 	}
 } 
-
+zz_valyria_magic_shadow_magic_16_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_shadow_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}	
+}
+zz_valyria_magic_shadow_magic_17_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_shadow_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}	
+}
 zz_valyria_magic_shadow_magic_15_value = { 
 	value = 0
 	add = { 
@@ -1938,7 +1963,7 @@ zz_valyria_magic_fire_magic_14_value = {
 	add = { 
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_fire_magic_base_value
-			divide = 5
+			divide = 25
 			min = 1
 		}
 	}
@@ -1948,12 +1973,31 @@ zz_valyria_magic_fire_magic_15_value = {
 	add = { 
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_fire_magic_base_value
+			divide = 20
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_fire_magic_16_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_fire_magic_base_value
 			divide = 5
 			min = 1
 		}
 	}
 }
-
+zz_valyria_magic_fire_magic_17_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_fire_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
 	
 ### Air Magic 
 
@@ -2132,12 +2176,32 @@ zz_valyria_magic_air_magic_14_value = {
 	add = { 
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_air_magic_base_value
-			divide = 5
+			divide = 25
 			min = 1
 		}
 	}
 }
 zz_valyria_magic_air_magic_15_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_air_magic_base_value
+			divide = 20
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_air_magic_16_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_air_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_air_magic_17_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -2307,12 +2371,32 @@ zz_valyria_magic_water_magic_14_value = {
 	add = { 
 		scope:secondary_recipient = { 
 			value = zz_valyria_magic_water_magic_base_value
-			divide = 5
+			divide = 20
 			min = 1
 		}
 	}
 }
 zz_valyria_magic_water_magic_15_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_water_magic_base_value
+			divide = 25
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_water_magic_16_value = {
+	value = 0
+	add = { 
+		scope:secondary_recipient = { 
+			value = zz_valyria_magic_water_magic_base_value
+			divide = 5
+			min = 1
+		}
+	}
+}
+zz_valyria_magic_water_magic_17_value = {
 	value = 0
 	add = { 
 		scope:secondary_recipient = { 
@@ -2534,6 +2618,12 @@ zz_spellcast_value = {
 	value = 0
 	scope:secondary_recipient = { 
 		add = learning
+		if = {
+			limit = {
+				has_variable = secrets_of_the_higher_mysteries_overcap 
+			}
+			add = this.var:secrets_of_the_higher_mysteries_overcap
+		}
 		if = {
 			limit = { 
 				has_trait = zz_magister

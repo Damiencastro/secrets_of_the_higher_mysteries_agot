@@ -1654,6 +1654,8 @@ zz_magic_list_trigger_check_trigger = {
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_14 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_15 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_16 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_shadow_magic_17 }
 	
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dream_magic_01 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -1741,6 +1743,10 @@ zz_magic_list_trigger_check_trigger = {
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_11 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_12 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_13 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_14 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_15 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_16 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_fire_magic_17 }
 	
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_01 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_02 }
@@ -1755,6 +1761,10 @@ zz_magic_list_trigger_check_trigger = {
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_11 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_12 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_13 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_14 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_15 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_16 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_air_magic_17 }
 	
 	
 	
@@ -1772,6 +1782,10 @@ zz_magic_list_trigger_check_trigger = {
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_11 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_12 }
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_13 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_14 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_15 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_16 }
+	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_water_magic_17 }
 
 
 	$TRIGGER_TO_CHECK$ = { SPELL = zz_valyria_magic_dragon_magic_01 }
@@ -1829,6 +1843,8 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_13 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_14 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_shadow_magic_15 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_shadow_magic_16 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_shadow_magic_17 }
 	
 	zz_valyria_$TRIGGER_TYPE$_human_only_cannot_cast_on_caster_cannot_cast_on_self_trigger = { SPELL = zz_valyria_magic_dream_magic_01 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_dream_magic_02 }
@@ -1911,6 +1927,10 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_has_maa_trigger = { SPELL = zz_valyria_magic_fire_magic_11 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_fire_magic_12 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_fire_magic_13 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_fire_magic_14 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_fire_magic_15 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_fire_magic_16 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_fire_magic_17 }
 	
 	zz_valyria_$TRIGGER_TYPE$_cannot_cast_on_caster_cannot_cast_on_self_trigger = { SPELL = zz_valyria_magic_air_magic_01 }
 	zz_valyria_$TRIGGER_TYPE$_has_maa_trigger = { SPELL = zz_valyria_magic_air_magic_02 }
@@ -1925,6 +1945,10 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_air_magic_11 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_air_magic_12 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_air_magic_13 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_air_magic_14 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_air_magic_15 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_air_magic_16 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_air_magic_17 }
 	
 	zz_valyria_$TRIGGER_TYPE$_cannot_cast_on_caster_cannot_cast_on_self_trigger = { SPELL = zz_valyria_magic_water_magic_01 }
 	zz_valyria_$TRIGGER_TYPE$_armies_raised_trigger = { SPELL = zz_valyria_magic_water_magic_02 }
@@ -1939,6 +1963,10 @@ zz_magic_list_trigger = {
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_11 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_12 }
 	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_13 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_14 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_trigger = { SPELL = zz_valyria_magic_water_magic_15 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_water_magic_16 }
+	zz_valyria_$TRIGGER_TYPE$_human_only_is_landed_trigger = { SPELL = zz_valyria_magic_water_magic_17 }
 
 	zz_valyria_$TRIGGER_TYPE$_has_dead_dragon_egg_trigger = { SPELL = zz_valyria_magic_dragon_magic_01 }
 	zz_valyria_$TRIGGER_TYPE$_dragon_female_only_trigger = { SPELL = zz_valyria_magic_dragon_magic_02 }

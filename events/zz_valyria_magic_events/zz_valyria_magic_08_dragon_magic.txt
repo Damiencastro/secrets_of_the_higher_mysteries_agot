@@ -1,10 +1,10 @@
-﻿namespace = zz_valyria_magic_dragon_magic_spells
+﻿namespace = zz_valyria_magic_dragon_magic
 
-zz_valyria_magic_dragon_magic_spells.001 = {
+zz_valyria_magic_dragon_magic.001 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.001.t
-	desc = zz_valyria_magic_dragon_magic_spells.001.desc
+	title = zz_valyria_magic_dragon_magic.001.t
+	desc = zz_valyria_magic_dragon_magic.001.desc
 	theme = university 
 	override_background = {
 		reference = zz_dragon_magic
@@ -28,7 +28,7 @@ zz_valyria_magic_dragon_magic_spells.001 = {
 		container = "custom_widgets_container"
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.001.opt.a
+		name = zz_valyria_magic_dragon_magic.001.opt.a
 		trigger = {
 			scope:recipient = {
 				any_character_artifact = {
@@ -50,15 +50,15 @@ zz_valyria_magic_dragon_magic_spells.001 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.001.opt.z
+		name = zz_valyria_magic_dragon_magic.001.opt.z
 	}
 }
 
-zz_valyria_magic_dragon_magic_spells.002 = {
+zz_valyria_magic_dragon_magic.002 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.002.t
-	desc = zz_valyria_magic_dragon_magic_spells.002.desc
+	title = zz_valyria_magic_dragon_magic.002.t
+	desc = zz_valyria_magic_dragon_magic.002.desc
 	theme = university 
 	override_background = {
 		reference = zz_dragon_magic
@@ -70,7 +70,7 @@ zz_valyria_magic_dragon_magic_spells.002 = {
 	right_portrait = scope:recipient
 
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.002.opt.a
+		name = zz_valyria_magic_dragon_magic.002.opt.a
 		trigger = {
 			scope:recipient = {
 				has_trait = dragon
@@ -88,15 +88,15 @@ zz_valyria_magic_dragon_magic_spells.002 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.002.opt.z
+		name = zz_valyria_magic_dragon_magic.002.opt.z
 	}
 }
 
-zz_valyria_magic_dragon_magic_spells.003 = {
+zz_valyria_magic_dragon_magic.003 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.003.t
-	desc = zz_valyria_magic_dragon_magic_spells.003.desc
+	title = zz_valyria_magic_dragon_magic.003.t
+	desc = zz_valyria_magic_dragon_magic.003.desc
 	theme = university 
 	override_background = {
 		reference = zz_blood_magic
@@ -108,7 +108,7 @@ zz_valyria_magic_dragon_magic_spells.003 = {
 	right_portrait = scope:recipient
 
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.003.opt.a
+		name = zz_valyria_magic_dragon_magic.003.opt.a
 		trigger = {
 			scope:recipient = {
 				has_trait = dragon
@@ -122,14 +122,14 @@ zz_valyria_magic_dragon_magic_spells.003 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.003.opt.z
+		name = zz_valyria_magic_dragon_magic.003.opt.z
 	}
 }
-zz_valyria_magic_dragon_magic_spells.004 = {
+zz_valyria_magic_dragon_magic.004 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.004.t
-	desc = zz_valyria_magic_dragon_magic_spells.004.desc
+	title = zz_valyria_magic_dragon_magic.004.t
+	desc = zz_valyria_magic_dragon_magic.004.desc
 	theme = university 
 	override_background = {
 		reference = zz_blood_magic
@@ -141,7 +141,7 @@ zz_valyria_magic_dragon_magic_spells.004 = {
 	right_portrait = scope:recipient
 
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.004.opt.a
+		name = zz_valyria_magic_dragon_magic.004.opt.a
 		trigger = {
 			scope:recipient = {
 				zz_agot_has_dragonblood_heritage = yes
@@ -158,15 +158,15 @@ zz_valyria_magic_dragon_magic_spells.004 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.004.opt.z
+		name = zz_valyria_magic_dragon_magic.004.opt.z
 	}
 }
 
-zz_valyria_magic_dragon_magic_spells.005 = {
+zz_valyria_magic_dragon_magic.005 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.005.t
-	desc = zz_valyria_magic_dragon_magic_spells.005.desc
+	title = zz_valyria_magic_dragon_magic.005.t
+	desc = zz_valyria_magic_dragon_magic.005.desc
 	theme = university 
 	override_background = {
 		reference = zz_blood_magic
@@ -263,7 +263,7 @@ zz_valyria_magic_dragon_magic_spells.005 = {
 		container = "custom_widgets_container"
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.005.opt.a
+		name = zz_valyria_magic_dragon_magic.005.opt.a
 		trigger = { 
 		}
 		hidden_effect = {
@@ -278,15 +278,15 @@ zz_valyria_magic_dragon_magic_spells.005 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.005.opt.z
+		name = zz_valyria_magic_dragon_magic.005.opt.z
 	}
 }
 
-zz_valyria_magic_dragon_magic_spells.006 = {
+zz_valyria_magic_dragon_magic.006 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.006.t
-	desc = zz_valyria_magic_dragon_magic_spells.006.desc
+	title = zz_valyria_magic_dragon_magic.006.t
+	desc = zz_valyria_magic_dragon_magic.006.desc
 	theme = university 
 	override_background = {
 		reference = zz_dragon_magic
@@ -310,7 +310,7 @@ zz_valyria_magic_dragon_magic_spells.006 = {
 		container = "custom_widgets_container"
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.006.opt.a
+		name = zz_valyria_magic_dragon_magic.006.opt.a
 		trigger = {
 			scope:recipient = {
 				any_character_artifact = {
@@ -330,15 +330,15 @@ zz_valyria_magic_dragon_magic_spells.006 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.006.opt.z
+		name = zz_valyria_magic_dragon_magic.006.opt.z
 	}
 }
 
-zz_valyria_magic_dragon_magic_spells.007 = {
+zz_valyria_magic_dragon_magic.007 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
-	title = zz_valyria_magic_dragon_magic_spells.007.t
-	desc = zz_valyria_magic_dragon_magic_spells.007.desc
+	title = zz_valyria_magic_dragon_magic.007.t
+	desc = zz_valyria_magic_dragon_magic.007.desc
 	theme = university 
 	override_background = {
 		reference = zz_blood_magic
@@ -350,7 +350,7 @@ zz_valyria_magic_dragon_magic_spells.007 = {
 	right_portrait = scope:recipient
 
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.007.opt.a
+		name = zz_valyria_magic_dragon_magic.007.opt.a
 		trigger = {
 			scope:recipient = {
 				has_trait = dragon
@@ -364,6 +364,6 @@ zz_valyria_magic_dragon_magic_spells.007 = {
 		}
 	}
 	option = {
-		name = zz_valyria_magic_dragon_magic_spells.007.opt.z
+		name = zz_valyria_magic_dragon_magic.007.opt.z
 	}
 }

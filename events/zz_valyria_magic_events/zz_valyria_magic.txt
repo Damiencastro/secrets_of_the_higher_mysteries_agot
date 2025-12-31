@@ -1984,12 +1984,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_necromancer
+						has_nickname = nick_agot_historical_the_necromancer
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_necromancer
+				give_nickname = nick_agot_historical_the_necromancer
 			}
 		}
 	}
@@ -1999,12 +1999,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_mage
+						has_nickname = nick_agot_historical_the_mage
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_mage
+				give_nickname = nick_agot_historical_the_mage
 			}
 		}
 	}
@@ -2014,8 +2014,8 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOR = {
-						has_nickname = nick_the_witch
-						has_nickname = nick_the_warlock
+						has_nickname = nick_agot_the_witch
+						has_nickname = nick_agot_the_warlock
 					}
 				}
 			}
@@ -2024,10 +2024,10 @@ zz_valyria_magic_management.003 = {
 					limit = {
 						is_female = yes 
 					}
-					give_nickname = nick_the_witch
+					give_nickname = nick_agot_the_witch
 				}
 				else = {
-					give_nickname = nick_the_warlock
+					give_nickname = nick_agot_the_warlock
 				}
 			}
 		}
@@ -2038,12 +2038,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_seer
+						has_nickname = nick_agot_the_seer
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_seer
+				give_nickname = nick_agot_the_seer
 			}
 		}
 	}
@@ -2053,12 +2053,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_dreamer
+						has_nickname = nick_agot_the_dreamer
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_dreamer
+				give_nickname = nick_agot_the_dreamer
 			}
 		}
 	}
@@ -2068,12 +2068,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_poet
+						has_nickname = nick_agot_the_poet
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_poet
+				give_nickname = nick_agot_the_poet
 			}
 		}
 	}
@@ -2083,12 +2083,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_bard
+						has_nickname = nick_agot_the_bard
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_bard
+				give_nickname = nick_agot_the_bard
 			}
 		}
 	}
@@ -2098,12 +2098,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_singer
+						has_nickname = nick_agot_the_singer
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_singer
+				give_nickname = nick_agot_the_singer
 			}
 		}
 	}
@@ -2113,12 +2113,12 @@ zz_valyria_magic_management.003 = {
 			limit = {
 				var:zz_valyria_selected_character = {
 					NOT = {
-						has_nickname = nick_the_dragonknight_historic
+						has_nickname = nick_agot_historical_the_dragonknight_historic
 					}
 				}
 			}
 			var:zz_valyria_selected_character = {
-				give_nickname = nick_the_dragonknight_historic
+				give_nickname = nick_agot_historical_the_dragonknight_historic
 			}
 		}
 	}

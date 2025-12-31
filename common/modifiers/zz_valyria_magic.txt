@@ -229,9 +229,9 @@ zz_valyria_magic_shadow_magic_13_modifier = {
 	}
 }
 
-zz_valyria_magic_shadow_magic_14_modifier = {
+zz_valyria_magic_shadow_magic_16_modifier = {
 	icon = magic_positive
-	fort_level = 2
+	additional_fort_level = 2
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_shadow_magic_14_value
@@ -240,9 +240,9 @@ zz_valyria_magic_shadow_magic_14_modifier = {
 	}
 }
 
-zz_valyria_magic_shadow_magic_15_modifier = {
+zz_valyria_magic_shadow_magic_17_modifier = {
 	icon = magic_positive
-	fort_level = -1
+	additional_fort_level = -1
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_shadow_magic_15_value
@@ -458,9 +458,9 @@ zz_valyria_magic_fire_magic_13_modifier = {
 	}
 }
 
-zz_valyria_magic_fire_magic_14_modifier = {
+zz_valyria_magic_fire_magic_16_modifier = {
 	icon = magic_positive
-	fort_level = 1
+	additional_fort_level = 1
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_fire_magic_14_value
@@ -469,9 +469,9 @@ zz_valyria_magic_fire_magic_14_modifier = {
 	}
 }
 
-zz_valyria_magic_fire_magic_15_modifier = {
+zz_valyria_magic_fire_magic_17_modifier = {
 	icon = magic_positive
-	fort_level = -3
+	additional_fort_level = -3
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_fire_magic_15_value
@@ -560,9 +560,9 @@ zz_valyria_magic_air_magic_13_modifier = {
 	}
 }
 
-zz_valyria_magic_air_magic_14_modifier = {
+zz_valyria_magic_air_magic_16_modifier = {
 	icon = magic_positive
-	fort_level = 2
+	additional_fort_level = 2
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_air_magic_14_value
@@ -571,9 +571,9 @@ zz_valyria_magic_air_magic_14_modifier = {
 	}
 }
 
-zz_valyria_magic_air_magic_15_modifier = {
+zz_valyria_magic_air_magic_17_modifier = {
 	icon = magic_positive
-	fort_level = -1
+	additional_fort_level = -1
 	stacking = yes
 	scale = {
 		value = zz_valyria_magic_air_magic_15_value
@@ -673,23 +673,23 @@ zz_valyria_magic_water_magic_13_modifier = {
 	}
 }
 
-zz_valyria_magic_water_magic_14_modifier = {
+zz_valyria_magic_water_magic_16_modifier = {
 	icon = magic_positive
-	fort_level = 5
+	additional_fort_level = 5
 	stacking = yes
 	scale = {
-		value = zz_valyria_magic_water_magic_14_value
+		value = zz_valyria_magic_water_magic_16_value
 		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
 		display_mode = scaled
 	}
 }
 
-zz_valyria_magic_water_magic_15_modifier = {
+zz_valyria_magic_water_magic_17_modifier = {
 	icon = magic_positive
-	fort_level = -0.5
+	additional_fort_level = -0.5
 	stacking = yes
 	scale = {
-		value = zz_valyria_magic_water_magic_15_value
+		value = zz_valyria_magic_water_magic_17_value
 		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
 		display_mode = scaled
 	}

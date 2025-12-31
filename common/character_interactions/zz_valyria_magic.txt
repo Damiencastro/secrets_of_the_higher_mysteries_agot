@@ -1685,6 +1685,18 @@ zz_valyria_magic_03.interaction = {
 				}
 				copy_inheritable_appearance_from = character:Dummy_Setenon_07
 			}
+			if = {
+				limit = {
+					scope:take_face_08 = yes
+				}
+				copy_inheritable_appearance_from = character:Dummy_Setenon_08
+			}
+			if = {
+				limit = {
+					scope:take_face_09 = yes
+				}
+				copy_inheritable_appearance_from = character:Dummy_Setenon_09
+			}
 
 		}
 	}
