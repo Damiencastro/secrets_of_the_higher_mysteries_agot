@@ -647,7 +647,7 @@ l_english:
   zz_valyria_magic_dream_magic_48.toast.tt:0 "$zz_valyria_magic_dream_magic_48.toast.desc$"
 
   zz_valyria_magic_dream_magic_48.buff.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_48_name$"
-  zz_valyria_magic_dream_magic_48.buff.toast.desc:0 ""
+  zz_valyria_magic_dream_magic_48.buff.toast.desc:0 "A tragic outcome has been prevented"
   zz_valyria_magic_dream_magic_48.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_48.buff.toast.desc$"
 
   ## Interaction
