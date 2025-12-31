@@ -3,7 +3,7 @@ namespace = zz_valyria_magic_blood_magic
 
 
 ## Replication
-zz_valyria_magic_blood_magic.0003 = {
+zz_valyria_magic_blood_magic.00502 = {
 	type = character_event
 	window = zz_valyria_magic_character_event
 	title = zz_valyria_magic_blood_magic.0003.t
@@ -33,7 +33,7 @@ zz_valyria_magic_blood_magic.0003 = {
 
 ### zz_blood_magic_spells_option
 
-namespace = zz_valyria_magic_blood_magic_spells
+namespace = zz_valyria_magic_blood_magic
 
 zz_valyria_magic_blood_magic.001 = {
 	type = character_event

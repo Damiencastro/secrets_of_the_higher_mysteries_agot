@@ -1739,6 +1739,14 @@ zz_valyria_magic_03.interaction = {
 		flag = take_face_07
 		localization = take_face_07
 	}
+	send_option = {
+		flag = take_face_08
+		localization = take_face_08
+	}
+	send_option = {
+		flag = take_face_09
+		localization = take_face_09
+	}
 	
 	
 }

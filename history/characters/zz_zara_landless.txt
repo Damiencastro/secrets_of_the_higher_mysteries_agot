@@ -389,7 +389,7 @@ Setenon_21 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
@@ -432,7 +432,7 @@ Setenon_22 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
@@ -476,7 +476,7 @@ Setenon_23 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
@@ -519,7 +519,7 @@ Setenon_24 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
@@ -563,7 +563,7 @@ Setenon_25 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
@@ -607,7 +607,7 @@ Setenon_26 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16
@@ -655,7 +655,7 @@ Setenon_27 = {
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
-	8012.1.1 = {
+	7980.1.1 = {
 		birth = yes
 		employer = Setenon_01
 		set_immortal_age = 16

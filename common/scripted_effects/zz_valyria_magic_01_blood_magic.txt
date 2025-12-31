@@ -877,7 +877,7 @@ zz_valyria_magic_blood_magic_05_effect = {
 			}
 			
 			
-			trigger_event = zz_valyria_magic_blood_magic.0003 
+			trigger_event = zz_valyria_magic_blood_magic.00502 
 		}
 		25 = {
 			send_interface_message = {

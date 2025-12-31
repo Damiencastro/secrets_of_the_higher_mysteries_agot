@@ -1313,7 +1313,7 @@ zz_valyria_magic_dragon_magic_03_story = { #Used for the Scholarship progress ev
 							type = send_interface_message_as_feed_spell_buff_proc
 							title = zz_blood_magic_draconic_enchantment
 							desc = zz_blood_magic_draconic_enchantment.desc
-							left_icon = THIS
+							left_icon = scope:dragon
 							add_prowess_skill = scope:story.var:mystery_potency 
 							while = {
 								count = scope:story.var:mystery_potency 
@@ -1336,7 +1336,7 @@ zz_valyria_magic_dragon_magic_03_story = { #Used for the Scholarship progress ev
 									title = zz_blood_magic_draconic_enchantment
 									desc = zz_blood_magic_draconic_enchantment.desc
 									left_icon = scope:rider
-									right_icon = scope:story_owner
+									right_icon = scope:dragon
 								}
 							}
 						}

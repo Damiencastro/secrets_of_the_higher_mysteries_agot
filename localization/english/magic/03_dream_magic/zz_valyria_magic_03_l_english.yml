@@ -664,5 +664,5 @@ l_english:
   zz_valyria_magic_dream_magic_49.toast.tt:0 "$zz_valyria_magic_dream_magic_49.toast.desc$"
 
   zz_valyria_magic_dream_magic_49.buff.toast.t:0 "[dream_magic|E] - $zz_valyria_magic_dream_magic_49_name$"
-  zz_valyria_magic_dream_magic_49.buff.toast.desc:0 ""
+  zz_valyria_magic_dream_magic_49.buff.toast.desc:0 "A tragic outcome has been prevented"
   zz_valyria_magic_dream_magic_49.buff.toast.tt:0 "$zz_valyria_magic_dream_magic_49.buff.toast.desc$"
