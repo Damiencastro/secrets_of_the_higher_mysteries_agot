@@ -1,6 +1,8 @@
 ﻿l_english:  
  
 
+  ### [blood_magic] ###
+
   zz_valyria_magic_blood_magic_01: "[blood_magic] - $zz_valyria_magic_blood_magic_01_name$"
   zz_valyria_magic_blood_magic_01.memory_desc: "$zz_mem_01$ [blood_magic] - $zz_valyria_magic_blood_magic_01_name$ $zz_mem_loc$"
   zz_valyria_magic_blood_magic_01.memory_desc_second_perspective: "$zz_mem_02$ [blood_magic] - $zz_valyria_magic_blood_magic_01_name$ $zz_mem_loc$"

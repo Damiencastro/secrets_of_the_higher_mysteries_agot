@@ -22,7 +22,12 @@ trait_track_drops_of_power_mult_xp_gain_mult = {
 	hidden = no 
 }
 
-
+## Casting Multiplier multiplier
+zz_drops_of_power_attrition_mult = {
+    decimals = 0
+	percent = yes
+	hidden = no 
+}
 
 ## Drops of Power Number
 zz_drops_of_power_attrition_mult = {
@@ -53,6 +58,9 @@ zz_drops_of_power_development_growth_factor = {
 	percent = yes
 	hidden = no 
 }
+
+
+
 
 
 

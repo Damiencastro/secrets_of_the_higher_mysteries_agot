@@ -92,6 +92,14 @@ zz_item_dragon_horn_cost = {
 	value = 1500
 }
 
+zz_item_crown_cost = {
+	value = 2000
+}
+
+zz_item_rod_cost = {
+	value = 2500
+}
+
 
 zz_valyria_scroll_cost = {
 	value = 0

@@ -908,6 +908,20 @@ zz_valyria_magic_education.00092 = {
 			SPELL = zz_valyria_magic_shadow_magic_13
 		}
 	}
+	option = {
+		name = zz_valyria_magic_education.0009.shadow.14
+		trigger = {
+			NOT = { 
+				zz_valyria_knows_spell  = {
+					SPELL = zz_valyria_magic_shadow_magic_14
+				}
+			}
+		}
+		custom_tooltip = zz_valyria_magic_shadow_magic_14.tooltip.desc
+		zz_magic_education_learn_spell_effect = { 
+			SPELL = zz_valyria_magic_shadow_magic_14
+		}
+	}
 }
 
 # Dream Magic Education - All Mysteries

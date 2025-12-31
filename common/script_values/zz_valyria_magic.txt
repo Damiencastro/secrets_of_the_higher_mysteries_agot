@@ -1134,7 +1134,7 @@ zz_valyria_magic_shadow_magic_14_value = {
 	add = { 
 		scope:secondary_recipient = { 
 			value  = zz_valyria_magic_shadow_magic_base_value
-			divide = 5
+			divide = 25
 			min = 1
 		}
 	}

@@ -470,3 +470,48 @@ zz_valyria_magic_shadow_magic_13_effect = {
 		}
 	}
 }
+
+zz_valyria_magic_shadow_magic_14_effect = {
+	send_interface_message = {
+		type = send_interface_message_as_feed_spell_outcome
+		title = zz_valyria_magic_shadow_magic_14.toast.t
+		desc = zz_valyria_magic_shadow_magic_14.toast.desc
+		left_icon = scope:secondary_recipient
+		right_icon = scope:recipient
+		custom_tooltip = zz_valyria_magic_shadow_magic_14.toast.tt
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:actor = scope:recipient
+			}
+		}
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			sadistic = minor_stress_gain
+			callous = minor_stress_gain
+		}
+	}
+
+	scope:recipient = {
+		if = { 
+			limit = { 
+				has_variable = zz_miscast_count
+			}
+			change_variable = { 
+				name = zz_miscast_count
+				subtract = zz_valyria_magic_shadow_magic_14_value
+			}
+		}
+		if = {
+			limit = {
+				NOT = { scope:actor = scope:recipient }
+			}
+			add_opinion = {
+				modifier  = grateful_opinion
+				target = scope:actor
+				opinion = 70
+			}
+		}
+	}
+}

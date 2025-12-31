@@ -2298,6 +2298,14 @@ zz_valyria_crafting_calculate_crafting_cost_item_effect = {
 		ITEM = item_dragon_horn
 		COST = zz_item_dragon_horn_cost
 	}
+	zz_item_calculate_cost_effect = {
+		ITEM = item_crown
+		COST = zz_item_crown_cost
+	}
+	zz_item_calculate_cost_effect = {
+		ITEM = item_rod
+		COST = zz_item_rod_cost
+	}
 }
 
 zz_valyria_crafting_calculate_crafting_cost_modifier_effect = {
