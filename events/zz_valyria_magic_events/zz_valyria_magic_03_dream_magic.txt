@@ -133,6 +133,14 @@ zz_valyria_magic_dream_magic_spells.002 = {
 				}
 			}
 		}
+		trait:born_beneath_the_comet = {
+			root = {
+				add_to_variable_list = {
+					name = possible_traits
+					target = prev
+				}
+			}
+		}
 	}
 
 	widget = {

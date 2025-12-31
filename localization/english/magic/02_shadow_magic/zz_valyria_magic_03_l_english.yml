@@ -151,7 +151,7 @@ l_english:
   zz_valyria_magic_shadow_magic_spells.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_shadow_magic_12.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
-  zz_valyria_magic_shadow_magic_12.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ calling forth a spine of shadow, that settles within the blade of [target.GetFirstName]."
+  zz_valyria_magic_shadow_magic_12.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ calling forth a spine of shadow, that settles within the blade of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic_12.toast.tt:0 "$zz_valyria_magic_shadow_magic_12.toast.desc$"
 
 
@@ -164,7 +164,7 @@ l_english:
   zz_valyria_magic_shadow_magic_spells.013.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_shadow_magic_13.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
-  zz_valyria_magic_shadow_magic_13.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
+  zz_valyria_magic_shadow_magic_13.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic_13.toast.tt:0 "$zz_valyria_magic_shadow_magic_13.toast.desc$"
 
 
@@ -177,5 +177,5 @@ l_english:
   zz_valyria_magic_shadow_magic_spells.014.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_shadow_magic_14.toast.t:0  "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
-  zz_valyria_magic_shadow_magic_14.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [target.GetFirstName]."
+  zz_valyria_magic_shadow_magic_14.toast.desc:0 "$zz_toast_01$ [shadow_magic|E],  $zz_toast_02$ calling forth a blade of hidden shadow to strike at [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic_14.toast.tt:0 "$zz_valyria_magic_shadow_magic_14.toast.desc$"

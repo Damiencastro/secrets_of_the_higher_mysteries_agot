@@ -225,6 +225,16 @@ zz_valyria_magic_dream_magic_02_effect = {
 			else = { add_trait = knight_errant }
 		}
 	}	
+	if  = { 
+		limit = {
+			scope:trait ?= trait:born_beneath_the_comet
+		}
+		scope:recipient = {
+
+			add_trait = born_beneath_the_comet 
+
+		}
+	}	
 	scope:recipient = {		
 		if = {
 			limit = {
