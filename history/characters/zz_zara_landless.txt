@@ -343,7 +343,7 @@ Dummy_Setenon_08 = {
 	118.1.2 = { death = yes }
 }
 Dummy_Setenon_09 = {
-	name = Viserys I
+	name = Aegon 
 	dna = Setenon_09
 	religion = valyrian_pan_freehold
 	culture = high_valyrian
