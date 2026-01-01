@@ -2219,7 +2219,7 @@ zz_valyria_gain_spell_experience = {
 			has_trait_xp = {
 				trait = zz_magister
 				track = $XPTRACK$ 
-				value < 100
+				value >= 100
 			}
 		}
 		if = {

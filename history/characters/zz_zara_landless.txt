@@ -331,7 +331,7 @@ Dummy_Setenon_07 = {
 	118.1.2 = { death = yes }
 }
 Dummy_Setenon_08 = {
-	name = Viserys I
+	name = Viserys
 	dna = Setenon_08
 	religion = valyrian_pan_freehold
 	culture = high_valyrian
