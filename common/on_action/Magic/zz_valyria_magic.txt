@@ -178,6 +178,32 @@ zz_valyria_on_game_start_after_lobby = {
 				}
 			}
 		}
+		character:Setenon_28 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
+		character:Setenon_29 = {
+			if = { 
+				limit = {
+					NOT = {
+						has_game_rule = debug_mode_on
+					}
+				}
+				death = {
+					death_reason = death_ascension_magic
+					killer = THIS 
+				}
+			}
+		}
 
 		dynasty:dynn_Setenon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 		dynasty:dynn_Setenon = { set_variable = agot_allow_adelphogamous_incest }
@@ -208,7 +234,15 @@ zz_valyria_on_game_start_after_lobby = {
 }
 
 
-
+zz_valyria_magic_strong_seed = {
+	effect = {
+		dynasty:dynn_Setenon = {
+			every_dynasty_member = {
+				agot_assign_strong_seed_traits_effect = yes
+			}
+		}
+	}
+}
 quarterly_playable_pulse = {
 	on_actions = {
 		zz_valyria_mana_gain_on_actions
