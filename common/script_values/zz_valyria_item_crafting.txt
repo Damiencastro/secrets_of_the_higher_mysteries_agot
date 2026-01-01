@@ -131,6 +131,7 @@ zz_valyria_current_crafter_stat = {
 			add = zz_valyria_higher_mysteries_stat_gui
 		}
 	}
+	
 }
 
 zz_valyria_magic_alchemy_magic_crafting_value = {
@@ -139,6 +140,7 @@ zz_valyria_magic_alchemy_magic_crafting_value = {
 		value = zz_valyria_current_crafter_stat
 		divide = 20
 		min = 1
+		max = 100 
 	}	
 }
 zz_valyria_current_item_cost = {
