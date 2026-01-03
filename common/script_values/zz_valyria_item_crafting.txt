@@ -140,7 +140,7 @@ zz_valyria_magic_alchemy_magic_crafting_value = {
 		value = zz_valyria_current_crafter_stat
 		divide = 20
 		min = 1
-		max = 100 
+		max = 5 
 	}	
 }
 zz_valyria_current_item_cost = {
