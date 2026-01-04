@@ -1000,7 +1000,6 @@ health.0204 = {
 			save_scope_as = recipient
 			save_scope_as = actor 
 			zz_ui_setup_effect = yes 
-
 		}
 	}
 	
@@ -1575,8 +1574,6 @@ health.1002 = {
 		}
 		ai_chance = { base = 0 }
 	}
-
-
 	### Option Magic
 	option = {
 		name = health.3101.zz_mage
@@ -1870,7 +1867,6 @@ health.1003 = {
 		}
 		ai_chance = { base = 0 }
 	}
-
 	### Option Magic
 	option = {
 		name = health.3101.zz_mage
@@ -1882,7 +1878,6 @@ health.1003 = {
 			save_scope_as = recipient
 			save_scope_as = actor 
 			zz_ui_setup_effect = yes 
-
 		}
 	}
 }
@@ -2088,7 +2083,6 @@ health.1004 = {
 		}
 		ai_chance = { base = 0 }
 	}
-
 	### Option Magic
 	option = {
 		name = health.3101.zz_mage
@@ -6854,7 +6848,6 @@ health.2201 = {
 		name = health.2201.a
 		ai_chance = { base = 10 }
 	}
-
 	option = {
 		name = health.3101.zz_mage
 		trigger = { 

@@ -4661,6 +4661,14 @@ agot_dragon_combat.1010 = {
 		scope:dragonrider_in_battle = { is_alive = yes }
 		scope:enemy_dragonrider = { is_alive = yes }
 		scope:enemy_dragonrider.var:current_dragon = { is_alive = yes }
+		NOT = { has_character_flag = agot_dragon_combat_1010_cooldown }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = agot_dragon_combat_1010_cooldown
+			days = 30
+		}
 	}
 
 	#Attack
