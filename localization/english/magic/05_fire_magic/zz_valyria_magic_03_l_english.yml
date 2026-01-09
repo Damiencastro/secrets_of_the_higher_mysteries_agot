@@ -9,7 +9,7 @@ l_english:
   ## Spell Options
   ##event
   zz_valyria_magic_fire_magic.001.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_01_name$"
-  zz_valyria_magic_fire_magic.001.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could have [recipient.GetName] consumed by the fires, but such a means of death, is it truly fitting?"
+  zz_valyria_magic_fire_magic.001.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could have [recipient.GetFirstName] consumed by the fires, but such a means of death, is it truly fitting?"
   zz_valyria_magic_fire_magic.001.opt.a:0 "Yes, let fire take them!"
   zz_valyria_magic_fire_magic.001.opt.b:0 "Yes, let the full fury of the fire take them!"
   zz_valyria_magic_fire_magic.001.opt.z:0 "No, do not cast!"
@@ -23,7 +23,7 @@ l_english:
   zz_valyria_magic_fire_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_md$\n\nThrough the arts of [fire_magic|E] it is possible to unleash a flaming deluge. Such a weapon shall bring low the armies of your enmies, as the grasping flames reduce to ash, man, beast, and stone."
   ##event
   zz_valyria_magic_fire_magic.002.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_02_name$"
-  zz_valyria_magic_fire_magic.002.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could launch a blast of unremitting flame at an army of [recipient.GetName]. But surely such a monstrous act is beyond the limits of a just war?"
+  zz_valyria_magic_fire_magic.002.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could launch a blast of unremitting flame at an army of [recipient.GetFirstName]. But surely such a monstrous act is beyond the limits of a just war?"
   zz_valyria_magic_fire_magic.002.opt.a:0 "Yes, let fire take them!"
   zz_valyria_magic_fire_magic.002.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -36,7 +36,7 @@ l_english:
   zz_valyria_magic_fire_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_sd$\n\nThrough the arts of [fire_magic|E] it is possible to conjure forth a veritable holocaust. To render an entire region under an unholy conflagration of flame. Such a a weapon of war rivals the might of the dragons."
   ##event
   zz_valyria_magic_fire_magic.003.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_03_name$"
-  zz_valyria_magic_fire_magic.003.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could launch call forth a veritable storm of flame to consume an army of [recipient.GetName]. But such acts surely stain the soul in their total depravirty?"
+  zz_valyria_magic_fire_magic.003.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could launch call forth a veritable storm of flame to consume an army of [recipient.GetFirstName]. But such acts surely stain the soul in their total depravirty?"
   zz_valyria_magic_fire_magic.003.opt.a:0 "Yes, BURN THEM ALL!"
   zz_valyria_magic_fire_magic.003.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -49,7 +49,7 @@ l_english:
   zz_valyria_magic_fire_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hc$\n$zz_ctb$\n\nThrough the arts of [fire_magic|E] it is possible to burn away the concepts of imperfection. With a risk of burning, a character can be restored to health."
   ##event
   zz_valyria_magic_fire_magic.004.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_04_name$"
-  zz_valyria_magic_fire_magic.004.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. But you can wage a war upon the illnesses that ravage the mortal form. Perhaps you can set the flames upon [recipient.GetName] and try and burn away the things that bring their body to its limits. But are the benefits worth the risks?"
+  zz_valyria_magic_fire_magic.004.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. But you can wage a war upon the illnesses that ravage the mortal form. Perhaps you can set the flames upon [recipient.GetFirstName] and try and burn away the things that bring their body to its limits. But are the benefits worth the risks?"
   zz_valyria_magic_fire_magic.004.opt.a:0 "Yes, Let the fire purify them!"
   zz_valyria_magic_fire_magic.004.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -62,7 +62,7 @@ l_english:
   zz_valyria_magic_fire_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$\n\nThrough the arts of [fire_magic|E] it is possible to enchant blades with a temporary flame. An army led by a character empowered with this [zz_mystery|E] will do additional damage."
   ##event
   zz_valyria_magic_fire_magic.005.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_05_name$"
-  zz_valyria_magic_fire_magic.005.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could call a flame to inhabit the blades of one of [recipient.GetName]'s armies. But surely such weapons would violate the laws of honourable war?"
+  zz_valyria_magic_fire_magic.005.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could call a flame to inhabit the blades of one of [recipient.GetFirstName]'s armies. But surely such weapons would violate the laws of honourable war?"
   zz_valyria_magic_fire_magic.005.opt.a:0 "Yes, BURN THEM ALL!"
   zz_valyria_magic_fire_magic.005.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -75,7 +75,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.006.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_06_name$"
-  zz_valyria_magic_fire_magic.006.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could call a flame to reveal the secrets of others to [recipient.GetName]. But surely is it wise to invade the secrets of others this way?"
+  zz_valyria_magic_fire_magic.006.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could call a flame to reveal the secrets of others to [recipient.GetFirstName]. But surely is it wise to invade the secrets of others this way?"
   zz_valyria_magic_fire_magic.006.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.006.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -89,7 +89,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.007.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_07_name$"
-  zz_valyria_magic_fire_magic.007.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could call a flame to reveal the schemes of others to [recipient.GetName]. But surely is it wise to invade the secrets of others this way?"
+  zz_valyria_magic_fire_magic.007.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You could call a flame to reveal the schemes of others to [recipient.GetFirstName]. But surely is it wise to invade the secrets of others this way?"
   zz_valyria_magic_fire_magic.007.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.007.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -102,7 +102,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.008.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_08_name$"
-  zz_valyria_magic_fire_magic.008.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You can infuse the weapons of the soldiers of [recipient.GetName] with a roaring flame, letting them blast down the walls that stop them from completing their bloody business."
+  zz_valyria_magic_fire_magic.008.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You can infuse the weapons of the soldiers of [recipient.GetFirstName] with a roaring flame, letting them blast down the walls that stop them from completing their bloody business."
   zz_valyria_magic_fire_magic.008.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.008.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -116,7 +116,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.009.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_09_name$"
-  zz_valyria_magic_fire_magic.009.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a ball of fire, that strikes at one of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.009.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a ball of fire, that strikes at one of the regiments of [recipient.GetFirstName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.009.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.009.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -131,7 +131,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.010.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_10_name$"
-  zz_valyria_magic_fire_magic.010.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You can infuse the army of [recipient.GetName] with the essence of a Dragon's Fire, empowering their capabilities to win decisive advantage over the forces of the enemy."
+  zz_valyria_magic_fire_magic.010.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You can infuse the army of [recipient.GetFirstName] with the essence of a Dragon's Fire, empowering their capabilities to win decisive advantage over the forces of the enemy."
   zz_valyria_magic_fire_magic.010.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.010.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -146,12 +146,12 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.011.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_11_name$"
-  zz_valyria_magic_fire_magic.011.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.011.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetFirstName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.011.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.011.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_11.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_11_name$"
-  zz_valyria_magic_fire_magic_11.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_11.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetFirstName]."
   zz_valyria_magic_fire_magic_11.toast.tt:0 "$zz_valyria_magic_fire_magic_11.toast.desc$"
 
 
@@ -160,12 +160,12 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.012.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_12_name$"
-  zz_valyria_magic_fire_magic.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.012.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetFirstName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.012.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_12.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_12_name$"
-  zz_valyria_magic_fire_magic_12.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_12.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetFirstName]."
   zz_valyria_magic_fire_magic_12.toast.tt:0 "$zz_valyria_magic_fire_magic_12.toast.desc$"
 
 
@@ -174,12 +174,12 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.013.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_13_name$"
-  zz_valyria_magic_fire_magic.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetFirstName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.013.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.013.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_13.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_13_name$"
-  zz_valyria_magic_fire_magic_13.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_13.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetFirstName]."
   zz_valyria_magic_fire_magic_13.toast.tt:0 "$zz_valyria_magic_fire_magic_13.toast.desc$"
 
   ## Interaction
@@ -187,12 +187,12 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.014.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_14_name$"
-  zz_valyria_magic_fire_magic.014.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.014.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetFirstName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.014.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.014.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_14.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_14_name$"
-  zz_valyria_magic_fire_magic_14.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_14.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetFirstName]."
   zz_valyria_magic_fire_magic_14.toast.tt:0 "$zz_valyria_magic_fire_magic_14.toast.desc$"
 
   ## Interaction
@@ -200,12 +200,12 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.015.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_15_name$"
-  zz_valyria_magic_fire_magic.015.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.015.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetFirstName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.015.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.015.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_15.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_15_name$"
-  zz_valyria_magic_fire_magic_15.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_15.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetFirstName]."
   zz_valyria_magic_fire_magic_15.toast.tt:0 "$zz_valyria_magic_fire_magic_15.toast.desc$"
 
   ## Interaction
@@ -213,7 +213,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.016.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_16_name$"
-  zz_valyria_magic_fire_magic.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [target.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.016.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [target.GetName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.016.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.016.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -226,7 +226,7 @@ l_english:
 
   ##event
   zz_valyria_magic_fire_magic.017.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_17_name$"
-  zz_valyria_magic_fire_magic.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You ring [target.GetName] will an oppressive wall of flame, reducing steadily the capability of the defenders to resist the assaults of your armies."
+  zz_valyria_magic_fire_magic.017.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You ring [target.GetName] will an oppressive wall of flame, reducing steadily the capability of the defenders to resist the assaults of your armies."
   zz_valyria_magic_fire_magic.017.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.017.opt.z:0 "No, do not cast!"
   ## Spell Toast

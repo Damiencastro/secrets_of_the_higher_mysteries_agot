@@ -8,7 +8,7 @@ l_english:
 
   ## event
   zz_valyria_magic_alchemy_magic.001.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_01_name$"
-  zz_valyria_magic_alchemy_magic.001.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to enrich the very land of one of [recipient.GetName]'s provinces. But is it wise to so change the land itself?"
+  zz_valyria_magic_alchemy_magic.001.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to enrich the very land of one of [recipient.GetFirstName]'s provinces. But is it wise to so change the land itself?"
   zz_valyria_magic_alchemy_magic.001.opt.a:0 "Yes, Let the world be transmuted!"
   zz_valyria_magic_alchemy_magic.001.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -21,7 +21,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.002.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_02_name$"
-  zz_valyria_magic_alchemy_magic.002.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make more effortless the construction projects in [recipient.GetName]'s provinces. But is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.002.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make more effortless the construction projects in [recipient.GetFirstName]'s provinces. But is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.002.opt.a:0 "Yes, Let the world be transmuted!"
   zz_valyria_magic_alchemy_magic.002.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -35,7 +35,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.003.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_03_name$"
-  zz_valyria_magic_alchemy_magic.003.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.003.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetFirstName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.003.opt.a:0 "Yes, Transmute some Gold!"
   zz_valyria_magic_alchemy_magic.003.opt.b:0 "Yes, Transmute Icons of Renown!"
   zz_valyria_magic_alchemy_magic.003.opt.c:0 "Yes, Transmute some Prestigious Icons!"
@@ -56,7 +56,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.004.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_04_name$"
-  zz_valyria_magic_alchemy_magic.004.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.004.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.004.opt.a:0 "Yes, Attract more Knights!"
   zz_valyria_magic_alchemy_magic.004.opt.z:0 "No, do not cast!"
 
@@ -72,7 +72,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.005.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_05_name$"
-  zz_valyria_magic_alchemy_magic.005.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.005.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.005.opt.a:0 "Yes, Domain Efficiencies!"
   zz_valyria_magic_alchemy_magic.005.opt.b:0 "Yes, Vassal Efficiencies!"
   zz_valyria_magic_alchemy_magic.005.opt.z:0 "No, do not cast!"
@@ -88,7 +88,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.006.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_06_name$"
-  zz_valyria_magic_alchemy_magic.006.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make an item of [recipient.GetName] more potent. This would alter an item with an increase  to the capabilities of what it already possesses, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.006.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make an item of [recipient.GetFirstName] more potent. This would alter an item with an increase  to the capabilities of what it already possesses, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.006.opt.a:0 "Yes, make it glow!"
   zz_valyria_magic_alchemy_magic.006.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -103,7 +103,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.007.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_07_name$"
-  zz_valyria_magic_alchemy_magic.007.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.007.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetFirstName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.007.opt.a:0 "Yes, Transmute some Pious Relics!"
   zz_valyria_magic_alchemy_magic.007.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -117,7 +117,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.008.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_08_name$"
-  zz_valyria_magic_alchemy_magic.008.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.008.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetFirstName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.008.opt.a:0 "Yes, Transmute some Prestigious Icons!"
   zz_valyria_magic_alchemy_magic.008.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -131,7 +131,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.009.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_09_name$"
-  zz_valyria_magic_alchemy_magic.009.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.009.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to make many raw and potent substances for [recipient.GetFirstName]'. This would bring them riches,  but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.009.opt.a:0 "Yes, Transmute Icons of Renown!"
   zz_valyria_magic_alchemy_magic.009.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -144,7 +144,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.010.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_10_name$"
-  zz_valyria_magic_alchemy_magic.010.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to change the age of [recipient.GetName]'. This would bring them youth,  but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.010.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to change the age of [recipient.GetFirstName]'. This would bring them youth,  but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.010.opt.a:0 "Yes, Transmute away a single year!"
   zz_valyria_magic_alchemy_magic.010.opt.b:0 "Yes, Transmute away as much as possible!"
   zz_valyria_magic_alchemy_magic.010.opt.z:0 "No, do not cast!"
@@ -158,7 +158,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.011.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_11_name$"
-  zz_valyria_magic_alchemy_magic.011.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to change the age of [recipient.GetName]'. This would brings years to their face, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.011.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible through such transmutations to change the age of [recipient.GetFirstName]'. This would brings years to their face, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.011.opt.a:0 "Yes, Transmute an additional year!"
   zz_valyria_magic_alchemy_magic.011.opt.b:0 "Yes, Transmute as many additional years as possible!"
   zz_valyria_magic_alchemy_magic.011.opt.z:0 "No, do not cast!"
@@ -174,7 +174,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.012.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_12$"
-  zz_valyria_magic_alchemy_magic.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.012.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.012.opt.a:0 "Yes, Empower Knightly Armaments!"
   zz_valyria_magic_alchemy_magic.012.opt.z:0 "No, do not cast!"
 
@@ -190,7 +190,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.013.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_13_name$"
-  zz_valyria_magic_alchemy_magic.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.013.opt.a:0 "Yes, Attract more Men at Arms!"
   zz_valyria_magic_alchemy_magic.013.opt.z:0 "No, do not cast!"
 
@@ -205,7 +205,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.014.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_14_name$"
-  zz_valyria_magic_alchemy_magic.014.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.014.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.014.opt.a:0 "Yes, Make Men at Arms more Effective!"
   zz_valyria_magic_alchemy_magic.014.opt.z:0 "No, do not cast!"
 
@@ -220,7 +220,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.015.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_15_name$"
-  zz_valyria_magic_alchemy_magic.015.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcaknights, their power, or the number of MAA and their sizene art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.015.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcaknights, their power, or the number of MAA and their sizene art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.015.opt.a:0 "Yes, Attract more titular Men at Arms!"
   zz_valyria_magic_alchemy_magic.015.opt.z:0 "No, do not cast!"
 
@@ -235,7 +235,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.016.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_16_name$"
-  zz_valyria_magic_alchemy_magic.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.016.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It would be possible to transumute concepts, to make the forces of [recipient.GetFirstName] more potent. This could give them more knights, or more professional troops, or indeed to increase the capabilities of what they already possess, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.016.opt.a:0 "Yes, Make Men at Arms titular more Effective!"
   zz_valyria_magic_alchemy_magic.016.opt.z:0 "No, do not cast!"
 
@@ -252,7 +252,7 @@ l_english:
 
   ##event
   zz_valyria_magic_alchemy_magic.017.t:0 "[alchemy_magic|E] - $zz_valyria_magic_alchemy_magic_16_name$"
-  zz_valyria_magic_alchemy_magic.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It is possible to launch an assault upon [recipient.GetName] with the magics of pure transmutation. This assault would surely leave them mortally harmed, ruined or crippled, but is it wise to rely upon magic in this way?"
+  zz_valyria_magic_alchemy_magic.017.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nThe manipulation of substances is an ancient and arcane art. Though the pyromancers and some wondering chemists are thought to be what remains of such practices, at your command true alchemy can be done. It is possible to launch an assault upon [recipient.GetFirstName] with the magics of pure transmutation. This assault would surely leave them mortally harmed, ruined or crippled, but is it wise to rely upon magic in this way?"
   zz_valyria_magic_alchemy_magic.017.opt.a:0 "Yes, have them broken!"
   zz_valyria_magic_alchemy_magic.017.opt.b:0 "Yes, Render them to nothing!"
   zz_valyria_magic_alchemy_magic.017.opt.z:0 "No, do not cast!"

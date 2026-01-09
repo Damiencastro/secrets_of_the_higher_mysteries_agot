@@ -8,7 +8,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.001.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_01_name$"
-  zz_valyria_magic_dragon_magic.001.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, whether you wish to intrude into the realm of life and death, to take the stone remains of a dragon egg and restore it to life. Do you wish to intrude upon the realm of the Gods?"
+  zz_valyria_magic_dragon_magic.001.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, whether you wish to intrude into the realm of life and death, to take the stone remains of a dragon egg and restore it to life. Do you wish to intrude upon the realm of the Gods?"
   zz_valyria_magic_dragon_magic.001.opt.a:0 "Yes, I am closer to a God than a Man!"
   zz_valyria_magic_dragon_magic.001.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -21,7 +21,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.002.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_02_name$"
-  zz_valyria_magic_dragon_magic.002.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Being a creation of blood and fire, it is possible to induce in [recipient.GetName] the laying of a clutch of eggs. This will let you expand the population of dragons within your realm and make it more ready for war. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_dragon_magic.002.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Being a creation of blood and fire, it is possible to induce in [recipient.GetFirstName] the laying of a clutch of eggs. This will let you expand the population of dragons within your realm and make it more ready for war. It is unnatural, but do you wish to proceed?"
   zz_valyria_magic_dragon_magic.002.opt.a:0 "Yes, let fire become flesh!"
   zz_valyria_magic_dragon_magic.002.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -38,7 +38,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.003.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_03_name$"
-  zz_valyria_magic_dragon_magic.003.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Being a creation of blood and fire, it is possible to induce in faster growth in power and size in [recipient.GetName]. This will make them a more powerful weapon of war, but do you wish to proceed?"
+  zz_valyria_magic_dragon_magic.003.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Being a creation of blood and fire, it is possible to induce in faster growth in power and size in [recipient.GetFirstName]. This will make them a more powerful weapon of war, but do you wish to proceed?"
   zz_valyria_magic_dragon_magic.003.opt.a:0 "Yes, empower fire become flesh!"
   zz_valyria_magic_dragon_magic.003.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -52,14 +52,14 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.004.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_04_name$"
-  zz_valyria_magic_dragon_magic.004.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The old rituals of Valyria talk of making men like dragons. It is possible to enfuse [recipient.GetName] with Dragon's blood. This will make them a dragon seed, one whose essence is connected at a most fundamental level to the dragons. This may aid in preparations for war, but do you really need more dragonlords?"
+  zz_valyria_magic_dragon_magic.004.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. The old rituals of Valyria talk of making men like dragons. It is possible to enfuse [recipient.GetFirstName] with Dragon's blood. This will make them a dragon seed, one whose essence is connected at a most fundamental level to the dragons. This may aid in preparations for war, but do you really need more dragonlords?"
   zz_valyria_magic_dragon_magic.004.opt.a:0 "Yes, By the Blood and Fire!"
   zz_valyria_magic_dragon_magic.004.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_dragon_magic_04.toast.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_04_name$"
   zz_valyria_magic_dragon_magic_04.toast.desc:0 "$zz_toast_01$ [dragon_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with dragon's blood."
   zz_valyria_magic_dragon_magic_04.toast.tt:0 "$zz_toast_01$ [dragon_magic], $zz_toast_02$ enfusing [recipient.GetFirstName] with dragon's blood."
-  zz_valyria_magic_dragon_magic_04.toast_1.desc:0 "[recipient.GetName] is enfused with Dragon Blood, making it more likely for them to be able to mount a dragon. "
+  zz_valyria_magic_dragon_magic_04.toast_1.desc:0 "[recipient.GetFirstName] is enfused with Dragon Blood, making it more likely for them to be able to mount a dragon. "
 
   zz_valyria_magic_dragon_magic_04_f.toast.t:0 " Failure [dragon_magic|E] - $zz_valyria_magic_dragon_magic_04_name$"
   zz_valyria_magic_dragon_magic_04_f.toast.desc:0 "$zz_toast_01$ [dragon_magic],$zz_toast_02$ $zz_toast_03$."
@@ -71,7 +71,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.005.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_05_name$"
-  zz_valyria_magic_dragon_magic.005.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Dragon's are creatures of magic as much oas of flesh. It is possible to manipulate the genetics of [recipient.GetName]. But will perhaps some power take offense at the manipulation?"
+  zz_valyria_magic_dragon_magic.005.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Dragon's are creatures of magic as much oas of flesh. It is possible to manipulate the genetics of [recipient.GetFirstName]. But will perhaps some power take offense at the manipulation?"
   zz_valyria_magic_dragon_magic.005.opt.a:0 "Yes, twist and shape!"
   zz_valyria_magic_dragon_magic.005.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -89,7 +89,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.006.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_06_name$"
-  zz_valyria_magic_dragon_magic.006.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Dragon's are creatures of magic as much oas of flesh. It is possible to manipulate the genetics of [recipient.GetName]. But will perhaps some power take offense at the manipulation?"
+  zz_valyria_magic_dragon_magic.006.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Dragon's are creatures of magic as much oas of flesh. It is possible to manipulate the genetics of [recipient.GetFirstName]. But will perhaps some power take offense at the manipulation?"
   zz_valyria_magic_dragon_magic.006.opt.a:0 "Yes, twist and shape!"
   zz_valyria_magic_dragon_magic.006.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -107,7 +107,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_dragon_magic.007.t:0 "[dragon_magic|E] - $zz_valyria_magic_dragon_magic_07_name$"
-  zz_valyria_magic_dragon_magic.007.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Dragon's are creatures of magic as much oas of flesh. It is possible to manipulate the genetics of [recipient.GetName]. But will perhaps some power take offense at the manipulation?"
+  zz_valyria_magic_dragon_magic.007.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Dragon's are creatures of magic as much oas of flesh. It is possible to manipulate the genetics of [recipient.GetFirstName]. But will perhaps some power take offense at the manipulation?"
   zz_valyria_magic_dragon_magic.007.opt.a:0 "Yes, twist and shape!"
   zz_valyria_magic_dragon_magic.007.opt.z:0 "No, do not cast!"
   ## Spell Toast

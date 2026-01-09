@@ -7,7 +7,7 @@ l_english:
   zz_valyria_magic_shadow_magic_01.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing your forces with a potent mobility."
   ## event 
   zz_valyria_magic_shadow_magic.001.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_01_name$"
-  zz_valyria_magic_shadow_magic.001.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to use these shadows to enfuse your forces, to make the logistical challenges of a war simple to manage. If you enfuse [recipient.GetName] with these otherworldly forces they shall be able to effortlessly outmanouver their foes. But can we trust the shadows?"
+  zz_valyria_magic_shadow_magic.001.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to use these shadows to enfuse your forces, to make the logistical challenges of a war simple to manage. If you enfuse [recipient.GetFirstName] with these otherworldly forces they shall be able to effortlessly outmanouver their foes. But can we trust the shadows?"
   zz_valyria_magic_shadow_magic.001.opt.a:0 "Yes, from darkness!"
   zz_valyria_magic_shadow_magic.001.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -20,7 +20,7 @@ l_english:
   zz_valyria_magic_shadow_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing your plots and schemes the hidden edge of  a dagger cloaked in shadow"
   ## event
   zz_valyria_magic_shadow_magic.002.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_02_name$"
-  zz_valyria_magic_shadow_magic.002.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to make plots be soaked in the shadows, improving the successs of plots. If you choose the schemes of [recipient.GetName] will be empowered by the shadows. But can you trust the shadows?"
+  zz_valyria_magic_shadow_magic.002.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to make plots be soaked in the shadows, improving the successs of plots. If you choose the schemes of [recipient.GetFirstName] will be empowered by the shadows. But can you trust the shadows?"
   zz_valyria_magic_shadow_magic.002.opt.a:0 "Yes, from darkness!"
   zz_valyria_magic_shadow_magic.002.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -32,7 +32,7 @@ l_english:
   zz_valyria_magic_shadow_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing you with a powerful shield against plots and schemes. This shadowy shield clings to you and keeps you ever secure."
   ## event
   zz_valyria_magic_shadow_magic.003.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_03_name$"
-  zz_valyria_magic_shadow_magic.003.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to use these shadows to make [recipient.GetName] much more resilient to plots. Such a spell requires you to trust that the shadows will not betray your designs. But can we trust the shadows?"
+  zz_valyria_magic_shadow_magic.003.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to use these shadows to make [recipient.GetFirstName] much more resilient to plots. Such a spell requires you to trust that the shadows will not betray your designs. But can we trust the shadows?"
   zz_valyria_magic_shadow_magic.003.opt.a:0 "Yes, from darkness!"
   zz_valyria_magic_shadow_magic.003.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -45,7 +45,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.004.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_04_name$"
-  zz_valyria_magic_shadow_magic.004.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. By twisting the shadows against themselves, one could make the plots against [recipient.GetName] take longer to reach their fruition. But is it truly right to use the forces of shadow for such a task?"
+  zz_valyria_magic_shadow_magic.004.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. By twisting the shadows against themselves, one could make the plots against [recipient.GetFirstName] take longer to reach their fruition. But is it truly right to use the forces of shadow for such a task?"
   zz_valyria_magic_shadow_magic.004.opt.a:0 "Yes, the darkness is my ally!"
   zz_valyria_magic_shadow_magic.004.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -58,7 +58,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.005.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_05_name$"
-  zz_valyria_magic_shadow_magic.005.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. By coiling chains of raw shadow, the ability of [recipient.GetName]'s forces to mobilise can be impaired. Such an action is to invite the shadows to restrain men, and is such an act truly one of virtue?"
+  zz_valyria_magic_shadow_magic.005.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. By coiling chains of raw shadow, the ability of [recipient.GetFirstName]'s forces to mobilise can be impaired. Such an action is to invite the shadows to restrain men, and is such an act truly one of virtue?"
   zz_valyria_magic_shadow_magic.005.opt.a:0 "Yes, The shadows tie!"
   zz_valyria_magic_shadow_magic.005.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -70,7 +70,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.006.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_06_name$"
-  zz_valyria_magic_shadow_magic.006.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. You could reduce the hidden blades of [recipient.GetName] to mere shadows of their true nature. Taking the knife hidden in the darkness, and turning it's blade to a thing of mere shadow and vapour. But is it wise to trust one's security to the shadows?"
+  zz_valyria_magic_shadow_magic.006.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. You could reduce the hidden blades of [recipient.GetFirstName] to mere shadows of their true nature. Taking the knife hidden in the darkness, and turning it's blade to a thing of mere shadow and vapour. But is it wise to trust one's security to the shadows?"
   zz_valyria_magic_shadow_magic.006.opt.a:0 "Yes, I trust the shadows!"
   zz_valyria_magic_shadow_magic.006.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -82,7 +82,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.007.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_07_name$"
-  zz_valyria_magic_shadow_magic.007.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. By binding the shadows it is possible to saturate [recipient.GetName] in the darkness. Such a shrouding will make attempts to bring harm to them more successful and reduce their ability to endure secret strikes."
+  zz_valyria_magic_shadow_magic.007.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. By binding the shadows it is possible to saturate [recipient.GetFirstName] in the darkness. Such a shrouding will make attempts to bring harm to them more successful and reduce their ability to endure secret strikes."
   zz_valyria_magic_shadow_magic.007.opt.a:0 "Yes, and in the darkness bind them!"
   zz_valyria_magic_shadow_magic.007.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -96,7 +96,7 @@ l_english:
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.008.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_08_name$"
-  zz_valyria_magic_shadow_magic.008.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to make the shadows flee from [recipient.GetName], to leave the plots and schemes of their enemies hindered. Shall we use the shadows themselves to protect from the knife hidden in the dusk?"
+  zz_valyria_magic_shadow_magic.008.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to make the shadows flee from [recipient.GetFirstName], to leave the plots and schemes of their enemies hindered. Shall we use the shadows themselves to protect from the knife hidden in the dusk?"
   zz_valyria_magic_shadow_magic.008.opt.a:0 "Yes, Keep them secure!"
   zz_valyria_magic_shadow_magic.008.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -109,7 +109,7 @@ l_english:
   zz_valyria_magic_shadow_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$\n\nThe use of the arcane forces of [shadow_magic|E] to strike out a chosen victim, using the shadows in an attempt hide your culpability in their death."
   ## event
   zz_valyria_magic_shadow_magic.009.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_09_name$"
-  zz_valyria_magic_shadow_magic.009.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to conjure from the shadows a creature of the blade, one that will seek to end the life of [recipient.GetName]. Such an action carries risk, but is possible you might just be able to keep secret your act of murder."
+  zz_valyria_magic_shadow_magic.009.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. It is possible to conjure from the shadows a creature of the blade, one that will seek to end the life of [recipient.GetFirstName]. Such an action carries risk, but is possible you might just be able to keep secret your act of murder."
   zz_valyria_magic_shadow_magic.009.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.009.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -121,7 +121,7 @@ l_english:
   zz_valyria_magic_shadow_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike an army, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.010.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_10_name$"
-  zz_valyria_magic_shadow_magic.010.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral blast, consuming the light and strike one of the armies of [recipient.GetName]."
+  zz_valyria_magic_shadow_magic.010.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral blast, consuming the light and strike one of the armies of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.010.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.010.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -134,7 +134,7 @@ l_english:
   zz_valyria_magic_shadow_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.011.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_11_name$"
-  zz_valyria_magic_shadow_magic.011.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetName]."
+  zz_valyria_magic_shadow_magic.011.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.011.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.011.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -146,7 +146,7 @@ l_english:
   zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to enfuse a blade with the magics of shadow, ensuring greater success in the use of weapons. ."
   ## event
   zz_valyria_magic_shadow_magic.012.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
-  zz_valyria_magic_shadow_magic.012.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. By pulling forth the shadows, it is possible to distill the shadowy essence and let it rest within the weapon of [recipient.GetName]. This will ensure in their next single battle that their blade will not fail them."
+  zz_valyria_magic_shadow_magic.012.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. By pulling forth the shadows, it is possible to distill the shadowy essence and let it rest within the weapon of [recipient.GetFirstName]. This will ensure in their next single battle that their blade will not fail them."
   zz_valyria_magic_shadow_magic.012.opt.a:0 "Yes, empower this weapon!"
   zz_valyria_magic_shadow_magic.012.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -159,7 +159,7 @@ l_english:
   zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.013.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
-  zz_valyria_magic_shadow_magic.013.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetName]."
+  zz_valyria_magic_shadow_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.013.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.013.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -172,7 +172,7 @@ l_english:
   zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
   ## event
   zz_valyria_magic_shadow_magic.014.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
-  zz_valyria_magic_shadow_magic.014.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to wipe away the magical mistakes of [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic.014.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to wipe away the magical mistakes of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.014.opt.a:0 "Yes, soothe their souls them!"
   zz_valyria_magic_shadow_magic.014.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -186,7 +186,7 @@ l_english:
   zz_valyria_magic_shadow_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_pcm$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, manifesting a barrier against their mistakes when manifesting mysteries."
   ## event
   zz_valyria_magic_shadow_magic.015.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_15_name$"
-  zz_valyria_magic_shadow_magic.015.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to provide a ward against magical mishaps to [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic.015.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to provide a ward against magical mishaps to [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.015.opt.a:0 "Yes, soothe their souls them!"
   zz_valyria_magic_shadow_magic.015.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -198,7 +198,7 @@ l_english:
   zz_valyria_magic_shadow_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to fortify a province, making it more resilient to actions from enemies."
   ## event
   zz_valyria_magic_shadow_magic.016.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_16_name$"
-  zz_valyria_magic_shadow_magic.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to form a defensive barrier to protetect [target.GetName]."
+  zz_valyria_magic_shadow_magic.016.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to form a defensive barrier to protetect [target.GetName]."
   zz_valyria_magic_shadow_magic.016.opt.a:0 "Yes, let the shadows shield them!"
   zz_valyria_magic_shadow_magic.016.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -211,7 +211,7 @@ l_english:
   zz_valyria_magic_shadow_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_dsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to infest their defenses, reducing their capabilities to defend a chosen province from sieges."
   ## event
   zz_valyria_magic_shadow_magic.017.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_17_name$"
-  zz_valyria_magic_shadow_magic.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to wipe away the defences of [target.GetName] preparing the province for invasion."
+  zz_valyria_magic_shadow_magic.017.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Now is the moment to choose. \nIt is possible to wipe away the defences of [target.GetName] preparing the province for invasion."
   zz_valyria_magic_shadow_magic.017.opt.a:0 "Yes, let the shadows strip them!"
   zz_valyria_magic_shadow_magic.017.opt.z:0 "No, do not cast!"
   ## Spell Toast
