@@ -421,8 +421,7 @@ l_english:
   zz_valyria_magic_blood_magic_25.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
   zz_valyria_magic_blood_magic_25.toast.tt:0 "$zz_valyria_magic_blood_magic_25.toast.desc$"
 
-
-  \n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [stewardship_i][stewardship|E]. 
+ 
   ## Interaction
   zz_valyria_magic_blood_magic_26.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [stewardship_i][stewardship|E].  \n\nThrough the forbidden disciplines of [blood_magic|E], the very blood of the chosen subject is rewritten as a living ledger of order and command. Ancient Valyrian sigils are bound into their veins, compelling flesh and thought alike toward balance, calculation, and dominion over resources.\n\nThis rite binds an ever-growing current of unnatural aptitude into the blood itself, ensuring the chosen subject’s [stewardship_i][stewardship|E] will deepen and expand with each passing year. Yet such perfection of administration was never meant for mortal minds, and the blood remembers every change made to it."
   ##Spell Options
