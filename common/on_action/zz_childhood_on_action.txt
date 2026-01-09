@@ -4,7 +4,7 @@
 	}
 }
 zz_birth_effects = {
-	effect = {
+	on_actions = {
 		zz_valyria_magic_strong_seed = yes
 	}
 }

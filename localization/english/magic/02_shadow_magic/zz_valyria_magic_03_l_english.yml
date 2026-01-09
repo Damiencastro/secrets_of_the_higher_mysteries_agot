@@ -20,11 +20,15 @@ l_english:
 
 
   ## Interaction#
-  \n\nThe use of the arcane forces of [shadow_magic|E] to provide a empowerment to your plots and schemes. 
-  zz_valyria_magic_shadow_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [shadow_magic|E] to provide a empowerment to your plots and schemes. \n\nThe use of [shadow_magic|E] is capable of providing your plots and schemes the hidden edge of  a dagger cloaked in shadow"
+  
+  zz_valyria_magic_shadow_magic_02.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [shadow_magic|E] to improve the success chance of a selected subject's schemes. \n\nThrough the veiled praxis of [shadow_magic|E], intent itself is sharpened and concealed. The shadows coil not around armies, but around secrets—listening, learning, and carrying whispered designs where mortal messengers would fail.\n\nSuch sorcery grants your plots and schemes the hidden edge of a dagger cloaked in shadow. Doors are left unbarred, tongues loosen at the wrong moment, and chance itself seems to conspire in your favour. None can say why a scheme succeeds—only that the darkness was watching, and it approved."
+
+
+
+
   ## event
   zz_valyria_magic_shadow_magic.002.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_02_name$"
-  zz_valyria_magic_shadow_magic.002.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. For the shadow mages of the lost Freehold it was not unknown to call the shadows themselves to become the edge of the blade in a plot or a scheme. In such rites, the shadows themselves conspired to ensure the success of the scheme that was unfolding. \n\nNow is the moment to choose. It is possible to make plots be soaked in the shadows, improving the successs of plots. If you choose the schemes of [recipient.GetFirstName] will be empowered by the shadows. But can you trust the shadows?"
+  zz_valyria_magic_shadow_magic.002.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It clings to corners and crawls across the floor, thick with intent. For the shadow mages of the lost Freehold, it was no great transgression to call upon such darkness and bid it become the unseen edge of a blade within a plot or scheme.\n\nIn these rites, the shadows were not merely tools but conspirators. They whispered to servants, obscured truth from prying eyes, and bent fragile moments so that betrayal bloomed at precisely the right hour. The scheme did not simply unfold—it was guided.\n\nNow is the moment to choose. You may soak your plots in shadow, letting the darkness seep into every promise and every lie, improving the likelihood of success. If you choose this path, the schemes of [recipient.GetFirstName] will be empowered by unseen hands and listening silence.\nYet the shadows linger long after the rite is complete, patient and knowing. They have helped—but they have learned. But can you trust the shadows?"
   zz_valyria_magic_shadow_magic.002.opt.a:0 "Yes, from darkness!"
   zz_valyria_magic_shadow_magic.002.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -33,11 +37,13 @@ l_english:
   zz_valyria_magic_shadow_magic_02.toast.tt:0 "$zz_valyria_magic_shadow_magic_02.toast.desc$"
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to provide a shield against plots and schemes. 
-  zz_valyria_magic_shadow_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing you with a powerful shield against plots and schemes. This shadowy shield clings to you and keeps you ever secure."
+  
+  zz_valyria_magic_shadow_magic_03.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [shadow_magic|E] to increase scheme resistance of the selected subject. \n\nThrough the defensive mysteries of [shadow_magic|E], the darkness is not commanded to strike, but to watch. Shadows are bound to linger close, listening for ill intent and drinking deep of whispered treachery before it can take form.\n\nThe use of [shadow_magic|E] is capable of providing you with a powerful shield against plots and schemes. Malice falters, secrets fray, and hostile designs lose their certainty as unseen sentinels coil around your fate.\n\nThis shadowy shield clings to you like a second skin—cold, patient, and ever‑present—keeping you secure so long as the darkness remains willing."
+
   ## event
   zz_valyria_magic_shadow_magic.003.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_03_name$"
-  zz_valyria_magic_shadow_magic.003.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. It is possible to use these shadows to make [recipient.GetFirstName] much more resilient to plots. Such a spell requires you to trust that the shadows will not betray your designs. But can we trust the shadows?"
+  zz_valyria_magic_shadow_magic.003.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It stretches and recoils as if tasting the air. For the shadow mages who dwell along the dark edges of the world, such shadows were not merely weapons, but watchers—called forth to offer warning of what moves unseen within their silky depths.\n\nBound by Valyrian word and will, these shadows may be set to coil about [recipient.GetFirstName], whispering of false smiles, concealed knives, and schemes yet unspoken. Ill intent dulls in their presence, and conspiracies falter as if the darkness itself disapproves.\n\nNow is the moment to choose. To accept such protection is to trust the shadows to guard your designs and reveal those of your enemies. Yet the darkness listens as much as it watches, and it remembers all it learns. But can we truly trust the shadows?"
+
   zz_valyria_magic_shadow_magic.003.opt.a:0 "Yes, from darkness!"
   zz_valyria_magic_shadow_magic.003.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -46,11 +52,13 @@ l_english:
   zz_valyria_magic_shadow_magic_03.toast.tt:0 "$zz_valyria_magic_shadow_magic_03.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_shadow_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of providing your realm with a cloak of shadow, extending the time taken for any enemy action to bring about its own success."
+ 
+  zz_valyria_magic_shadow_magic_04.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [shadow_magic|E] extending the time for enemy plots to be successful. \n\nThrough the forbidden manipulations of [shadow_magic|E], the shadows are taught not merely to conceal, but to linger. Moments stretch unnaturally long, intent falters, and hostile designs find themselves trapped in an ever‑lengthening dusk.\n\nThe use of [shadow_magic|E] is capable of providing your realm with a suffocating cloak of shadow, one that drags upon the passage of time itself. Enemy plots advance as if wading through cold pitch, their completion delayed by unseen resistance, while the darkness patiently ensures that nothing hostile reaches its end swiftly—or cleanly."
+
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.004.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_04_name$"
-  zz_valyria_magic_shadow_magic.004.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. By twisting the shadows against themselves, one could make the plots against [recipient.GetFirstName] take longer to reach their fruition. But is it truly right to use the forces of shadow for such a task?"
+  zz_valyria_magic_shadow_magic.004.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It quivers and folds in on itself, as though moments are being stretched thin within its depths. For the greatest masters of shadow magic in Valyria, it was known that shadows could be used to twist not only sight and intent, but time itself.\n\nThrough forbidden rites, they learned to weight moments with shadow, to elongate the dark silhouette of a plot so that its completion lingered in a stolen eternity. The shadows would churn and coil, dragging schemes into prolonged uncertainty, exhausting conspirators and unraveling their resolve long before success could be claimed.\n\nNow is the moment to choose. By turning the shadows against themselves, you may force the plots aimed at [recipient.GetFirstName] to stumble and stretch, their fruition delayed by oppressive darkness and gnawing doubt. \nYet such magic trespasses upon forces even Valyria feared to name. Time resists captivity, and the shadows remember every moment they are made to hold. But is it truly right to bind eternity, even for protection?"
   zz_valyria_magic_shadow_magic.004.opt.a:0 "Yes, the darkness is my ally!"
   zz_valyria_magic_shadow_magic.004.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -59,7 +67,8 @@ l_english:
   zz_valyria_magic_shadow_magic_04.toast.tt:0 "$zz_valyria_magic_shadow_magic_04.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_shadow_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's army in grasping hands of shadow, restricting movement, and slowing its progression"
+  \n\nThe use of the arcane forces of [shadow_magic|E] slowing armies commanded by the chosen subject.
+  zz_valyria_magic_shadow_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of the arcane forces of [shadow_magic|E] slowing armies commanded by the chosen subject.\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's army in grasping hands of shadow, restricting movement, and slowing its progression"
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.005.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_05_name$"
@@ -71,6 +80,8 @@ l_english:
   zz_valyria_magic_shadow_magic_05.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ impacting the movement speed of [target.GetFirstName]'s army."
   zz_valyria_magic_shadow_magic_05.toast.tt:0 "$zz_valyria_magic_shadow_magic_05.toast.desc$"
 
+
+  \n\nThe use of the arcane forces of [shadow_magic|E] lowering the success chance of the chosen subject's schemes.
   zz_valyria_magic_shadow_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's nefarious plots and bluting their effectiveness. With this spell plots and schemes shall be negatively affected."
   ##Spell Options
   ## event
@@ -83,6 +94,8 @@ l_english:
   zz_valyria_magic_shadow_magic_06.toast.desc:0 "$zz_toast_01$ [shadow_magic|E], $zz_toast_02$ constraining the plots of [target.GetFirstName]."
   zz_valyria_magic_shadow_magic_06.toast.tt:0 "$zz_valyria_magic_shadow_magic_06.toast.desc$"
 
+
+  \n\nThe use of the arcane forces of [shadow_magic|E] weakening the defenses of the chosen subject against schemes.
   zz_valyria_magic_shadow_magic_07.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of seeding shadows within the mind and realm of a character. With this [zz_mystery|E] the target's realm will have weakened resistence to plots and schemes."
   ##Spell Options
   ## event
@@ -96,7 +109,7 @@ l_english:
   zz_valyria_magic_shadow_magic_07.toast.tt:0 "$zz_valyria_magic_shadow_magic_07.toast.desc$"
 
 
-
+  \n\nThe use of the arcane forces of [shadow_magic|E] decreasing the duration of schemes of the enemies of the selected subject.
   zz_valyria_magic_shadow_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of revealing the things that lurk in the dark. With this [zz_mystery|E] the target's shall be protected from plots and schemes."
   ##Spell Options
   ## event
@@ -111,6 +124,7 @@ l_english:
 
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike the selected subject.
   zz_valyria_magic_shadow_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$\n\nThe use of the arcane forces of [shadow_magic|E] to strike out a chosen victim, using the shadows in an attempt hide your culpability in their death."
   ## event
   zz_valyria_magic_shadow_magic.009.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_09_name$"
@@ -123,6 +137,7 @@ l_english:
   zz_valyria_magic_shadow_magic_09.toast.tt:0 "$zz_valyria_magic_shadow_magic_09.toast.desc$"
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike an army belonging to the selected subject.
   zz_valyria_magic_shadow_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike an army, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.010.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_10_name$"
@@ -136,6 +151,7 @@ l_english:
 
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike a MAA regiment belonging to the selected subject.
   zz_valyria_magic_shadow_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.011.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_11_name$"
@@ -148,6 +164,7 @@ l_english:
   zz_valyria_magic_shadow_magic_11.toast.tt:0 "$zz_valyria_magic_shadow_magic_11.toast.desc$"
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to directly empower the [prowess_i][prowess|E] of the selected subject.
   zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to enfuse a blade with the magics of shadow, ensuring greater success in the use of weapons. ."
   ## event
   zz_valyria_magic_shadow_magic.012.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
@@ -161,6 +178,7 @@ l_english:
 
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.
   zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.013.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
@@ -174,6 +192,7 @@ l_english:
 
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.
   zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
   ## event
   zz_valyria_magic_shadow_magic.014.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
@@ -188,6 +207,7 @@ l_english:
 
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to prevent the selected subject from miscasting.
   zz_valyria_magic_shadow_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_pcm$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, manifesting a barrier against their mistakes when manifesting mysteries."
   ## event
   zz_valyria_magic_shadow_magic.015.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_15_name$"
@@ -200,6 +220,7 @@ l_english:
   zz_valyria_magic_shadow_magic_15.toast.tt:0 "$zz_valyria_magic_shadow_magic_15.toast.desc$"
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to increase the fortication level of a province belonging to the selected subject.
   zz_valyria_magic_shadow_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to fortify a province, making it more resilient to actions from enemies."
   ## event
   zz_valyria_magic_shadow_magic.016.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_16_name$"
@@ -213,6 +234,7 @@ l_english:
 
 
   ## Interaction
+  \n\nThe use of the arcane forces of [shadow_magic|E] to decrease the fortication level of a province belonging to the selected subject.
   zz_valyria_magic_shadow_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_dsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to infest their defenses, reducing their capabilities to defend a chosen province from sieges."
   ## event
   zz_valyria_magic_shadow_magic.017.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_17_name$"
