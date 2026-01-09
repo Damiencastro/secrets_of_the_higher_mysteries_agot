@@ -209,27 +209,27 @@ l_english:
   zz_valyria_magic_fire_magic_15.toast.tt:0 "$zz_valyria_magic_fire_magic_15.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_fire_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
+  zz_valyria_magic_fire_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n$zz_ccf$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic.016.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_16_name$"
-  zz_valyria_magic_fire_magic.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.016.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [target.GetName], reducing men, supplies and hopes to a sludgy black ash."
   zz_valyria_magic_fire_magic.016.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.016.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_16.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_16_name$"
-  zz_valyria_magic_fire_magic_16.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_16.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [target.GetName]."
   zz_valyria_magic_fire_magic_16.toast.tt:0 "$zz_valyria_magic_fire_magic_16.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_fire_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
+  zz_valyria_magic_fire_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_dsp$\n$zz_ccf$\n\nThrough the arts of [fire_magic|E] you call forth a mighty wall of flame to protect [target.getname] from the assaults of your enemies.."
 
   ##event
   zz_valyria_magic_fire_magic.017.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_17_name$"
-  zz_valyria_magic_fire_magic.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You order an assault with a volley of flame, striking severa of the regiments of [recipient.GetName], reducing men, supplies and hopes to a sludgy black ash."
+  zz_valyria_magic_fire_magic.017.desc:0 "[secondary_recipient.GetName] stands ready to enact a mystery. \nThe manipulation of flame is an art as old as ancient Valyria. The dragon lords would command the flame in conjunction with their dragons, and it was always a potent weapon of war. You ring [target.GetName] will an oppressive wall of flame, reducing steadily the capability of the defenders to resist the assaults of your armies."
   zz_valyria_magic_fire_magic.017.opt.a:0 "Yes, reveal the secrets!"
   zz_valyria_magic_fire_magic.017.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_fire_magic_17.toast.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_17_name$"
-  zz_valyria_magic_fire_magic_17.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing several blasts of fire against the forces of [recipient.GetName]."
+  zz_valyria_magic_fire_magic_17.toast.desc:0 "$zz_toast_01$ [fire_magic|E], $zz_toast_02$ unleashing an insidious wall of flames around [target.GetName], reducing the resilience of this province to seiges."
   zz_valyria_magic_fire_magic_17.toast.tt:0 "$zz_valyria_magic_fire_magic_17.toast.desc$"

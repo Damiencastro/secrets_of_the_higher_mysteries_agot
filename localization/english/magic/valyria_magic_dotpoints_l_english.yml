@@ -20,7 +20,8 @@
   zz_dca:0 "$EFFECT_LIST_BULLET$Debuff Commanded Army"
   zz_bcm:0 "$EFFECT_LIST_BULLET$Buff Character Modifier"
   zz_dcm:0 "$EFFECT_LIST_BULLET$Debuff Character Modifier"
-  zz_bsp:0 "$EFFECT_LIST_BULLET$Buff Selected Province"
+  zz_bsp:0 "$EFFECT_LIST_BULLET$Buff Selected Province
+  zz_dsp:0 "$EFFECT_LIST_BULLET$Debuff Selected Province"
   zz_ld:0 "$EFFECT_LIST_BULLET$Low Damage"
   zz_md:0 "$EFFECT_LIST_BULLET$Moderate Damage"
   zz_sd:0 "$EFFECT_LIST_BULLET$Serious Damage"
@@ -33,7 +34,8 @@
   zz_as:0 "$EFFECT_LIST_BULLET$Add's Supply"
   zz_ve:0 "$EFFECT_LIST_BULLET$Variable Effect"
   zz_se:0 "$EFFECT_LIST_BULLET$Start Epidemic"
-  zz_ccd:0 "$EFFECT_LIST_BULLET$Effect Development"
+  zz_ccd:0 "$EFFECT_LIST_BULLET$Effect Development
+  zz_ccf:0 "$EFFECT_LIST_BULLET$Effect Fortification"
   zz_cccon:0 "$EFFECT_LIST_BULLET$Effect Control"
 
   zz_cca:0 "$EFFECT_LIST_BULLET$Change Character Age"
@@ -64,3 +66,5 @@
   zz_cdb:0 "$EFFECT_LIST_BULLET$Sacrifice Dragonbloods"
   zz_cccc:0 "$EFFECT_LIST_BULLET$Create Crafting Resources"
   zz_cwok:0 "$EFFECT_LIST_BULLET$Choice of Wound or Kill"
+` zz_pcm:0 "$EFFECT_LIST_BULLET$Prevent Character Miscast"
+  zz_hcm:0 "$EFFECT_LIST_BULLET$Rejuvenate Character Miscast Capacity"
