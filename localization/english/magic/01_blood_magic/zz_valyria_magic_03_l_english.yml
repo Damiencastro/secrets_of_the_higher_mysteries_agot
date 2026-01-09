@@ -265,7 +265,7 @@ l_english:
   zz_valyria_magic_blood_magic_16.toast.tt:0 "$zz_valyria_magic_blood_magic_16.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_blood_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$ \n\nA direct assault upon a chosen subject, stripping life and renewing the caster. \n\nThe most profane application of the arcane forces of [blood_magic|E], this rite reaches directly into the sanguine essence of a chosen victim. Through whispered High Valyrian invocations and the shedding of consecrated blood, the spell seeks to seize the living vitality bound within another’s veins, tearing strength, health, and fortune from them as one might draw breath from drowning lungs. What is taken is not merely physical vigor, but the unseen force that anchors body and spirit together."
+  zz_valyria_magic_blood_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$ \n\nThe use of the arcane forces of [blood_magic|E] to directly assault a chosen subject, stripping life and renewing the caster. \n\nThe most profane application of the arcane forces of [blood_magic|E], this rite reaches directly into the sanguine essence of a chosen victim. Through whispered High Valyrian invocations and the shedding of consecrated blood, the spell seeks to seize the living vitality bound within another’s veins, tearing strength, health, and fortune from them as one might draw breath from drowning lungs. What is taken is not merely physical vigor, but the unseen force that anchors body and spirit together."
 
   ##Spell Options
   ## event
@@ -287,7 +287,7 @@ l_english:
   zz_valyria_magic_blood_magic_17.tyranny:0 "Blood Magic increases Tyranny"
 
   ## Interaction
-  zz_valyria_magic_blood_magic_18.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$ \n\nEmpower the commanded troops of a chosen subject. \n\nThis forbidden application of the arcane forces of [blood_magic|E] reaches beyond flesh and bone, delving into the hidden architecture of life itself. Through ancient High Valyrian rites and the sacrificial spilling of blood, the spell temporarily reshapes the inherited essence of your soldiers, warping strength, endurance, and instinct at their source. What emerges is an army subtly rewritten—improved, hardened, and altered in ways unseen, their very blood carrying the echo of draconic mastery."
+  zz_valyria_magic_blood_magic_18.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bca$ \n\n The use of the arcane forces of [blood_magic|E] to empower the commanded troops of a chosen subject. \n\nThis forbidden application of the arcane forces of [blood_magic|E] reaches beyond flesh and bone, delving into the hidden architecture of life itself. Through ancient High Valyrian rites and the sacrificial spilling of blood, the spell temporarily reshapes the inherited essence of your soldiers, warping strength, endurance, and instinct at their source. What emerges is an army subtly rewritten—improved, hardened, and altered in ways unseen, their very blood carrying the echo of draconic mastery."
 
   ##Spell Options
   ## event
@@ -305,7 +305,7 @@ l_english:
   zz_valyria_magic_blood_magic_18_f.toast.tt:0 "$zz_valyria_magic_blood_magic_18_f.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_blood_magic_19.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ccs$ \n\nAlter the sex of a child unborn. \n\nThis subtle yet deeply transgressive working of the arcane forces of [blood_magic|E] reaches into the most fragile threshold of existence. Through carefully measured sacrifice and whispered High Valyrian formulae, the rite bends the hidden currents of inheritance itself, guiding the shape of life before it has fully taken form. Such power was once considered trivial by the dragonlords, yet even they recorded it with unease, for it alters destiny before the child has ever drawn breath."
+  zz_valyria_magic_blood_magic_19.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ccs$ \n\nThe use of the arcane forces of [blood_magic|E] to alter the sex of a child unborn. \n\nThis subtle yet deeply transgressive working of the arcane forces of [blood_magic|E] reaches into the most fragile threshold of existence. Through carefully measured sacrifice and whispered High Valyrian formulae, the rite bends the hidden currents of inheritance itself, guiding the shape of life before it has fully taken form. Such power was once considered trivial by the dragonlords, yet even they recorded it with unease, for it alters destiny before the child has ever drawn breath."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.019.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_19_name$"
@@ -324,7 +324,7 @@ l_english:
 
 
   ## Interaction
-  zz_valyria_magic_blood_magic_20.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ppw$\n\nThis solemn working of the arcane forces of [blood_magic|E] is meant to ward a mother from the perils of childbirth. \n\nThrough ancient High Valyrian rites and the careful spilling of sanctified blood, protective sigils are bound directly into the mother’s living essence. The magic interposes itself between life and death, guiding the body safely through the trial of birth.\n\nYet such protection is never freely given. While the mother is shielded from doom, the spell reaches also toward the unborn child, binding its fate to powers older than mercy. Blood magic can promise survival, but it cannot promise innocence, and what is spared in the mother may be claimed, subtly or otherwise, from the child she carries."
+  zz_valyria_magic_blood_magic_20.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_ppw$\n\n The use of the arcane forces of [blood_magic|E] to protect a mother from death in childbirth. \n\nThis solemn working of the arcane forces of [blood_magic|E] is meant to ward a mother from the perils of childbirth. \n\nThrough ancient High Valyrian rites and the careful spilling of sanctified blood, protective sigils are bound directly into the mother’s living essence. The magic interposes itself between life and death, guiding the body safely through the trial of birth.\n\nYet such protection is never freely given. While the mother is shielded from doom, the spell reaches also toward the unborn child, binding its fate to powers older than mercy. Blood magic can promise survival, but it cannot promise innocence, and what is spared in the mother may be claimed, subtly or otherwise, from the child she carries."
 
   ##Spell Options
   ## event
@@ -361,7 +361,7 @@ l_english:
 
 
   ## Interaction
-  zz_valyria_magic_blood_magic_22.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_clde$\n$zz_cdb$\n$zz_gis$\n\nGrant a chosen subject immortality \n\nThis ultimate and near-mythical application of the arcane forces of [blood_magic|E] seeks to unmoor a living being from the passage of time itself. The rite draws upon a vast and catastrophic well of sorcerous power, stabilized only through the sacrifice of multiple dragonbloods—each one a vessel of ancient fire and lineage.\n\nThrough High Valyrian invocations older than the Doom, the stolen lifeforce is gathered, refined, and violently bound into a single chosen subject. Their blood is rewritten as an eternal conduit, sustaining body and spirit beyond decay or age. Such a miracle grants unending life, but it forever marks the recipient as something altered—sustained not by nature, but by an atrocity remembered by the world."
+  zz_valyria_magic_blood_magic_22.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_clde$\n$zz_cdb$\n$zz_gis$\n\nThe use of the arcane forces of [blood_magic|E] to grant immortality \n\nGrant a chosen subject immortality \n\nThis ultimate and near-mythical application of the arcane forces of [blood_magic|E] seeks to unmoor a living being from the passage of time itself. The rite draws upon a vast and catastrophic well of sorcerous power, stabilized only through the sacrifice of multiple dragonbloods—each one a vessel of ancient fire and lineage.\n\nThrough High Valyrian invocations older than the Doom, the stolen lifeforce is gathered, refined, and violently bound into a single chosen subject. Their blood is rewritten as an eternal conduit, sustaining body and spirit beyond decay or age. Such a miracle grants unending life, but it forever marks the recipient as something altered—sustained not by nature, but by an atrocity remembered by the world."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.022.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_22_name$"
@@ -378,11 +378,12 @@ l_english:
   zz_valyria_magic_blood_magic_22_f.toast.tt:0 "$zz_valyria_magic_blood_magic_22_f.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_blood_magic_23.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse chosen with youthful vigour.\n\n Such magics keep the rigours of age at bay, but what truly is the worth of vigour without longevity?"
+  zz_valyria_magic_blood_magic_23.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [blood_magic|E] to infuse vigor to combat aging. \n\nThis insidious application of the arcane forces of [blood_magic|E] does not halt time, but defies it. Through ancient High Valyrian rites and the controlled offering of blood, youthful vigour is drawn forth and bound back into a body already claimed by the passing years.\n\nMuscle remembers forgotten strength, breath comes easier, and reflexes sharpen as though age itself has been momentarily deceived. Yet such magic does not restore what was lost—it replaces it with something unnatural. \n\nThe rigours of age are kept at bay, but the question lingers in every Valyrian text: what is the true worth of vigour, when the years it defies still wait patiently to reclaim their due?"
+
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.023.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_23_name$"
-  zz_valyria_magic_blood_magic.023.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose. Among the families of old Valyria fears about succession were rife. It is not surprising that they developed these rituals of youth. You can have [recipient.GetName] enfused with youthful energy, letting them fight as they did in their youth. But do you desire to play with life like this?"
+  zz_valyria_magic_blood_magic.023.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The blood glistens unnaturally, reflecting faces long past and moments already lost to time. The air thickens with whispered High Valyrian syllables—rites once spoken in marble halls by dragonlords who feared decline more than death.\nAmong the great families of old Valyria, anxieties over succession and fading strength were constant. In answer, they forged rituals of youth, arts meant to coax vigor back into aging flesh. These workings did not rewind time, but forced the body to *remember* what it once was, reigniting strength, speed, and ferocity through sorcerous deceit.\n\nNow is the moment to choose. You can have [recipient.GetFirstName] infused with stolen youthful energy, allowing them to fight and endure as they did in their prime. Yet such vitality is a mask stretched thin over mortality, and the blood remembers every lie it is made to tell. Do you truly desire to play with life in this way, knowing that age may yet return with compounded cruelty?"
   zz_valyria_magic_blood_magic.023.opt.a:0 "Yes, let their line be secure!"
   zz_valyria_magic_blood_magic.023.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -393,25 +394,26 @@ l_english:
 
 
   ## Interaction
-  zz_valyria_magic_blood_magic_24.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  zz_valyria_magic_blood_magic_24.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [learning_i][learning|E]. \n\nThis esoteric application of the arcane forces of [blood_magic|E] binds a living engine of improvement directly into the blood itself. Through High Valyrian rites of memory, lineage, and dominion, the subject’s mind is opened and reshaped, allowing knowledge to take root far beyond mortal limits.\n\nThe blood becomes a vessel of comprehension, ensuring the continuous and unnatural growth of the chosen subject’s [learning_i][learning|E]. Each passing year deepens their understanding, as forgotten lore, hidden patterns, and dangerous truths rise unbidden to the surface of their thoughts. What is learned is never forgotten, and what is forgotten may still whisper from within the veins."
+
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.024.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_24_name$"
-  zz_valyria_magic_blood_magic.024.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic.024.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The blood shivers as ancient High Valyrian words of remembrance and revelation are spoken, syllables once used to bind wisdom directly into flesh. Shadows lengthen, and the air hums with the weight of knowledge straining to be born.\nFor the Valyrians, it was possible to infuse an individual with an essence of understanding, a distilled force of insight that would build endlessly upon their [learning_i][learning|E]. Such power did not rely on study alone; it compelled the mind to grow, forcing comprehension, perception, and realization to unfold at a constant and relentless pace.\nNow is the moment to choose. To transform the very essence of life within [recipient.GetFirstName], expanding their [learning_i][learning|E] beyond natural bounds. To set their blood upon a path of ceaseless intellectual ascent, letting them grow with time into a more capable and effective individual. This rite is profoundly unnatural, a violation of the quiet limits placed upon mortal understanding—but do you wish to proceed, and bind their mind to knowledge that may never again let them rest?"
   zz_valyria_magic_blood_magic.024.opt.a:0 "Yes, enrich their blood with magic!"
   zz_valyria_magic_blood_magic.024.opt.z:0 "No, do not cast!"
   ## Spell Toast
   zz_valyria_magic_blood_magic_24.toast.t:0  "[blood_magic|E] - $zz_valyria_magic_blood_magic_24_name$"
-  zz_valyria_magic_blood_magic_24.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
+  zz_valyria_magic_blood_magic_24.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the [learning_i][learning|E] of [recipient.GetFirstName]."
   zz_valyria_magic_blood_magic_24.toast.tt:0 "$zz_valyria_magic_blood_magic_24.toast.desc$"
 
 
   ## Interaction
-  zz_valyria_magic_blood_magic_25.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  zz_valyria_magic_blood_magic_25.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [diplomacy_i][diplomacy|E]. \n\nThis subtle and insidious application of [blood_magic|E] reshapes not muscle or bone, but the currents of influence that flow through blood and breath alike. Through ancient High Valyrian rites of voice, bearing, and command, the chosen subject’s presence is altered at its source.\n\nA force of improvement is bound directly into the blood itself, ensuring a continuous and unnatural growth in the subject’s [diplomacy_i][diplomacy|E]. Words carry greater weight, gazes linger longer, and even silence becomes persuasive. Over time, the blood remembers how to bend others, and the art of influence grows without effort or restraint."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.025.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_25_name$"
-  zz_valyria_magic_blood_magic.025.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic.025.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The blood glimmers faintly as High Valyrian syllables of dominion and accord are whispered, each one a relic of an age when empires were ruled as much by words as by fire. The air grows close, heavy with unspoken pressure, as if the chamber itself were listening.\nIn lost Valyria, diplomats were not merely trained—they were forged. Through blood and spell, individuals were infused with a sorcerous charm that seeped into every gesture and utterance, causing their [diplomacy_i][diplomacy|E] to grow at a constant and unnatural rate. Others found themselves swayed without understanding why, their wills softened by forces buried deep within another’s veins.\nNow is the moment to choose. To transform the very essence of life within [recipient.GetFirstName], expanding their [diplomacy_i][diplomacy|E] beyond mortal bounds. To let them grow with time into a more capable and effective individual, one whose influence deepens with every passing year. Such power is profoundly unnatural, a quiet violation of free will and fate alike—but do you wish to proceed, and bind their blood to the art of command?"
   zz_valyria_magic_blood_magic.025.opt.a:0 "Yes, enrich their blood with magic!"
   zz_valyria_magic_blood_magic.025.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -420,12 +422,13 @@ l_english:
   zz_valyria_magic_blood_magic_25.toast.tt:0 "$zz_valyria_magic_blood_magic_25.toast.desc$"
 
 
+  \n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [stewardship_i][stewardship|E]. 
   ## Interaction
-  zz_valyria_magic_blood_magic_26.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  zz_valyria_magic_blood_magic_26.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [stewardship_i][stewardship|E].  \n\nThrough the forbidden disciplines of [blood_magic|E], the very blood of the chosen subject is rewritten as a living ledger of order and command. Ancient Valyrian sigils are bound into their veins, compelling flesh and thought alike toward balance, calculation, and dominion over resources.\n\nThis rite binds an ever-growing current of unnatural aptitude into the blood itself, ensuring the chosen subject’s [stewardship_i][stewardship|E] will deepen and expand with each passing year. Yet such perfection of administration was never meant for mortal minds, and the blood remembers every change made to it."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.026.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_26_name$"
-  zz_valyria_magic_blood_magic.026.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic.026.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The air grows heavy, thick with the iron-sweet scent of sacrifice and the whisper of forgotten High Valyrian invocations. Shadows cling to the walls as if listening.\n\nIn the empire of the Dragonlords, governance was not entrusted to chance or birth alone. Those destined to rule ledgers and provinces were reforged through blood. Administrators were unmade and remade, their veins etched with sigils of order, abundance, and control, so their [stewardship_i][stewardship|E] would grow beyond mortal limitation.\n\nNow is the moment to choose. You may transform the essence of life within [recipient.GetFirstName], binding their blood to a relentless ascent of [stewardship_i][stewardship|E], year upon year. They will grow ever more capable, ever more precise—but such growth is unnatural, and the blood never forgets the hand that shaped it. Do you truly wish to proceed?"
   zz_valyria_magic_blood_magic.026.opt.a:0 "Yes, enrich their blood with magic!"
   zz_valyria_magic_blood_magic.026.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -433,12 +436,14 @@ l_english:
   zz_valyria_magic_blood_magic_26.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
   zz_valyria_magic_blood_magic_26.toast.tt:0 "$zz_valyria_magic_blood_magic_26.toast.desc$"
 
+
+  
   ## Interaction
-  zz_valyria_magic_blood_magic_27.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  zz_valyria_magic_blood_magic_27.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [intrigue_i][intrigue|E]. \n\nThrough this forbidden application of [blood_magic|E], a hidden current of power is bound directly into the blood itself. Ancient sigils are etched into the soul through sacrifice, ensuring that the chosen subject’s [intrigue_i][intrigue|E] grows steadily and inexorably with time.\n\nSuch workings were vital to the survival of the Valyrian Freehold, where whispers, secrets, and unseen knives decided the fate of dynasties as surely as dragons. The blood remembers every lesson, every deception, and every shadowed truth."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.027.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_27_name$"
-  zz_valyria_magic_blood_magic.027.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic.027.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The air grows heavy with half-heard whispers, as though unseen witnesses lean closer to observe the rite. In Valyria of old, [intrigue_i][intrigue|E] was not merely a talent, but a necessity for survival among rival houses and plotting dragonlords.\nSuch knowledge could not be entrusted to chance or slow experience alone. Thus, the blood mages devised profane rites, binding cunning, suspicion, and foresight into the very lifeblood of their chosen subjects. With each passing year, the blood itself would teach, adapt, and sharpen the mind.\n\nNow is the moment to choose. You may transform the essence of life within [recipient.GetFirstName], reinforcing their [intrigue_i][intrigue|E] and allowing it to grow unnaturally with time. It is a violation of nature and fate alike — but do you wish to proceed?"
   zz_valyria_magic_blood_magic.027.opt.a:0 "Yes, enrich their blood with magic!"
   zz_valyria_magic_blood_magic.027.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -446,13 +451,13 @@ l_english:
   zz_valyria_magic_blood_magic_27.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
   zz_valyria_magic_blood_magic_27.toast.tt:0 "$zz_valyria_magic_blood_magic_27.toast.desc$"
 
-
+  
   ## Interaction
-  zz_valyria_magic_blood_magic_28.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  zz_valyria_magic_blood_magic_28.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [martial_i][martial|E]. \n\nThis rite is ause of the arcane forces of [blood_magic|E] to bind a living momentum of conquest into the blood itself. Through sigils older than stone and words once spoken only beneath dragonflame, the chosen subject’s very humours are rewritten. \n\nThis rite ensures the continuous growth in the chosen subject's [martial_i][martial|E], as instinct, discipline, and ruthless clarity are etched into their veins. Such magics helped forge the mighty leaders of the dragonlords—commanders of armies, breakers of hosts, and builders of empires whose wills bent battle itself."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.028.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_28_name$"
-  zz_valyria_magic_blood_magic.028.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic.028.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The air grows heavy with the weight of ancient wars, and whispers of long-dead conquerors seem to circle unseen. \n\nIn Valyria, warfare was the vocation of the nation. Generals and commanders were essential to the endless expansion of the Freehold, and their talents could not be left to fate alone. By arcane rites and blood-wrought oaths, it was possible to shape an individual's [martial_i][martial|E], forcing wisdom of war and hunger for victory into their very essence. Such powers proved vital in forging the mightiest empire known to the world. \n\nNow is the moment to choose. To transform the essence of life within [recipient.GetFirstName] and let their [martial_i][martial|E] grow year upon year, guided by an unnatural hand. To let them ripen with time into a more capable and effective instrument of war. It is unnatural—but do you wish to proceed?"
   zz_valyria_magic_blood_magic.028.opt.a:0 "Yes, enrich their blood with magic!"
   zz_valyria_magic_blood_magic.028.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -460,12 +465,13 @@ l_english:
   zz_valyria_magic_blood_magic_28.toast.desc:0 "$zz_toast_01$ [blood_magic], $zz_toast_02$ empowering the blood of [recipient.GetFirstName]."
   zz_valyria_magic_blood_magic_28.toast.tt:0 "$zz_valyria_magic_blood_magic_28.toast.desc$"
 
+  
   ## Interaction
-  zz_valyria_magic_blood_magic_29.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to bind a force of improvement to the blood itself. This shall ensure the continuous growth in capabilities of the chosen subject."
+  zz_valyria_magic_blood_magic_29.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_eb$\n\nThe use of the arcane forces of [blood_magic|E] to increase a chosen subject’s [prowess_i][prowess|E]. \n\nThis rite uses the arcane forces of [blood_magic|E] to bind raw physical dominion into the blood itself. Through cruel refinement and forbidden harmonies of flesh and will, the subject is reshaped beyond mortal limits. \n\nThis rite ensures the continuous growth in the chosen subject's [prowess_i][prowess|E]. Such rituals helped correct the flaws of nature when forming the dragonlords, allowing strength, endurance, and lethal grace to be kindled by magic. To wield a warrior thus altered was considered a supreme utility of the old blood mages."
   ##Spell Options
   ## event
   zz_valyria_magic_blood_magic.029.t:0 "[blood_magic|E] - $zz_valyria_magic_blood_magic_29_name$"
-  zz_valyria_magic_blood_magic.029.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. \nNow is the moment to choose, To transform the essence of life within [recipient.GetName] and empower thier existance. To let them grow with time into a more calpable and effective individual. It is unnatural, but do you wish to proceed?"
+  zz_valyria_magic_blood_magic.029.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nAs freely shed blood begins to flow from their veins, a dark and unsettling energy takes the room. The shadows seem to tense, as if anticipating violence yet to come. \n\nOld Valyria was a warrior nation—built upon fire, but even more so upon blood. The blood mages shaped rites to correct the failures of nature when it came to forming warriors worthy of dragonlords. Arcane invocations and shadowed rituals tore at the limits of flesh, allowing a subject’s [prowess_i][prowess|E] to grow far beyond their natural endowments, fed by sorcery and suffering alike. \n\nNow is the moment to choose. To transform the essence of life within [recipient.GetFirstName] and empower their [prowess_i][prowess|E], binding relentless strength to their future. To let them grow with time into a more capable and effective instrument of violence. It is unnatural—but do you wish to proceed?"
   zz_valyria_magic_blood_magic.029.opt.a:0 "Yes, enrich their blood with magic!"
   zz_valyria_magic_blood_magic.029.opt.z:0 "No, do not cast!"
   ## Spell Toast
