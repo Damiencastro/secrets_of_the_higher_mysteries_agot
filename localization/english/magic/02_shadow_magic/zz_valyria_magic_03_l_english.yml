@@ -67,12 +67,12 @@ l_english:
   zz_valyria_magic_shadow_magic_04.toast.tt:0 "$zz_valyria_magic_shadow_magic_04.toast.desc$"
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] slowing armies commanded by the chosen subject.
-  zz_valyria_magic_shadow_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of the arcane forces of [shadow_magic|E] slowing armies commanded by the chosen subject.\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's army in grasping hands of shadow, restricting movement, and slowing its progression"
+  zz_valyria_magic_shadow_magic_05.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dca$\\n\nThe use of the arcane forces of [shadow_magic|E] slowing armies commanded by the chosen subject. n\nThrough the baleful applications of [shadow_magic|E], the darkness itself is taught to grasp and hinder. Shadows stretch beyond their bounds, reaching for marching feet and tightening around banners and blades alike.\n\nThe use of [shadow_magic|E] is capable of seizing a chosen character's army in grasping hands of living shadow. Paths lengthen, strides falter, and progress slows to a suffocating crawl as unseen restraints coil about every step, dragging the host into a reluctant, creeping advance."
+
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.005.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_05_name$"
-  zz_valyria_magic_shadow_magic.005.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. By coiling chains of raw shadow, the ability of [recipient.GetFirstName]'s forces to mobilise can be impaired. Such an action is to invite the shadows to restrain men, and is such an act truly one of virtue?"
+  zz_valyria_magic_shadow_magic.005.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It twists and knots like a mass of coiling limbs, heavy with malice. The shadow mages of Valyria long ago learned to wield such darkness as a weapon, afflicting the armies of their enemies with delay and disorder drawn from the inky blackness between moments.\n\nIn these fell workings, shadows were shaped into chains and grasping hands, clutching at ranks and supply lines alike. Marches became ordeals, commands went unanswered, and whole hosts found themselves mired as if the land itself had turned against them.\n\nNow is the moment to choose. By binding coils of raw shadow, you may impair the ability of [recipient.GetFirstName]'s forces to mobilise, slowing their advance and sapping their momentum. Yet to invite the darkness to restrain mortal men is to grant it power over flesh and will alike. Such an act may win wars—but is it truly one of virtue?"
   zz_valyria_magic_shadow_magic.005.opt.a:0 "Yes, The shadows tie!"
   zz_valyria_magic_shadow_magic.005.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -81,12 +81,13 @@ l_english:
   zz_valyria_magic_shadow_magic_05.toast.tt:0 "$zz_valyria_magic_shadow_magic_05.toast.desc$"
 
 
-  \n\nThe use of the arcane forces of [shadow_magic|E] lowering the success chance of the chosen subject's schemes.
-  zz_valyria_magic_shadow_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's nefarious plots and bluting their effectiveness. With this spell plots and schemes shall be negatively affected."
+  
+  zz_valyria_magic_shadow_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of the arcane forces of [shadow_magic|E] lowering the success chance of the chosen subject's schemes.\\n\nThrough the perverse inversion of [shadow_magic|E], the darkness is commanded to betray its own kind. Shadows turn against hidden intent, thickening around whispered plans and smothering them before they can take form.\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's nefarious plots and bluting their effectiveness. With this spell plots and schemes shall be negatively affected, their precision dulled and their momentum choked, as if every secret is weighed down by watching, uncooperative gloom."
+
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.006.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_06_name$"
-  zz_valyria_magic_shadow_magic.006.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. You could reduce the hidden blades of [recipient.GetFirstName] to mere shadows of their true nature. Taking the knife hidden in the darkness, and turning it's blade to a thing of mere shadow and vapour. But is it wise to trust one's security to the shadows?"
+  zz_valyria_magic_shadow_magic.006.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It lies heavy and inert, resistant rather than eager. If shadows can enhance the hidden blade, then they may also be unmade into tools of impediment—rotting secrecy itself and reducing the effectiveness of all things that move unseen.\n\nAmong the shadow mages who once dwelt within the Freehold, it was not uncommon to armour oneself in shadow, layering eldritch protections upon flesh and fate alike. Such wards did not merely deflect daggers; they caused hidden blades to falter, strikes to mistime, and conspiracies to collapse under their own obscured weight.\n\nNow is the moment to choose. You may reduce the hidden blades of [recipient.GetFirstName] to mere shadows of their true nature, taking the knife drawn from darkness and rendering its edge little more than vapour and doubt. Yet to trust one's security to the shadows is to invite them close—too close. They will blunt the blade, yes, but they will also listen. But is such trust truly wise?"
   zz_valyria_magic_shadow_magic.006.opt.a:0 "Yes, I trust the shadows!"
   zz_valyria_magic_shadow_magic.006.opt.z:0 "No, do not cast!"
   ## Spell Toast
