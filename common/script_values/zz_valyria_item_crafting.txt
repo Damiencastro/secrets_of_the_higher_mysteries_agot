@@ -62,42 +62,33 @@ zz_modifier_diplomacy_range_mult_cost= {
 }
 
 zz_item_vs_sword_cost= {
-	value = 250
+	value = 750
 }
 zz_item_dragonbone_bow_cost= {
-	value = 250
+	value = 750
 }
 zz_item_vs_armour_cost= {
-	value = 1000
+	value = 3000
 }
 
 zz_item_vs_ring_cost= {
-	value = 300
-}
-zz_item_dragon_saddle_01_cost = {
-	value = 500
-}
-zz_item_dragon_saddle_02_cost = {
-	value = 600
-}
-zz_item_dragon_saddle_03_cost = {
-	value = 750
+	value = 900
 }
 
 zz_item_glass_candle_cost = {
-	value = 500
+	value = 4500
 }
 
 zz_item_dragon_horn_cost = {
-	value = 1500
+	value = 4500
 }
 
 zz_item_crown_cost = {
-	value = 2000
+	value = 6000
 }
 
 zz_item_rod_cost = {
-	value = 2500
+	value = 7500
 }
 
 
