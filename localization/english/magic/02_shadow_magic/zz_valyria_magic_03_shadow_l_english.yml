@@ -110,12 +110,12 @@ l_english:
   zz_valyria_magic_shadow_magic_07.toast.tt:0 "$zz_valyria_magic_shadow_magic_07.toast.desc$"
 
 
-  \n\nThe use of the arcane forces of [shadow_magic|E] decreasing the duration of schemes of the enemies of the selected subject.
-  zz_valyria_magic_shadow_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of [shadow_magic|E] is capable of revealing the things that lurk in the dark. With this [zz_mystery|E] the target's shall be protected from plots and schemes."
+  
+  zz_valyria_magic_shadow_magic_08.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_bcm$\n\nThe use of the arcane forces of [shadow_magic|E] decreasing the duration of schemes of the enemies of the selected subject.\n\nThrough a perilous inversion of [shadow_magic|E], the darkness is compelled to withdraw rather than conceal. Shadows are stripped from hidden designs, exposing their outlines and forcing them to race toward conclusion before they are ready.\n\nThe use of [shadow_magic|E] is capable of revealing the things that lurk in the dark. With this [zz_mystery|E], the schemes of the enemies of the chosen subject are driven forward with unnatural haste, advancing rapidly as secrecy collapses and conspirators are denied the safety of patience."
   ##Spell Options
   ## event
   zz_valyria_magic_shadow_magic.008.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_08_name$"
-  zz_valyria_magic_shadow_magic.008.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. It is possible to make the shadows flee from [recipient.GetFirstName], to leave the plots and schemes of their enemies hindered. Shall we use the shadows themselves to protect from the knife hidden in the dusk?"
+  zz_valyria_magic_shadow_magic.008.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. Yet this time it recoils when named, shuddering as if wounded. In lost Valyria, the mightiest shadow mages knew that darkness could be made not only to hide, but to flee—its sudden absence forcing secrets into motion.\n\nIn such rites, shadows were torn away from schemes and cloaks of inky blackness unraveled. Deprived of concealment, plots were driven to proceed with reckless speed, maturing too quickly, revealing their shape before they were honed. Many a conspiracy perished not by discovery, but by being rushed into the open.\n\nNow is the moment to choose. You may force the shadows to withdraw from [recipient.GetFirstName], compelling the schemes of their enemies to advance with unnatural rapidity, stripped of patience and care.\n\nYet this is a dangerous mercy. A hastened blade still cuts, and a revealed plot may strike sooner than expected. Shall we truly use the shadows themselves to protect against the knife hidden in the dusk?"
   zz_valyria_magic_shadow_magic.008.opt.a:0 "Yes, Keep them secure!"
   zz_valyria_magic_shadow_magic.008.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -125,11 +125,10 @@ l_english:
 
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike the selected subject.
-  zz_valyria_magic_shadow_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$\n\nThe use of the arcane forces of [shadow_magic|E] to strike out a chosen victim, using the shadows in an attempt hide your culpability in their death."
+  zz_valyria_magic_shadow_magic_09.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_cwok$\n\nThe use of the arcane forces of [shadow_magic|E] to directly strike the selected subject. \n\nThrough one of the darkest applications of [shadow_magic|E], the shadows are shaped into instruments of silent death. Guilt is unmoored from action, and causality itself is obscured as the darkness is taught to strike where no hand may be seen.\n\nThis use of the shadows calls them forth to pool around the caster, thick and suffocating, drawing upon the esoteric powers that dwell in the gaps between moments and intentions. From this gathering gloom, crackling bolts of eldritch shadow are loosed, leaping toward their victim with lethal purpose, leaving behind only uncertainty, fear, and unanswered questions."
   ## event
   zz_valyria_magic_shadow_magic.009.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_09_name$"
-  zz_valyria_magic_shadow_magic.009.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. It is possible to conjure from the shadows a creature of the blade, one that will seek to end the life of [recipient.GetFirstName]. Such an action carries risk, but is possible you might just be able to keep secret your act of murder."
+  zz_valyria_magic_shadow_magic.009.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It pulses like a living thing, eager and impatient. The shadow mages of Valyria were not beyond wielding such creeping darkness as an implement of far‑reaching violence, conjuring raw, writhing shadow and setting it loose to hunt an unfortunate victim.\n\nIn these forbidden rites, the shadows were given fleeting shape and murderous intent—creatures of absence and hunger, formed only long enough to strike. They moved without footfall, without witness, and when their work was done they unraveled, leaving no blade to trace and no hand to blame.\n\nNow is the moment to choose. You may conjure from the shadows a creature of the blade, one that will seek to end the life of [recipient.GetFirstName]. Such an action is fraught with peril, for shadows are fickle servants, and secrets are never as secure as they seem.\n\nYet if the darkness is sated and the rite precisely bound, it may be possible to keep your act of murder hidden, buried in the silence between light and night. But can any killing wrought by shadow truly remain unseen forever?"
   zz_valyria_magic_shadow_magic.009.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.009.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -138,11 +137,10 @@ l_english:
   zz_valyria_magic_shadow_magic_09.toast.tt:0 "$zz_valyria_magic_shadow_magic_09.toast.desc$"
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike an army belonging to the selected subject.
-  zz_valyria_magic_shadow_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike an army, seeking their utter ruin."
+  zz_valyria_magic_shadow_magic_10.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_ta$\n$zz_da$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to directly strike an army belonging to the selected subject. \n\nThrough the most ruinous expressions of [shadow_magic|E], the shadows are unleashed not as subtle agents, but as engines of obliteration. Darkness is gathered, shaped, and hurled forth to fall upon an enemy host with merciless intent.\n\nThe use of the arcane forces of [shadow_magic|E] allows the caster to strike directly at an army, seeking not delay or confusion, but utter ruin. Shields blacken, formations fracture, and courage withers as the light itself is devoured.\n\nThis secret and dread art calls forth bolts of shadowy sorcery, tearing open a passage to a realm of horror and despair. From this abyss the shadows surge, dragging the forces of your chosen subject into suffocating darkness as the night itself seeks to unmake them."
   ## event
   zz_valyria_magic_shadow_magic.010.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_10_name$"
-  zz_valyria_magic_shadow_magic.010.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\n With the shadows aligned you could draw forth an umbral blast, consuming the light and strike one of the armies of [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic.010.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It deepens unnaturally, as though the world itself is thinning. Among common soldiers, the most terrifying tales whispered of Valyrian shadow mages spoke of entire hosts swallowed by an abyss of twisting darkness, consumed body and soul, leaving only silence where banners once stood.\n\nSuch magic was not subtle, nor merciful. The shadows were torn wide, shaped into a ravenous void that drank light, sound, and hope alike. Those caught within were said to march no more, their names erased as thoroughly as their forms.\n\nNow is the moment to choose.\nWith the shadows aligned and bound to your will, you may draw forth a hungry abyss and strike one of the armies of [recipient.GetFirstName], casting it into a realm of terror and despair where the darkness itself labours to ruin all that enters.\n\nYet this is destruction writ large, a reminder of the hubris that doomed Valyria itself. Once loosed, such shadows are difficult to recall. Are you prepared to unleash a power that remembers how empires fall?"
   zz_valyria_magic_shadow_magic.010.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.010.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -153,7 +151,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike a MAA regiment belonging to the selected subject.
-  zz_valyria_magic_shadow_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
+  zz_valyria_magic_shadow_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to directly strike a MAA regiment belonging to the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
   ## event
   zz_valyria_magic_shadow_magic.011.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_11_name$"
   zz_valyria_magic_shadow_magic.011.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
@@ -166,7 +164,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to directly empower the [prowess_i][prowess|E] of the selected subject.
-  zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to enfuse a blade with the magics of shadow, ensuring greater success in the use of weapons. ."
+  zz_valyria_magic_shadow_magic_12.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$  \n\nThe use of the arcane forces of [shadow_magic|E] to directly empower the [prowess_i][prowess|E] of the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to enfuse a blade with the magics of shadow, ensuring greater success in the use of weapons.."
   ## event
   zz_valyria_magic_shadow_magic.012.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_12_name$"
   zz_valyria_magic_shadow_magic.012.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. By pulling forth the shadows, it is possible to distill the shadowy essence and let it rest within the weapon of [recipient.GetFirstName]. This will ensure in their next single battle that their blade will not fail them."
@@ -180,7 +178,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.
-  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
+  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to weaken a character in direct combat.."
   ## event
   zz_valyria_magic_shadow_magic.013.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
   zz_valyria_magic_shadow_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
@@ -194,7 +192,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.
-  zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
+  zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
   ## event
   zz_valyria_magic_shadow_magic.014.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
   zz_valyria_magic_shadow_magic.014.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. \nIt is possible to wipe away the magical mistakes of [recipient.GetFirstName]."

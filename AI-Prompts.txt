@@ -11,9 +11,7 @@ Please expand the following event description, focusing on High Valyrian Mystici
 
 Please help expand these shadow magic elements for a game modification focusing on the Magics of Valyria from A Game of Thrones. 
 
-
 Please expand the following action tooltip, focusing on High Valyrian Mysticism and supernatural horror while preserving the localisation placeholders and newline formatting: 
-
 
 
 Please expand the following event description, focusing on High Valyrian Mysticism and supernatural horror while preserving the localisation placeholders and newline formatting: 
