@@ -1,0 +1,63 @@
+A mod that adds an item crafting and a Magic system to AGOT.
+
+Adds some tweaks to how Dragon code behaves, notably, with respect to growth, and Dragon longevity.
+
+Some things may be buggy at the moment. Will be worked on overtime.
+
+If anyone wants to offer some trait icon art, it would be deeply appreciated.
+
+I welcome any suggestions for making the UI more intuitive.
+
+As this mod edits the UI, it is important to load it low in your mod list.
+
+Current Features Magic:
+- Adds a large scale magic system, with a total of 8 distinct disciplines of magic.
+- Adds a new activity to explore your magical abilities and discover new mysteries.
+- Each discipline of magic has at least 17 mysteries.
+- All mysteries scale with caster ability
+- Uncapped Caster skills, Different masters will have different level of abilities.
+- Scroll Creating System lets you make a magic scroll of every known mystery for gold.
+- Comprehensive Magic Teaching System, lets you teach additional mages.
+- Dynamic Mage usage. You are ability to use mages in your realm to cast mysteries for you.
+- Scaling Magical skills. Your mysteries grow in potency based on the respective discipline skill.
+- Miscast system, your skill in magic broadly, determines whether or not your magic will miscast and cause the caster harm.
+
+Current Features Item Crafting:
+- Create multiple different types of items, with the possibility of enchanting items with various bonuses and modifiers.
+- Choose from all of the AGOT swords the cosmetic you want your crafted blade to have.
+- Scaling bonuses based on the crafting character's ability in magic.
+
+
+Most Recent Change
+- New UI element to show drops of power in your realm, done by Taelwynn.
+
+This mod edits the following AGOT base mod files. It is thus incompatible with any mod that edits these files.
+
+## Common
+
+common/scripted_effects/00_agot_dragon_effects.txt
+common/scripted_effects/00_agot_dragon_warfare_effects.txt
+common/scripted_triggers/20_health_triggers.txt
+
+# Events
+
+events/agot_events/agot_dragon_combat_events.txt
+events/birth_events.txt
+events/health_events.txt
+events/pregnancy_events.txt
+events/single_combat_events.txt
+
+# UI
+
+gui/hud.gui
+gui/interaction_menu_window.gui
+gui/window_inventory.gui
+
+# Additional Credits
+
+Base game version of this mod can be found
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3611795747
+
+
+Update command steamcmd +login annullus January1649 +workshop_build_item /home/mcliff/steamcmd/SOTHM-AGOT.vdf

@@ -82,7 +82,7 @@ l_english:
 
 
   
-  zz_valyria_magic_shadow_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of the arcane forces of [shadow_magic|E] lowering the success chance of the chosen subject's schemes.\\n\nThrough the perverse inversion of [shadow_magic|E], the darkness is commanded to betray its own kind. Shadows turn against hidden intent, thickening around whispered plans and smothering them before they can take form.\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's nefarious plots and bluting their effectiveness. With this spell plots and schemes shall be negatively affected, their precision dulled and their momentum choked, as if every secret is weighed down by watching, uncooperative gloom."
+  zz_valyria_magic_shadow_magic_06.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_dcm$\n\nThe use of the arcane forces of [shadow_magic|E] lowering the success chance of the chosen subject's schemes.\n\nThrough the perverse inversion of [shadow_magic|E], the darkness is commanded to betray its own kind. Shadows turn against hidden intent, thickening around whispered plans and smothering them before they can take form.\n\nThe use of [shadow_magic|E] is capable of grasping a chosen character's nefarious plots and bluting their effectiveness. With this spell plots and schemes shall be negatively affected, their precision dulled and their momentum choked, as if every secret is weighed down by watching, uncooperative gloom."
 
   ##Spell Options
   ## event
@@ -151,10 +151,10 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to directly strike a MAA regiment belonging to the selected subject.
-  zz_valyria_magic_shadow_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to directly strike a MAA regiment belonging to the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to strike a regiment, seeking their utter ruin."
+  zz_valyria_magic_shadow_magic_11.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to directly strike a MAA regiment belonging to the selected subject.\n\nThe the shadows rise with an unspeakable hunger, They twist and they churn, their deep and desiring hunger becoming palpable, as the world turns their desire becomes manifest. They leap forth, biting, screaming, twisting, as they take a chosen regiment and seek to draw it into the abyss of the shadows."
   ## event
   zz_valyria_magic_shadow_magic.011.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_11_name$"
-  zz_valyria_magic_shadow_magic.011.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic.011.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\nWith the aid of these shadowy beasts it is possible to draw forth a twisted abomination, that consumes the light itself, its gaping maw seeking to consume one of the regiments of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.011.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.011.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -178,7 +178,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.
-  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThe use of the arcane forces of [shadow_magic|E] to weaken a character in direct combat.."
+  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$  \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to weaken a character in direct combat.."
   ## event
   zz_valyria_magic_shadow_magic.013.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
   zz_valyria_magic_shadow_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
@@ -207,7 +207,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to prevent the selected subject from miscasting.
-  zz_valyria_magic_shadow_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_pcm$\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, manifesting a barrier against their mistakes when manifesting mysteries."
+  zz_valyria_magic_shadow_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_pcm$\n\nThe use of the arcane forces of [shadow_magic|E] to prevent the selected subject from miscasting.\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, manifesting a barrier against their mistakes when manifesting mysteries."
   ## event
   zz_valyria_magic_shadow_magic.015.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_15_name$"
   zz_valyria_magic_shadow_magic.015.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. \nIt is possible to provide a ward against magical mishaps to [recipient.GetFirstName]."
@@ -220,7 +220,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to increase the fortication level of a province belonging to the selected subject.
-  zz_valyria_magic_shadow_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to fortify a province, making it more resilient to actions from enemies."
+  zz_valyria_magic_shadow_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to increase the fortication level of a province belonging to the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to fortify a province, making it more resilient to actions from enemies."
   ## event
   zz_valyria_magic_shadow_magic.016.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_16_name$"
   zz_valyria_magic_shadow_magic.016.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. \nIt is possible to form a defensive barrier to protetect [target.GetName]."
@@ -234,7 +234,7 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to decrease the fortication level of a province belonging to the selected subject.
-  zz_valyria_magic_shadow_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_dsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to infest their defenses, reducing their capabilities to defend a chosen province from sieges."
+  zz_valyria_magic_shadow_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_dsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to decrease the fortication level of a province belonging to the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to infest their defenses, reducing their capabilities to defend a chosen province from sieges."
   ## event
   zz_valyria_magic_shadow_magic.017.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_17_name$"
   zz_valyria_magic_shadow_magic.017.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. \nIt is possible to wipe away the defences of [target.GetName] preparing the province for invasion."

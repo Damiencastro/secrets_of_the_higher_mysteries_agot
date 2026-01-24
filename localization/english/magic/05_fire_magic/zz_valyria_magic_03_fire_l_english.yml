@@ -183,7 +183,7 @@ l_english:
   zz_valyria_magic_fire_magic_13.toast.tt:0 "$zz_valyria_magic_fire_magic_13.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_fire_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
+  zz_valyria_magic_fire_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic.014.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_14_name$"
@@ -196,7 +196,7 @@ l_english:
   zz_valyria_magic_fire_magic_14.toast.tt:0 "$zz_valyria_magic_fire_magic_14.toast.desc$"
 
   ## Interaction
-  zz_valyria_magic_fire_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dr$\n$zz_ld$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
+  zz_valyria_magic_fire_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_pcm$\n\nThrough the arts of [fire_magic|E] it is possible to unleash several volleys of pure flame upon the elite soldiers of your enemy.."
 
   ##event
   zz_valyria_magic_fire_magic.015.t:0 "[fire_magic|E] - $zz_valyria_magic_fire_magic_15_name$"

@@ -204,7 +204,7 @@ zz_valyria_magic_shadow_magic_08_modifier = {
 		value = zz_valyria_magic_shadow_magic_04_value
 		#desc = MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS
 		display_mode = scaled
-	}
+	} 
 }
 
 zz_valyria_magic_shadow_magic_12_modifier = {

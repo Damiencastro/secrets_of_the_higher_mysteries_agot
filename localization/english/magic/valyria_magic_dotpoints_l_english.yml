@@ -1,12 +1,12 @@
 ﻿l_english:
   zz_dop:0 "$EFFECT_LIST_BULLET$Uses [drops_of_power|E]"
-  zz_tc:0 "$EFFECT_LIST_BULLET$Target's Character"
-  zz_ta:0 "$EFFECT_LIST_BULLET$Target's Army"
-  zz_tr:0 "$EFFECT_LIST_BULLET$Target's Regiment"
-  zz_tp:0 "$EFFECT_LIST_BULLET$Target's Province"
-  zz_tci:0 "$EFFECT_LIST_BULLET$Target's Character Item"
-  zz_td:0 "$EFFECT_LIST_BULLET$Target's Dragon"
-  zz_tcc:0 "$EFFECT_LIST_BULLET$Target's County"
+  zz_tc:0 "$EFFECT_LIST_BULLET$targets Character"
+  zz_ta:0 "$EFFECT_LIST_BULLET$targets Army"
+  zz_tr:0 "$EFFECT_LIST_BULLET$targets Regiment"
+  zz_tp:0 "$EFFECT_LIST_BULLET$targets Province"
+  zz_tci:0 "$EFFECT_LIST_BULLET$targets Character Item"
+  zz_td:0 "$EFFECT_LIST_BULLET$targets Dragon"
+  zz_tcc:0 "$EFFECT_LIST_BULLET$targets County"
   zz_rs:0 "$EFFECT_LIST_BULLET$Manipulates Secrets"
   zz_esec:0 "$EFFECT_LIST_BULLET$Expose Secrets"
   zz_dsec:0 "$EFFECT_LIST_BULLET$Destroy Secrets"
@@ -66,7 +66,7 @@
   zz_cdb:0 "$EFFECT_LIST_BULLET$Sacrifice Dragonbloods"
   zz_cccc:0 "$EFFECT_LIST_BULLET$Create Crafting Resources"
   zz_cwok:0 "$EFFECT_LIST_BULLET$Choice of Wound or Kill"
-` zz_pcm:0 "$EFFECT_LIST_BULLET$Prevent Character Miscast"
+  zz_pcm:0 "$EFFECT_LIST_BULLET$Prevent Character Miscast"
   zz_hcm:0 "$EFFECT_LIST_BULLET$Rejuvenate Character Miscast Capacity"
 
 

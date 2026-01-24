@@ -144,7 +144,6 @@ zz_valyria_magic_dragon_magic.004 = {
 		name = zz_valyria_magic_dragon_magic.004.opt.a
 		trigger = {
 			scope:recipient = {
-				zz_agot_has_dragonblood_heritage = yes
 				NOT = {
 					has_trait = dragon
 				}
