@@ -168,23 +168,23 @@ types magic_scroll_learning {
 								#down = "[ScriptedGui.IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								#onclick = "[GetScriptedGui('zz_valyria_magic_learning_type_apprentice_click').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 							}
-							button_tab = { 
-								name = "magic_circle_tab"
-								layoutpolicy_horizontal = expanding 
-								layoutpolicy_vertical = expanding
-								align = center
-								minimumsize = { 100 38 }
-								vbox = {
-									layoutpolicy_horizontal = expanding
-									layoutpolicy_vertical = expanding
-									spacing = 5
-									margin = { 5 5 }
-									text_single = {
-										raw_text = "Magic Circles"
-										alwaystransparent = yes
-									}
-									
-								}
+							#button_tab = { 
+							#	name = "magic_circle_tab"
+							#	layoutpolicy_horizontal = expanding 
+							#	layoutpolicy_vertical = expanding
+							#	align = center
+							#	minimumsize = { 100 38 }
+							#	vbox = {
+							#		layoutpolicy_horizontal = expanding
+							#		layoutpolicy_vertical = expanding
+							#		spacing = 5
+							#		margin = { 5 5 }
+							#		text_single = {
+							#			raw_text = "Magic Circles"
+							#			alwaystransparent = yes
+							#		}
+							#		
+							#	}
 								
 								#datacontext = "[GetScriptedGui('zz_valyria_magic_learning_type_mystery')]"
 								#onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
@@ -192,7 +192,7 @@ types magic_scroll_learning {
 								#enabled = "[ScriptedGui.IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								#down = "[ScriptedGui.IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								#onclick = "[GetScriptedGui('zz_valyria_magic_learning_type_mystery_click').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-							}
+							#}
 							expand = {}
 						}
 						hbox = { 

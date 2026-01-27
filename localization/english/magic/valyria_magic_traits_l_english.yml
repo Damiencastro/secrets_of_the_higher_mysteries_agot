@@ -43,7 +43,13 @@
   trait_zz_magister_desc:0 "This character is a practictioner of magic. The power to change, hurt, and control is at their fingertips."
   trait_zz_magister_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a practictioner of magic. The power to change, hurt, and control is at [ROOT.Char.GetHerHis] fingertips... \n\nCurrent [passive_drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_power_passive_gain')].\n\nCurrent [drops_of_power|E]: [ROOT.ScriptValue('zz_valyria_drops_of_power_stat_gui')|0]. "
   magic_acolyte:0 "Acolyte"
+  magic_apprentice:0 "Magic Apprentice"
+  magic_scholar:0 "Magic Scholar"
   magic_master:0 "Master"
+  magic_archmage:0 "Archmage"
+  star_touched_I:0 "The Touched"
+  star_touched_II:0 "The Chosen"
+  star_touched_III:0 "The Ascendant"
   trait_lifespan_good:0 "Lifespan (Beneficial)"
   trait_lifespan_good_1:0 "Vigorous"
   trait_lifespan_good_1_desc:0 "This character seems fated to outlast others."
@@ -96,7 +102,7 @@
 
   trait_track_fire_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'fire_magic' ).GetName] [trait_level_track_xp|E] Gain"
 
-  trait_track_air_magic:0 "Secrets of the [air_magic|E]"
+  trait_track_air_magic:0 "Secrets of [air_magic|E]"
   trait_track_air_magic_desc:0 "Air is an element that is present everywhere and it's use is therefore ubiquitous. From blasting someone with a wave of air, to moving heavy materials."
 
   trait_track_air_magic_xp_gain_mult:0 "[GetTrait('zz_magister').GetTraitTrackByKey( 'air_magic' ).GetName] [trait_level_track_xp|E] Gain"

@@ -19,12 +19,42 @@ zz_magister = {
 					has_trait_xp = {
 						trait = zz_magister
 						track = secrets_of_the_higher_mysteries
-						value < 100
+						value < 25
 					}
 				}
 				desc = magic_acolyte
 			}
-			desc = magic_master
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value < 50
+					}
+				}
+				desc = magic_apprentice
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value < 75
+					}
+				}
+				desc = magic_scholar
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value < 100
+					}
+				}
+				desc = magic_master
+			}
+			desc = magic_archmage
 		}
 	}
 	desc = {
@@ -40,7 +70,37 @@ zz_magister = {
 		first_valid = {
 			triggered_desc = {
 				trigger = { NOT = { exists = this } }
-				desc = higher_mysteries_01.dds
+				desc = zz_magister_01.dds
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value < 25
+					}
+				}
+				desc = zz_magister_01.dds
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value < 50
+					}
+				}
+				desc = zz_magister_02.dds
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value < 75
+					}
+				}
+				desc = zz_magister_03.dds
 			}
 			triggered_desc = {
 				trigger = {
@@ -50,9 +110,19 @@ zz_magister = {
 						value < 100
 					}
 				}
-				desc = higher_mysteries_01.dds
+				desc = zz_magister_04.dds
 			}
-			desc = higher_mysteries_02.dds
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = zz_magister
+						track = secrets_of_the_higher_mysteries
+						value >= 100
+					}
+				}
+				desc = zz_magister_05.dds
+			}
+			desc = zz_magister_05.dds
 		}
 	}
 	category = lifestyle
@@ -285,7 +355,17 @@ starwalker = {
 		first_valid = {
 			triggered_desc = {
 				trigger = { NOT = { exists = this } }
-				desc = starwalker
+				desc = star_touched_I
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = starwalker
+						track = chosen_of_the_heavens
+						value < 50
+					}
+				}
+				desc = star_touched_I
 			}
 			triggered_desc = {
 				trigger = {
@@ -295,9 +375,9 @@ starwalker = {
 						value < 100
 					}
 				}
-				desc = starwalker
+				desc = star_touched_II
 			}
-			desc = he_who_walks_between_worlds
+			desc = star_touched_III
 		}
 	}
 	icon = {
@@ -311,10 +391,30 @@ starwalker = {
 					has_trait_xp = {
 						trait = starwalker
 						track = chosen_of_the_heavens
+						value < 50
+					}
+				}
+				desc = heavens_chosen_01.dds
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = starwalker
+						track = chosen_of_the_heavens
 						value < 100
 					}
 				}
 				desc = heavens_chosen_01.dds
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait_xp = {
+						trait = starwalker
+						track = chosen_of_the_heavens
+						value >= 100
+					}
+				}
+				desc = heavens_chosen_02.dds
 			}
 			desc = heavens_chosen_02.dds
 		}

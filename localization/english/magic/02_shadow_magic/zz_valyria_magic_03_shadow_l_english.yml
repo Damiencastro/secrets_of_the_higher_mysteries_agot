@@ -176,11 +176,12 @@ l_english:
 
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.
-  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dcm$ \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to weaken a character in direct combat.."
+  
+  zz_valyria_magic_shadow_magic_13.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tr$\n$zz_dcm$ \n\nThe use of the arcane forces of [shadow_magic|E] to directly weaken the [prowess_i][prowess|E] of the selected subject.\n\nThrough a withering invocation of [shadow_magic|E], the darkness is compelled to unmake rather than empower. Shadows are drawn close to the chosen subject, clinging to sinew and steel alike, leeching strength and resolve.\n\nThe shadows can be called to claw and restrain a selected subject, dulling reflexes and sapping the certainty of each strike. Weapons feel heavier in the hand, armour grows ill‑fitting and brittle, and the instinct for combat falters beneath unseen pressure.\n\nSuch magics call forth aspects of shadow bound deeply to decay and sorrow. They strip and weaken, eroding vitality and will, breaking the chosen subject not with a single blow, but with the slow certainty of unraveling darkness."
+
   ## event
   zz_valyria_magic_shadow_magic.013.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_13_name$"
-  zz_valyria_magic_shadow_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose.\n With the shadows aligned you could draw forth an umbral balde, consuming the light and strike one of the regiments of [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic.013.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery.\n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. It moves sluggishly, heavy with age and grief, as though burdened by centuries of rot and remembrance.\n\nThe ancient shadow mages who dwelt within the Freehold held little regard for fairness in battle. To them, victory was secured long before blades crossed. It was not uncommon for such mages to call upon the hidden decay that writhes within the shadows, laying curses of weakness upon their enemies so that defeat was already written into their limbs.\n\nThese rites did not strike swiftly. Instead, they hollowed. Strength ebbed, confidence curdled into doubt, and even the finest steel seemed to betray its bearer, as if sharing in the shadow’s sorrow.\n\nNow is the moment to choose.\nWith a carefully bound curse, it would be yours to strip the capacity for personal combat from [recipient.GetFirstName], greatly increasing the chance that they will fall in any clash of arms.\n\nYet decay is a patient thing, and shadows that are invited to erode another may linger longer than intended. Is it truly wise to invoke the shadows of decay, knowing how eagerly they gnaw at all that lives?"
   zz_valyria_magic_shadow_magic.013.opt.a:0 "Yes, Kill them!"
   zz_valyria_magic_shadow_magic.013.opt.z:0 "No, do not cast!"
   ## Spell Toast
@@ -191,10 +192,10 @@ l_english:
 
   ## Interaction
   \n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.
-  zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
+  zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.\n\nThe shadows themselves are tied to magic, and so with their invocation it is possible to gently chisel away the consequences of magical mistakes, letting a mage undo the legacy of reaching too far.\n\nThe arcane forces of [shadow_magic|E] gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
   ## event
   zz_valyria_magic_shadow_magic.014.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
-  zz_valyria_magic_shadow_magic.014.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light. \n\nNow is the moment to choose. \nIt is possible to wipe away the magical mistakes of [recipient.GetFirstName]."
+  zz_valyria_magic_shadow_magic.014.desc:0 "[secondary_recipient.GetFirstName] stands ready to enact a mystery. \n\nA dark and unsettling shadow has begun to seep into the room, swelling and gorging itself on the darkness cast by the light.\n\nFor the shadows mages of the lost Freehold the sahdows offered a means of respite from the follies of magic. By calling forth the shadows it was possible to take the permanent damages of magical mishaps and reduce them to the shadowy vapours \n\nNow is the moment to choose. \nIt is possible to wipe away the magical mistakes of [recipient.GetFirstName]."
   zz_valyria_magic_shadow_magic.014.opt.a:0 "Yes, soothe their souls them!"
   zz_valyria_magic_shadow_magic.014.opt.z:0 "No, do not cast!"
   ## Spell Toast
