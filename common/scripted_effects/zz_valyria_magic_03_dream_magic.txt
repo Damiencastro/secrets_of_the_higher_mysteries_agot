@@ -1389,6 +1389,7 @@ zz_valyria_magic_dream_magic_27_effect = {
 	}			
 	scope:scheme = {
 		scheme_freeze = {
+			reason = "ZZ_MAGIC"
 			days = 30
 		}
 	}
@@ -1422,6 +1423,7 @@ zz_valyria_magic_dream_magic_28_effect = {
 	}			
 	scope:scheme = {
 		scheme_freeze = {
+			reason = "ZZ_MAGIC"
 			days = 30
 		}
 	}

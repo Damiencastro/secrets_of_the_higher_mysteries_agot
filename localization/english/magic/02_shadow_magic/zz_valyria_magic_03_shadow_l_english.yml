@@ -191,7 +191,7 @@ l_english:
 
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.
+  ##\n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.
   zz_valyria_magic_shadow_magic_14.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_hcm$\n\nThe use of the arcane forces of [shadow_magic|E] to reduce the selected subject's miscast counter.\n\nThe shadows themselves are tied to magic, and so with their invocation it is possible to gently chisel away the consequences of magical mistakes, letting a mage undo the legacy of reaching too far.\n\nThe arcane forces of [shadow_magic|E] gently carress an individual, taking from them the costs of their magical mistakes, wiping away their legacy of miscasting."
   ## event
   zz_valyria_magic_shadow_magic.014.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_14_name$"
@@ -206,7 +206,7 @@ l_english:
 
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to prevent the selected subject from miscasting.
+  ##\n\nThe use of the arcane forces of [shadow_magic|E] to prevent the selected subject from miscasting.
   zz_valyria_magic_shadow_magic_15.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tc$\n$zz_pcm$\n\nThe use of the arcane forces of [shadow_magic|E] to prevent the selected subject from miscasting.\n\nThe use of the arcane forces of [shadow_magic|E] to gently carress an individual, manifesting a barrier against their mistakes when manifesting mysteries."
   ## event
   zz_valyria_magic_shadow_magic.015.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_15_name$"
@@ -219,7 +219,7 @@ l_english:
   zz_valyria_magic_shadow_magic_15.toast.tt:0 "$zz_valyria_magic_shadow_magic_15.toast.desc$"
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to increase the fortication level of a province belonging to the selected subject.
+  ##\n\nThe use of the arcane forces of [shadow_magic|E] to increase the fortication level of a province belonging to the selected subject.
   zz_valyria_magic_shadow_magic_16.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_bsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to increase the fortication level of a province belonging to the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to fortify a province, making it more resilient to actions from enemies."
   ## event
   zz_valyria_magic_shadow_magic.016.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_16_name$"
@@ -233,7 +233,7 @@ l_english:
 
 
   ## Interaction
-  \n\nThe use of the arcane forces of [shadow_magic|E] to decrease the fortication level of a province belonging to the selected subject.
+  ##\n\nThe use of the arcane forces of [shadow_magic|E] to decrease the fortication level of a province belonging to the selected subject.
   zz_valyria_magic_shadow_magic_17.tooltip.desc:0 "Effects:\n$zz_dop$\n$zz_tp$\n$zz_dsp$\n$zz_ccf$\n\nThe use of the arcane forces of [shadow_magic|E] to decrease the fortication level of a province belonging to the selected subject.\n\nThe use of the arcane forces of [shadow_magic|E] to infest their defenses, reducing their capabilities to defend a chosen province from sieges."
   ## event
   zz_valyria_magic_shadow_magic.017.t:0 "[shadow_magic|E] - $zz_valyria_magic_shadow_magic_17_name$"

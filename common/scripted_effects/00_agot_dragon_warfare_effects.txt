@@ -1548,7 +1548,7 @@ agot_dragon_siege_fort_damage_massive_effect = {
 				}
 			}
 		}
-		agot_ruinise_title_effect = {
+		agot_ruinize_title_effect = {
 			TITLE = barony
 		}
 	}
@@ -1607,7 +1607,7 @@ agot_hire_scorpions_effect = {
 	# Pay recuirtment cost (half-price)
 	remove_short_term_gold = {
 		value = scope:number_of_regiments
-		multiply = scorpions_recruitment_cost
+		multiply = mangonel_recruitment_cost
 		divide = 2
 	}
 }
