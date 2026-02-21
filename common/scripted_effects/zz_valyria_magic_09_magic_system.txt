@@ -2251,14 +2251,13 @@ zz_valyria_magic_cast_xp_gain = {
 	}
 }
 
-zz_valyria_mystery_proficiency_gain = {
+zz_valyria_mystery_cast_increment = {
 	scope:zz_valyria_mystery ?= {
 		set_variable = {
-			name = proficiency
+			name = cast_counter
 			value = {
-				value = var:proficiency
+				value = var:cast_counter
 				add = 1
-				max = 75
 			}
 		}
 	}
@@ -2330,7 +2329,7 @@ zz_valyria_magic_cast_effect = {
 			zz_valyria_magic_cast_xp_gain = {
 				SKILL = $SKILL$
 			}
-			zz_valyria_mystery_proficiency_gain = yes
+			zz_valyria_mystery_cast_increment = yes
 		}
 		random_list = { 
 			40 = { 
@@ -2470,7 +2469,7 @@ zz_valyria_set_spell_values = {
 			value = flag:false
 		}
 		set_variable = {
-			name = proficiency
+			name = cast_counter
 			value = 1
 		}
 	}
