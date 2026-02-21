@@ -176,7 +176,7 @@ zz_valyria_blood_magic_01 = {
 		}
 		set_variable = {
 			name = zz_valyria_mystery_cost
-			value = var:zz_valyria_mystery.var:manacost
+			value = var:zz_valyria_mystery.mystery_cost
 		}
 		zz_magic_list_effect = { 
 			MAGIC_EFFECT = zz_valyria_magic_casting_gui_tooltip_effect
@@ -231,7 +231,7 @@ zz_valyria_magic_cast = {
 		exists = var:zz_valyria_mystery
 		var:zz_magic_caster = {
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = root.var:zz_valyria_mystery.var:manacost
+				MANACOST = root.var:zz_valyria_mystery.mystery_cost
 			}
 		}
 		

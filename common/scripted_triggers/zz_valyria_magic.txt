@@ -378,7 +378,7 @@ zz_valyria_mystery_unlimited_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 	}
@@ -392,7 +392,7 @@ zz_valyria_mystery_cannot_cast_on_caster_cannot_cast_on_self_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -418,7 +418,7 @@ zz_valyria_mystery_human_only_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -440,7 +440,7 @@ zz_valyria_mystery_human_only_is_landed_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -463,7 +463,7 @@ zz_valyria_mystery_human_only_cannot_cast_on_caster_cannot_cast_on_self_trigger 
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -490,7 +490,7 @@ zz_valyria_mystery_human_only_is_pregnant_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -513,7 +513,7 @@ zz_valyria_mystery_human_not_dragonblood_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -537,7 +537,7 @@ zz_valyria_mystery_human_only_mage_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -560,7 +560,7 @@ zz_valyria_mystery_human_only_scheme_owner_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -585,7 +585,7 @@ zz_valyria_mystery_human_only_scheme_owner_has_agents_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -611,7 +611,7 @@ zz_valyria_mystery_human_only_scheme_target_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -636,7 +636,7 @@ zz_valyria_mystery_human_only_scheme_target_has_agents_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -662,7 +662,7 @@ zz_valyria_mystery_human_only_secret_owner_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -687,7 +687,7 @@ zz_valyria_mystery_human_only_secret_target_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -712,7 +712,7 @@ zz_valyria_mystery_human_only_secret_knower_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -737,7 +737,7 @@ zz_valyria_mystery_dragon_only_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = { 
@@ -758,7 +758,7 @@ zz_valyria_mystery_dragon_female_only_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -782,7 +782,7 @@ zz_valyria_mystery_has_maa_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -805,7 +805,7 @@ zz_valyria_mystery_maa_damaged_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -831,7 +831,7 @@ zz_valyria_mystery_armies_raised_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_target = {
@@ -854,7 +854,7 @@ zz_valyria_mystery_has_dead_dragon_egg_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_user = {
@@ -885,7 +885,7 @@ zz_valyria_mystery_has_dragon_egg_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_user = {
@@ -916,7 +916,7 @@ zz_valyria_mystery_has_dragon_egg_cradled_or_pitted_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_user = {
@@ -949,7 +949,7 @@ zz_valyria_mystery_has_dragon_egg_has_seven_dragonbloods_trigger = {
 		}
 		var:zz_magic_caster = { 
 			zz_valyria_has_mana_to_cast = {
-				MANACOST = scope:zz_valyria_mystery.var:manacost
+				MANACOST = scope:zz_valyria_mystery.mystery_cost
 			}
 		}
 		var:zz_magic_user = {
