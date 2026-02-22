@@ -68,6 +68,24 @@
 zz_valyria_mana_gain_mult = { 
 	value = 1
 	switch = {
+		trigger = global_var:magic_level
+		0 = {
+			subtract = 0.9 
+		}
+		1 = {
+			subtract = 0.5
+		}
+		2 = {
+			add = 1
+		}
+	}
+	if = {
+			limit = {
+				global_var:magic_level = 2
+			}
+			add = 1
+		}
+	switch = {
 		trigger = has_trait 
 		magic_blood_bad_3 = {
 			subtract = 0.75
@@ -350,6 +368,7 @@ zz_valyria_drops_power_passive_gain = {
 		limit = {
 			exists = this 
 		}
+		
 		if = {
 			limit = {
 				dynasty ?= dynasty:dynn_Setenon
@@ -676,10 +695,10 @@ zz_blood_sacrifice_amount = {
 							this.dragonblood_percent > 0
 						}
 					}
-					add = 9
+					add = 45
 				}
 				else = {
-					add = 3
+					add = 15
 				}
 			}
 		}

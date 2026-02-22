@@ -37,6 +37,18 @@ zz_valyria_magic_dragon_magic_base_value = {
 		else = { 
 			value = "has_trait_xp(zz_magister|dragon_magic)" 
 		}
+		switch = {
+			trigger = global_var:magic_level
+			0 = {
+				mult = 0.1 
+			}
+			1 = {
+				mult = 0.5
+			}
+			2 = {
+				mult = 1
+			}
+		}
 	}
 }
 zz_valyria_magic_dragon_magic_01_value = {
