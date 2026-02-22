@@ -2,12 +2,17 @@
 mystery_cost = {
 	value = 0
 	add ?= var:manacost
+	multiply = caster_proficiency
 }
 current_mystery_cost = {
-	value = 0 
-	add = {
-		value = scope:zz_valyria_mystery.var:manacost
-	}	
+	value = scope:zz_valyria_mystery.mystery_cost
+}
+
+caster_proficiency = {
+	value = 0
+	add = var:cast_counter
+	divide = 100
+	max = 60
 }
 
 mana_cost_subtraction = {

@@ -2251,6 +2251,18 @@ zz_valyria_magic_cast_xp_gain = {
 	}
 }
 
+zz_valyria_mystery_cast_increment = {
+	scope:zz_valyria_mystery ?= {
+		set_variable = {
+			name = cast_counter
+			value = {
+				value = var:cast_counter
+				add = 1
+			}
+		}
+	}
+}
+
 zz_valyria_magic_cast_ui_effect = { 
 	
 	random_list = { 
@@ -2317,6 +2329,7 @@ zz_valyria_magic_cast_effect = {
 			zz_valyria_magic_cast_xp_gain = {
 				SKILL = $SKILL$
 			}
+			zz_valyria_mystery_cast_increment = yes
 		}
 		random_list = { 
 			40 = { 
@@ -2419,7 +2432,7 @@ zz_ui_setup_effect = {
 		}
 		set_variable = {
 			name = zz_valyria_mystery_cost
-			value = var:zz_valyria_mystery.var:manacost
+			value = var:zz_valyria_mystery.mystery_cost
 		}
 	}
 }
@@ -2454,6 +2467,10 @@ zz_valyria_set_spell_values = {
 		set_variable = { 
 			name = targets_maa
 			value = flag:false
+		}
+		set_variable = {
+			name = cast_counter
+			value = 1
 		}
 	}
 }

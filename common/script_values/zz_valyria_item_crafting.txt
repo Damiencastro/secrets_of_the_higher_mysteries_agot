@@ -100,7 +100,7 @@ zz_valyria_scroll_cost = {
 			exists = var:zz_valyria_mystery
 		}
 		add = 1000
-		multiply = var:zz_valyria_mystery.var:manacost 
+		multiply = var:zz_valyria_mystery.mystery_cost
 		divide = {
 			value = var:zz_scroll_maker.zz_valyria_higher_mysteries_stat_gui
 			divide = 50
