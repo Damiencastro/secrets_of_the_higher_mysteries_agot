@@ -1,5 +1,8 @@
 ﻿l_english:
 
+  zz_valyria_magic_miscast_0:0 "Hale"
+  zz_valyria_magic_miscast_1:0 "Weakened"
+  zz_valyria_magic_miscast_2:0 "Stricken"
   lifestyle_01:0 "Learning Lifestyle"
   lifestyle_02:0 "Diplomacy Lifestyle"
   lifestyle_03:0 "Stewardship Lifestyle"

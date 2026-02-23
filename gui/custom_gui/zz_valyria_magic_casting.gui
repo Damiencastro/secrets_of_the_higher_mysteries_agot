@@ -279,6 +279,13 @@
 											raw_text = "Drops of Power - [Scope.Char.MakeScope.Var('zz_magic_caster').ScriptValue('zz_valyria_drops_of_power_stat')|0]"
 										}
 									}	
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Casting Fatigue - [Scope.Char.MakeScope.Var('zz_magic_caster').Char.Custom('zz_valyria_mages_fatigue')]"
+										}
+									}	
 									expand = {}	
 								}	
 								expand = {}						
@@ -963,6 +970,13 @@
 											raw_text = "Drops of Power - [Scope.Char.MakeScope.Var('zz_item_caster').ScriptValue('zz_valyria_drops_of_power_stat')|0]"
 										}
 									}
+									spacer = { size = { 00 5 } }
+									flowcontainer = {
+										text_single = {
+											align = left
+											raw_text = "Casting Fatigue - [Scope.Char.MakeScope.Var('zz_magic_caster').Char.Custom('zz_valyria_mages_fatigue')]"
+										}
+									}	
 									expand = {}
 								}
 								

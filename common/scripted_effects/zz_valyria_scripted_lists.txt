@@ -331,3 +331,26 @@ zz_valyria_every_secret_knower_list = {
 		}
 	}
 }
+
+
+zz_valyria_courter_or_guest_mage_list = {
+	clear_variable_list ?= zz_valyria_possible_characters
+	remove_variable = zz_valyria_selected_character
+	every_courtier_or_guest = {
+		limit = {
+			has_trait = zz_magister
+		}
+		root = {
+			add_to_variable_list = {
+				name = zz_valyria_possible_characters
+				target = prev
+			}
+			if = {
+				limit = {
+					NOT = { has_variable = zz_valyria_selected_character }
+				}
+				set_variable = { name = zz_valyria_selected_character value = prev }
+			}
+		}
+	}
+}

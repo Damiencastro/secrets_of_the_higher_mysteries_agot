@@ -60,6 +60,18 @@ zz_valyria_magic_dream_magic_base_value = {
 				add = 25
 			}
 		}
+		switch = {
+			trigger = global_var:magic_level
+			0 = {
+				multiply = 0.1 
+			}
+			1 = {
+				multiply = 0.5
+			}
+			2 = {
+				multiply = 1
+			}
+		}
 	}
 }
 zz_valyria_magic_dream_magic_02_value = {

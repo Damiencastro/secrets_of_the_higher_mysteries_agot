@@ -38,6 +38,18 @@ zz_valyria_magic_shadow_magic_base_value = {
 		else = { 
 			value = "has_trait_xp(zz_magister|shadow_magic)" 
 		}
+		switch = {
+			trigger = global_var:magic_level
+			0 = {
+				multiply = 0.1 
+			}
+			1 = {
+				multiply = 0.5
+			}
+			2 = {
+				multiply = 1
+			}
+		}
 	}
 }
 zz_valyria_magic_shadow_magic_01_value = {

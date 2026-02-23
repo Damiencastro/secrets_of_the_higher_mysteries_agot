@@ -40,13 +40,13 @@ zz_valyria_magic_dragon_magic_base_value = {
 		switch = {
 			trigger = global_var:magic_level
 			0 = {
-				mult = 0.1 
+				multiply = 0.1 
 			}
 			1 = {
-				mult = 0.5
+				multiply = 0.5
 			}
 			2 = {
-				mult = 1
+				multiply = 1
 			}
 		}
 	}

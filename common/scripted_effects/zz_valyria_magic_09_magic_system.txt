@@ -1964,7 +1964,7 @@ zz_valyria_spell_failure_effect = {
 				}
 			}
 		} 
-		20 = {		
+		1 = {		
 			modifier = {
 				scope:secondary_recipient  = {
 					has_trait = starwalker
@@ -1972,7 +1972,7 @@ zz_valyria_spell_failure_effect = {
 				add = { 
 					value = {
 						value = "has_trait_xp(starwalker|chosen_of_the_heavens)" 
-						multiply = 16	
+						multiply = 10000	
 					}
 				}
 			}
@@ -2013,10 +2013,10 @@ zz_valyria_spell_failure_effect = {
 				
 			}
 			modifier = {
+				add = -5
 				scope:secondary_recipient  = {
 					has_trait = magic_blood_bad_1
 				}
-				add = -5
 			}
 			modifier = {
 				add = -10
@@ -2045,7 +2045,19 @@ zz_valyria_spell_failure_effect = {
 			}
 		}
 	}
-	
+	if = {
+		limit = {
+			var:zz_miscast_count >= zz_valyria_miscast_warning_1
+		}
+		send_interface_message = {
+			type = send_interface_message_as_popup_spell_miscast
+			title = miscast_warning
+			desc = miscast_warning_txt
+			left_icon = scope:secondary_recipient
+			right_icon = scope:recipient
+			custom_tooltip = miscast_warning
+		}
+	}
 }
 
 zz_valyria_magic_apply_province_modifier_effect = {

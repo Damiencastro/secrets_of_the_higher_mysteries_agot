@@ -26,8 +26,16 @@ zz_valyria_doom_sites = {
 		barony ?= title:b_dragonstone
 	}
 }
+zz_valyria_miscast_warning_0_gui ={
+	var:zz_miscast_count < zz_valyria_miscast_warning_2
+}
+zz_valyria_miscast_warning_1_gui ={
+	var:zz_miscast_count = zz_valyria_miscast_warning_1
+}
 
-
+zz_valyria_miscast_warning_2_gui ={
+	var:zz_miscast_count = zz_valyria_miscast_warning_2
+}
 
 zz_valyria_has_artifact = {
 	

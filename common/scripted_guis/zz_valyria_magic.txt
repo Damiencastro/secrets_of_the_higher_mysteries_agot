@@ -1,4 +1,6 @@
-﻿zz_valyria_cast_click = {
+﻿
+
+zz_valyria_cast_click = {
 	scope = character
 	is_shown = {
 		zz_valyria_is_mage = yes 
@@ -14,6 +16,8 @@
 		zz_ui_setup_effect = yes 
 	}
 }
+
+
 
 zz_valyria_magic_open = {
 	scope = character

@@ -2183,3 +2183,93 @@ zz_valyria_magic_management.003 = {
 		}
 	}
 }
+
+
+
+# Executed!
+zz_valyria_magic_blood_sacrifice.0001 = {
+	type = character_event
+	title = zz_valyria_magic_blood_sacrifice.0001.t
+	desc = zz_valyria_magic_blood_sacrifice.0001.desc
+
+	left_portrait = scope:actor
+	theme = witchcraft
+
+	override_background = {
+		reference = zz_blood_sacrifice
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_stress
+	}
+
+	option = {
+		name = {
+			trigger = {
+				culture = { has_cultural_tradition = tradition_life_is_just_a_joke }
+			}
+			text = char_interaction.0170.life_is_just_a_joke.a
+		}
+		name = char_interaction.0170.a
+		if = {
+			limit = {
+				culture = { has_cultural_tradition = tradition_life_is_just_a_joke }
+			}
+			stress_impact = {
+				base = massive_stress_loss
+			}
+		}
+		show_as_tooltip = {
+			execute_dragon_prisoner_effect = {
+				VICTIM = scope:recipient
+				EXECUTIONER = scope:actor
+				REASON = death_blood_magic
+			}
+		}
+	}
+}
+
+zz_valyria_magic_blood_sacrifice.0002 = {
+	type = character_event
+	title = zz_valyria_magic_blood_sacrifice.0001.t
+	desc = zz_valyria_magic_blood_sacrifice.0001.desc
+
+	left_portrait = scope:actor
+	theme = witchcraft
+
+	override_background = {
+		reference = zz_blood_sacrifice
+	}
+	immediate = {
+		play_music_cue = mx_cue_stress
+		zz_valyria_courter_or_guest_mage_list = yes
+		
+	}
+
+	
+	widget = {
+		is_shown = {
+			root = {
+				any_in_list = {
+					variable = zz_valyria_possible_characters
+					count > 0
+				}
+			}
+		}
+		gui = "event_window_character_selection_five_options"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = char_interaction.0170.a
+		var:zz_valyria_selected_character = {
+			save_scope_as = target
+		}
+		scope:target = {
+			zz_valyria_mana_gain = {
+				MANAGAIN = 10
+			}
+		}
+
+	}
+}
