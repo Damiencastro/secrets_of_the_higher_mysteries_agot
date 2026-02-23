@@ -482,19 +482,25 @@ zz_valyria_miscast_counter = {
 		limit = {
 			has_trait = born_beneath_the_comet
 		}
-		add = 5
+		add = 2
 	}
 	if = { 
 		limit = {
 			has_trait = magic_blood_good_3 
 		}
-		add = 5
+		add = 3
 	}
 	else_if = { 
 		limit = {
 			has_trait = magic_blood_good_2
 		}
 		add = 2
+	}
+	else_if = { 
+		limit = {
+			has_trait = magic_blood_good_1
+		}
+		add = 1
 	}
 }
 zz_valyria_miscast_warning_1 = {

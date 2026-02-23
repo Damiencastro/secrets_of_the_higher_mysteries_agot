@@ -386,6 +386,7 @@ Setenon_21 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -394,6 +395,7 @@ Setenon_21 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -429,6 +431,7 @@ Setenon_22 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -437,6 +440,7 @@ Setenon_22 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -473,6 +477,7 @@ Setenon_23 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -481,6 +486,7 @@ Setenon_23 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -516,6 +522,7 @@ Setenon_24 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -524,6 +531,7 @@ Setenon_24 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -560,6 +568,7 @@ Setenon_25 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -568,6 +577,7 @@ Setenon_25 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -604,6 +614,7 @@ Setenon_26 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -612,6 +623,7 @@ Setenon_26 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -648,6 +660,7 @@ Setenon_27 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker 
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -656,6 +669,7 @@ Setenon_27 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -692,6 +706,7 @@ Setenon_28 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -700,6 +715,7 @@ Setenon_28 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}
@@ -736,6 +752,7 @@ Setenon_29 = {
 	trait = magic_blood_good_3
 	trait = born_beneath_the_comet
 	trait = lifespan_good_3
+	trait = starwalker
 
 	# disallow_random_traits = yes # FORBIDDEN - use agot_scripted_effects_posthistory_effects instead
 
@@ -744,6 +761,7 @@ Setenon_29 = {
 		employer = Setenon_01
 		set_immortal_age = 16
 		add_character_flag = historical_dragonseed
+		make_trait_inactive = starwalker
 		zz_add_spell = { 
 			SPELL = zz_valyria_magic_blood_magic_01
 		}

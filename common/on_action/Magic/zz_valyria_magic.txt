@@ -259,6 +259,7 @@ random_yearly_everyone_pulse = {
 		#zz_valyria_magic_dragon_life_extension_lost 
 		zz_valyria_mana_gain_on_actions
 		zz_valyria_dynn_setenon_scroll_generation
+		zz_valyria_mage_contracts
 	}
 }
 
@@ -302,7 +303,19 @@ zz_valyria_magic_dragon_life_extension_lost = {
 	}
 }
 
-
+zz_valyria_mage_contracts = {
+	effect = {
+		if = {
+			limit = {
+				zz_valyria_is_mage = yes 
+			}
+			populate_location_with_magic_contracts_effect = {
+				AREA_CHAR = THIS
+				AMOUNT = 3
+			}
+		}
+	}
+}
 
 
 
