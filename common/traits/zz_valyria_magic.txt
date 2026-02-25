@@ -1163,6 +1163,7 @@ disease_resistance_great_pox = {
 }
 
 lifespan_bad_1  = {
+	icon = zz_lifespan_bad_01
 	opposites = {
 		lifespan_good
 		lifespan_bad_3 #To prevent multiple tiers of the same congenital trait
@@ -1206,6 +1207,7 @@ lifespan_bad_1  = {
 	}
 }
 lifespan_bad_2 = {
+	icon = zz_lifespan_bad_02
 	opposites = {
 		lifespan_good
 		lifespan_bad_3 #To prevent multiple tiers of the same congenital trait
@@ -1249,6 +1251,7 @@ lifespan_bad_2 = {
 	}
 }
 lifespan_bad_3 = {
+	icon = zz_lifespan_bad_03
 	opposites = {
 		lifespan_good
 		lifespan_bad_2 #To prevent multiple tiers of the same congenital trait
