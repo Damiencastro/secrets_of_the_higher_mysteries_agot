@@ -10,10 +10,10 @@ current_mystery_cost = {
 
 caster_proficiency = {
 	value = 1
-	add = {
+	subtract = {
 		value ?= var:cast_counter
 		divide = 10000
-		max = 0.6
+		max = 0.4
 	} 
 }
 

@@ -384,7 +384,7 @@ starwalker = {
 		first_valid = {
 			triggered_desc = {
 				trigger = { NOT = { exists = this } }
-				desc = heavens_chosen_01.dds
+				desc = zz_heavens_chosen_01.dds
 			}
 			triggered_desc = {
 				trigger = {
@@ -394,7 +394,7 @@ starwalker = {
 						value < 50
 					}
 				}
-				desc = heavens_chosen_01.dds
+				desc = zz_heavens_chosen_02.dds
 			}
 			triggered_desc = {
 				trigger = {
@@ -404,7 +404,7 @@ starwalker = {
 						value < 100
 					}
 				}
-				desc = heavens_chosen_01.dds
+				desc = zz_heavens_chosen_03.dds
 			}
 			triggered_desc = {
 				trigger = {
@@ -414,9 +414,9 @@ starwalker = {
 						value >= 100
 					}
 				}
-				desc = heavens_chosen_02.dds
+				desc = zz_heavens_chosen_04.dds
 			}
-			desc = heavens_chosen_02.dds
+			desc = zz_heavens_chosen_00.dds
 		}
 	}
 	category = lifestyle
@@ -1293,6 +1293,7 @@ lifespan_bad_3 = {
 }
 
 lifespan_good_1 = {
+	icon = zz_lifespan_good_01
 	opposites = {
 		lifespan_bad
 		lifespan_good_3 #To prevent multiple tiers of the same congenital trait
@@ -1338,6 +1339,7 @@ lifespan_good_1 = {
 	}
 }
 lifespan_good_2 = {
+	icon = zz_lifespan_good_02
 	opposites = {
 		lifespan_bad
 		lifespan_good_3 #To prevent multiple tiers of the same congenital trait
@@ -1383,6 +1385,7 @@ lifespan_good_2 = {
 	}
 }
 lifespan_good_3 = {
+	icon = zz_lifespan_good_03
 	opposites = {
 		lifespan_bad
 		lifespan_good_2 #To prevent multiple tiers of the same congenital trait
@@ -1433,6 +1436,7 @@ lifespan_good_3 = {
 
 
 magic_blood_bad_1 = {
+	icon = zz_magic_blood_bad_01
 	opposites = {
 		magic_blood_good
 		magic_blood_bad_3 #To prevent multiple tiers of the same congenital trait
@@ -1488,6 +1492,7 @@ magic_blood_bad_1 = {
 	}
 }
 magic_blood_bad_2 = {
+	icon = zz_magic_blood_bad_02
 	opposites = {
 		magic_blood_good
 		magic_blood_bad_3 #To prevent multiple tiers of the same congenital trait
@@ -1543,6 +1548,7 @@ magic_blood_bad_2 = {
 	}
 }
 magic_blood_bad_3 = {
+	icon = zz_magic_blood_bad_03
 	opposites = {
 		magic_blood_good
 		magic_blood_bad_2 #To prevent multiple tiers of the same congenital trait
@@ -1598,6 +1604,7 @@ magic_blood_bad_3 = {
 	}
 }
 magic_blood_good_1 = {
+	icon = zz_magic_blood_good_01
 	opposites = {
 		magic_blood_bad
 		magic_blood_good_3 #To prevent multiple tiers of the same congenital trait
@@ -1653,6 +1660,7 @@ magic_blood_good_1 = {
 	}
 }
 magic_blood_good_2 = {
+	icon = zz_magic_blood_good_02
 	opposites = {
 		magic_blood_bad
 		magic_blood_good_3 #To prevent multiple tiers of the same congenital trait
@@ -1707,6 +1715,7 @@ magic_blood_good_2 = {
 	}
 }
 magic_blood_good_3 = {
+	icon = zz_magic_blood_good_03
 	opposites = {
 		magic_blood_bad
 		magic_blood_good_2 #To prevent multiple tiers of the same congenital trait
@@ -1763,6 +1772,7 @@ magic_blood_good_3 = {
 }
 
 born_beneath_the_comet = {
+	icon = zz_born_beneath_the_comet_00
 	desc = {
 		first_valid = {
 			triggered_desc = {
