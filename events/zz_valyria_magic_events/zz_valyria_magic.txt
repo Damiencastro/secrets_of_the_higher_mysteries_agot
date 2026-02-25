@@ -1,4 +1,4 @@
-﻿
+﻿@laamp_base_contract_schemes_2661_stewardship_threshold_value = extremely_high_skill_rating
 namespace = zz_valyria_magic
 
 #You read a book of magic. 
@@ -2280,6 +2280,8 @@ zz_valyria_magic_blood_sacrifice.0002 = {
 
 namespace = zz_valyria_magic_contracts 
 
+
+
 #	Roll our first event.
 zz_valyria_magic_contracts.00010 = {
 	hidden = yes
@@ -2292,8 +2294,8 @@ zz_valyria_magic_contracts.00010 = {
 #	Debate over ancient map.
 zz_valyria_magic_contracts.00011 = {
 	type = character_event
-	title = laamp_base_contract_schemes.2681.t
-	desc = laamp_base_contract_schemes.2681.desc
+	title = zz_valyria_magic_contracts.00011.t
+	desc = zz_valyria_magic_contracts.00011.desc
 	theme = stewardship
 	left_portrait = {
 		character = root
@@ -2308,15 +2310,11 @@ zz_valyria_magic_contracts.00011 = {
 	override_background = { reference = council_chamber }
 
 	immediate = {
-		laamp_base_contract_schemes_2661_immediate_effect = {
-			OFFICER = master_bard_camp_officer
-			SKILL = learning
-		}
 	}
 
 	# Stewardship auto-win.
 	option = {
-		name = laamp_base_contract_schemes.2681.a
+		name = zz_valyria_magic_contracts.00011.a
 		trigger = { stewardship >= @laamp_base_contract_schemes_2661_stewardship_threshold_value }
 		skill = stewardship
 
@@ -2324,10 +2322,13 @@ zz_valyria_magic_contracts.00011 = {
 			name = resolution_type
 			value = flag:stewardship
 		}
-		show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
+		#show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
 		trigger_event = zz_valyria_magic_contracts.00012
 
-		laamp_base_contract_schemes_2661_did_job_yourself_stress_effect = yes
+		stress_impact = {
+			diligent = minor_stress_loss
+			lazy = medium_stress_gain
+		}
 		ai_chance = {
 			# If you can auto-win, do it.
 			base = 10000
@@ -2336,7 +2337,7 @@ zz_valyria_magic_contracts.00011 = {
 	
 	# Stewardship duel.
 	option = {
-		name = laamp_base_contract_schemes.2681.b
+		name = zz_valyria_magic_contracts.00011.b
 		trigger = { stewardship < @laamp_base_contract_schemes_2661_stewardship_threshold_value }
 
 		save_scope_value_as = {
@@ -2355,7 +2356,7 @@ zz_valyria_magic_contracts.00011 = {
 				}
 				min = 5
 				desc = laamp_base_contract_schemes.2681.b.tt.success
-				show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
+				#show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
 				trigger_event = zz_valyria_magic_contracts.00012
 			}
 			# Defeat.
@@ -2367,12 +2368,15 @@ zz_valyria_magic_contracts.00011 = {
 				}
 				min = 5
 				desc = laamp_base_contract_schemes.2681.b.tt.failure
-				show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_loss_effect = yes }
+				#show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_loss_effect = yes }
 				trigger_event = zz_valyria_magic_contracts.00013
 			}
 		}
 
-		laamp_base_contract_schemes_2661_did_job_yourself_stress_effect = yes
+		stress_impact = {
+			diligent = minor_stress_loss
+			lazy = medium_stress_gain
+		}
 		ai_chance = {
 			base = 1
 			ai_value_modifier = { ai_energy = 2 }
@@ -2381,7 +2385,7 @@ zz_valyria_magic_contracts.00011 = {
 	
 	# Learning auto-win.
 	option = {
-		name = laamp_base_contract_schemes.2681.c
+		name = zz_valyria_magic_contracts.00011.c
 		trigger = { learning >= laamp_base_contract_schemes_2661_other_skill_threshold_value }
 		skill = learning
 
@@ -2389,10 +2393,13 @@ zz_valyria_magic_contracts.00011 = {
 			name = resolution_type
 			value = flag:secondary_skill
 		}
-		show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
+		#show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
 		trigger_event = zz_valyria_magic_contracts.00012
 
-		laamp_base_contract_schemes_2661_did_job_yourself_stress_effect = yes
+		stress_impact = {
+			diligent = minor_stress_loss
+			lazy = medium_stress_gain
+		}
 		ai_chance = {
 			# If you can auto-win, do it.
 			base = 10000
@@ -2400,8 +2407,8 @@ zz_valyria_magic_contracts.00011 = {
 	}
 	# Learning duel.
 	option = {
-		name = laamp_base_contract_schemes.2681.b
-		trigger = { stewardship < @laamp_base_contract_schemes_2661_other_skill_threshold_value }
+		name = zz_valyria_magic_contracts.00011.d
+		trigger = { stewardship < laamp_base_contract_schemes_2661_other_skill_threshold_value }
 
 		save_scope_value_as = {
 			name = resolution_type
@@ -2419,7 +2426,7 @@ zz_valyria_magic_contracts.00011 = {
 				}
 				min = 5
 				desc = laamp_base_contract_schemes.2681.b.tt.success
-				show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
+				#show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_win_effect = yes }
 				trigger_event = zz_valyria_magic_contracts.00012
 			}
 			# Defeat.
@@ -2431,12 +2438,15 @@ zz_valyria_magic_contracts.00011 = {
 				}
 				min = 5
 				desc = laamp_base_contract_schemes.2681.b.tt.failure
-				show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_loss_effect = yes }
+				#show_as_tooltip = { laamp_base_contract_schemes_2681_standard_duel_loss_effect = yes }
 				trigger_event = zz_valyria_magic_contracts.00013
 			}
 		}
 
-		laamp_base_contract_schemes_2661_did_job_yourself_stress_effect = yes
+		stress_impact = {
+			diligent = minor_stress_loss
+			lazy = medium_stress_gain
+		}
 		ai_chance = {
 			base = 1
 			ai_value_modifier = { ai_energy = 2 }
@@ -2481,6 +2491,7 @@ zz_valyria_magic_contracts.00012 = {
 	override_background = { reference = council_chamber }
 
 	immediate = {
+		scope:task_contract = { complete_task_contract = success_standard }
 	}
 
 	# Congratulations!
@@ -2524,7 +2535,8 @@ zz_valyria_magic_contracts.00013 = {
 	override_background = { reference = alley_night }
 
 	immediate = {
-		laamp_base_contract_schemes_2681_standard_duel_loss_effect = yes
+		#laamp_base_contract_schemes_2681_standard_duel_loss_effect = yes
+		scope:task_contract = { complete_task_contract = failure_standard }
 	}
 
 	# RIP.

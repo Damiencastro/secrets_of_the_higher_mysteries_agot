@@ -62,8 +62,7 @@
 	valid_to_create = {
 		# Standard triggers.
 		zz_valyria_is_mage = yes 
-		# This time around we're dealing with minor disputes, so we only want barons.
-		scope:employer.highest_held_title_tier = tier_barony
+
 	}
 	valid_to_accept = {
 		# Standard triggers.
@@ -72,12 +71,12 @@
 	}
 	valid_to_continue = {
 		# Standard triggers.
-		zz_valyria_is_mage = yes 
+		task_contract_taker = { zz_valyria_is_mage = yes } 
 		task_contract_employer = { is_landed = yes }
 	}
 	valid_to_keep = {
 		# Standard triggers.
-		zz_valyria_is_mage = yes 
+		task_contract_taker = { zz_valyria_is_mage = yes }
 		task_contract_employer = { is_landed = yes }
 	}
 
@@ -91,6 +90,30 @@
 		task_contract_taker ?= { trigger_event = zz_valyria_magic_contracts.00010 }
 	}
 	on_create = {
+		scope:contract = {
+			# Make our gold rewards static.
+			grab_gold_fuzz_number_effect = yes
+			save_scope_as = task_contract
+			set_variable = {
+				name = gold_success_standard
+				value = task_contract_taker.task_contract_success_gold_gain_half_value
+			}
+			set_variable = {
+				name = success_camp_purpose
+				value = task_contract_success_gold_gain_half_value
+			}
+			# Make sure critical values are a bit higher.
+			save_scope_value_as = { name = gold_safety_margin value = flag:yes }
+			set_variable = {
+				name = gold_success_critical
+				value = task_contract_taker.task_contract_success_gold_gain_full_value
+			}
+			set_variable = {
+				name = success_sacked_settlement
+				value = task_contract_success_gold_gain_critical_crime_value
+			}
+			set_variable = migration_contract
+		}
 	}
 
 	# Rewards
@@ -100,7 +123,7 @@
 			effect = {
 				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_success_on_contract" }
 				task_contract_taker = {
-					zz_random_scroll_gain_effect = yes
+					zz_always_random_gain_magic_scroll = yes
 				}
 				task_contract_taker = { task_successful_noncrim_contract_count_effect = yes }
 			}
@@ -110,7 +133,7 @@
 			effect = {
 				task_contract_taker = { play_sound_effect = "event:/DLC/EP3/SFX/UI/Contracts/ep3_ui_contracts_success_on_contract" }
 				task_contract_taker = {
-					zz_random_scroll_gain_effect = yes
+					zz_always_random_gain_magic_scroll = yes
 				}
 				task_contract_taker = { task_successful_noncrim_contract_count_effect = yes }
 			}

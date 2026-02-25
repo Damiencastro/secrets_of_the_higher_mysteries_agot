@@ -4387,6 +4387,40 @@ zz_random_gain_magic_scroll = {
 	}
 }
 
+
+zz_always_random_gain_magic_scroll = {
+	custom_tooltip = {
+		text = zz_gain_random_scroll
+		random_list = {
+			100 = {
+				zz_gain_blood_magic_scroll = yes 
+			}
+			100 = { 
+				zz_gain_shadow_magic_scroll = yes 
+			}
+			100 = { 
+				zz_gain_dream_magic_scroll = yes 
+			}
+			100 = { 
+				zz_gain_alchemy_scroll = yes 
+			}
+			100 = { 
+				zz_gain_fire_magic_scroll = yes
+			}
+			100 = {
+				zz_gain_water_magic_scroll  = yes 
+			}
+			100 = { 
+				zz_gain_air_magic_scroll = yes
+			}		
+			100 = { 
+				zz_gain_dragon_magic_scroll = yes
+			}	
+		}
+	}
+	
+}
+
 zz_copy_memories = {
 	
 	zz_valyria_magic_learning_compare_memory = { SPELL =  zz_valyria_magic_blood_magic_01 }
