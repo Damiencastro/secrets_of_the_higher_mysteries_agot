@@ -308,10 +308,14 @@ zz_valyria_mage_contracts = {
 		if = {
 			limit = {
 				zz_valyria_is_mage = yes 
+				is_ai = no
+				trigger_if = {
+					limit = { has_variable = magic_contract_passive_spawn_tally }
+					var:magic_contract_passive_spawn_tally < 5
+				}
 			}
-			populate_location_with_magic_contracts_effect = {
-				AREA_CHAR = THIS
-				AMOUNT = 3
+			magic_contract_passive_spawn_effect = {
+				SPAWN_CONTRACTS = 3
 			}
 		}
 	}

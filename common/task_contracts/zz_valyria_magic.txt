@@ -1,9 +1,9 @@
 ﻿zz_valyria_magic_visit_library = {
 	group = zz_valyria_magic_contracts
-	icon = "gfx/interface/icons/scheme_types/learning.dds"
+	icon = "gfx/interface/icons/activity_types/activity_zz_magic_education_icon.dds"
 
 	travel = yes
-	use_diplomatic_range = no
+	use_diplomatic_range = yes
 
 	weight = {
 		# Standard weights.
@@ -92,27 +92,6 @@
 	on_create = {
 		scope:contract = {
 			# Make our gold rewards static.
-			grab_gold_fuzz_number_effect = yes
-			save_scope_as = task_contract
-			set_variable = {
-				name = gold_success_standard
-				value = task_contract_taker.task_contract_success_gold_gain_half_value
-			}
-			set_variable = {
-				name = success_camp_purpose
-				value = task_contract_success_gold_gain_half_value
-			}
-			# Make sure critical values are a bit higher.
-			save_scope_value_as = { name = gold_safety_margin value = flag:yes }
-			set_variable = {
-				name = gold_success_critical
-				value = task_contract_taker.task_contract_success_gold_gain_full_value
-			}
-			set_variable = {
-				name = success_sacked_settlement
-				value = task_contract_success_gold_gain_critical_crime_value
-			}
-			set_variable = migration_contract
 		}
 	}
 
