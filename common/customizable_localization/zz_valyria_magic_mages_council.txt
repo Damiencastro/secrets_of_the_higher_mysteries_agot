@@ -33,8 +33,12 @@ zz_valyria_mages_fatigue = {
 
 	text = {
 		trigger = {
-			NOT = {
-				var:zz_miscast_count >= zz_valyria_miscast_warning_1
+			OR = {
+				NOT = {
+					exists = var:zz_miscast_count
+				}
+				var:zz_miscast_count < zz_valyria_miscast_warning_1
+				
 			}
 			
 		}

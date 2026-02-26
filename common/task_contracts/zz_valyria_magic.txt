@@ -62,7 +62,7 @@
 	valid_to_create = {
 		# Standard triggers.
 		zz_valyria_is_mage = yes 
-
+		scope:employer.highest_held_title_tier = tier_county
 	}
 	valid_to_accept = {
 		# Standard triggers.

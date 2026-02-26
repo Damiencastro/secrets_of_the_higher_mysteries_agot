@@ -2236,7 +2236,7 @@ zz_valyria_magic_blood_sacrifice.0001 = {
 zz_valyria_magic_blood_sacrifice.0002 = {
 	type = character_event
 	title = zz_valyria_magic_blood_sacrifice.0001.t
-	desc = zz_valyria_magic_blood_sacrifice.0001.desc
+	desc = zz_valyria_magic_blood_sacrifice.0002.desc
 
 	left_portrait = scope:actor
 	theme = witchcraft
@@ -2265,7 +2265,7 @@ zz_valyria_magic_blood_sacrifice.0002 = {
 	}
 
 	option = {
-		name = char_interaction.0170.a
+		name = zz_valyria_magic_blood_sacrifice.0002.a
 		var:zz_valyria_selected_character = {
 			save_scope_as = target
 		}
@@ -2296,7 +2296,7 @@ zz_valyria_magic_contracts.00011 = {
 	type = character_event
 	title = zz_valyria_magic_contracts.00011.t
 	desc = zz_valyria_magic_contracts.00011.desc
-	theme = stewardship
+	theme = learning
 	left_portrait = {
 		character = root
 		animation = thinking
@@ -2307,7 +2307,7 @@ zz_valyria_magic_contracts.00011 = {
 	}
 	lower_left_portrait = scope:officer
 	lower_center_portrait = scope:sacrifice
-	override_background = { reference = council_chamber }
+	override_background = { reference = location_study }
 
 	immediate = {
 	}
@@ -2479,7 +2479,7 @@ zz_valyria_magic_contracts.00012 = {
 			desc = 1.desc.outro
 		}
 	}
-	theme = stewardship
+	theme = learning
 	left_portrait = {
 		character = root
 		animation = debating
@@ -2488,7 +2488,7 @@ zz_valyria_magic_contracts.00012 = {
 		character = scope:employer
 		animation = admiration
 	}
-	override_background = { reference = council_chamber }
+	override_background = { reference = location_study }
 
 	immediate = {
 		scope:task_contract = { complete_task_contract = success_standard }
@@ -2523,7 +2523,7 @@ zz_valyria_magic_contracts.00013 = {
 		}
 		desc = zz_valyria_magic_contracts.00013.desc.outro
 	}
-	theme = stewardship
+	theme = learning
 	left_portrait = {
 		character = root
 		animation = shock
