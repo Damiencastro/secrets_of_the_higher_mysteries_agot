@@ -6,58 +6,16 @@
 			}
 			add_to_list = provinces
 		}
-		
-		every_special_building_province = {	
-			limit = {
-				has_building_with_flag = { flag = travel_point_of_interest_magic }
-			}
-			add_to_list = provinces
-		}
 	}
 	
 	on_visit = {
-		switch = { 
-			trigger = location
-			province:3499 = { root = { trigger_event = zz_valyria_magic.0010 } } #Citadel
-			province:4415 = { root = { trigger_event = zz_valyria_magic.0011 } } #Dragonstone
-			province:77 = { root = { trigger_event = zz_valyria_magic.0012 } } #Winterfall
-			province:5 = { root = { trigger_event = zz_valyria_magic.0013 } } #Castle Black
-			province:1934 = { root = { trigger_event = zz_valyria_magic.0014 } } #Harrenhal
-			province:4939 = { root = { trigger_event = zz_valyria_magic.0015 } } #Water Gardens
-			province:7708 = { root = { trigger_event = zz_valyria_magic.0016 } } #Pentos
-			province:7713 = { root = { trigger_event = zz_valyria_magic.0017 } } #Temple of Rhllor
-			province:7559 = { root = { trigger_event = zz_valyria_magic.0018 } } #Myr
-			province:7351 = { root = { trigger_event = zz_valyria_magic.0019 } } #Zobti Bastion
-			province:7389 = { root = { trigger_event = zz_valyria_magic.0020 } } #Temple of Trade
-			province:7388 = { root = { trigger_event = zz_valyria_magic.0021 } } #Lys
-			province:8062 = { root = { trigger_event = zz_valyria_magic.0022 } } #The Sealord's Palace
-			province:8063 = { root = { trigger_event = zz_valyria_magic.0023 } } #The Arsenal
-			province:8064 = { root = { trigger_event = zz_valyria_magic.0024 } } #The Purple Habour
-			province:8065 = { root = { trigger_event = zz_valyria_magic.0025 } } #Court of Smiles
-			province:8066 = { root = { trigger_event = zz_valyria_magic.0026 } } #Isle of the Gods
-			fallback = {
-				send_interface_toast = {
-					title = poi_magic.visit
-					left_icon = root
-					custom_tooltip = poi_valyria_magic.effect
-					if = { 
-						limit = { 
-							NOT = {
-								has_trait = zz_magister
-							}
-						}
-						trigger_event =  zz_valyria_magic.9000
-						
-					}
-					else = {
-						random = {
-							chance = 75
-							trigger_event =  zz_valyria_magic.9000
-						}
-					}
-				}
-			}
+		send_interface_toast = {
+			title = poi_magic.visit
+			left_icon = root
+			custom_tooltip = poi_valyria_magic.effect
+			add_character_flag = zz_valyria_magic_search
 		}
+
 		
 		
 		
@@ -67,62 +25,4 @@
 		}
 	}
 }
-poi_valyria_magic_volcano = {
-	build_province_list = {
-		every_province = {
-			limit = { 
-				zz_valyria_doom_sites = yes 
-			}
-			add_to_list = provinces
-		}
-		while = { 
-			count = 10
-			random_province = { 
-				limit = { 
-					NOT = { is_in_list = provinces }
-				}
-				add_to_list = provinces
-			}
-		}
-	}
-	on_visit = {
-		if = {
-			limit = {
-				OR = {
-					has_inactive_trait = starwalker
-					has_trait = starwalker
-				}
-			}
-			send_interface_toast = {
-				title = poi_valyria_magic_volcano.visit
-				left_icon = root
-				custom_tooltip = poi_valyria_magic_volcano.effect
-				add_trait_xp = { 
-					trait = starwalker 
-					track = chosen_of_the_heavens
-					value = {
-						integer_range = {
-							min = 3
-							max = 7
-						}
-					}
-				}
-				root.location = {
-					save_scope_as = doom_location
-				}
-				add_character_flag = dragon_training
-				trigger_event = {
-					id = zz_valyria_the_doom.001
-					days = 1
-				}
-			}
-		}
-		else = {
-			send_interface_toast = {
-				title = poi_valyria_magic_volcano.visit
-				left_icon = root
-				custom_tooltip = poi_valyria_magic_volcano.noeffect
-			}
-		}
-	}
-}
+

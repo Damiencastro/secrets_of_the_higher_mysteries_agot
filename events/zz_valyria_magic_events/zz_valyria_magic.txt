@@ -179,6 +179,7 @@ zz_valyria_magic.0010 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_3499
 	}
 
 	trigger = {
@@ -259,6 +260,7 @@ zz_valyria_magic.0011 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll_03
 		}
+		add_character_flag = zz_valyria_magic_scroll_4415
 	}
 
 	trigger = {
@@ -337,6 +339,7 @@ zz_valyria_magic.0012 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_77
 	}
 
 	trigger = {
@@ -410,6 +413,7 @@ zz_valyria_magic.0013 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_5
 	}
 
 	trigger = {
@@ -482,6 +486,7 @@ zz_valyria_magic.0014 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_1934
 	}
 
 	trigger = {
@@ -554,6 +559,7 @@ zz_valyria_magic.0015 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_4939
 	}
 
 	trigger = {
@@ -627,6 +633,7 @@ zz_valyria_magic.0016 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_7708
 	}
 
 	trigger = {
@@ -698,6 +705,7 @@ zz_valyria_magic.0017 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_7713
 	}
 
 	trigger = {
@@ -769,6 +777,7 @@ zz_valyria_magic.0018 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_7559
 	}
 
 	trigger = {
@@ -841,6 +850,7 @@ zz_valyria_magic.0019 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_7351
 	}
 
 	trigger = {
@@ -913,6 +923,7 @@ zz_valyria_magic.0020 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_7389
 	}
 
 	trigger = {
@@ -985,6 +996,7 @@ zz_valyria_magic.0021 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_7388
 	}
 
 	trigger = {
@@ -1057,6 +1069,7 @@ zz_valyria_magic.0022 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_8062
 	}
 
 	trigger = {
@@ -1129,6 +1142,7 @@ zz_valyria_magic.0023 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_8063
 	}
 
 	trigger = {
@@ -1201,6 +1215,7 @@ zz_valyria_magic.0024 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_8064
 	}
 
 	trigger = {
@@ -1272,6 +1287,7 @@ zz_valyria_magic.0025 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_8065
 	}
 
 	trigger = {
@@ -1344,6 +1360,7 @@ zz_valyria_magic.0026 = {
 		scope:newly_created_artifact = {
 			save_scope_as = magic_scroll
 		}
+		add_character_flag = zz_valyria_magic_scroll_8066
 	}
 
 	trigger = {
