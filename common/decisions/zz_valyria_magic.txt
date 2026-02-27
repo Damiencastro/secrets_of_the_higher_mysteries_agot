@@ -407,7 +407,6 @@ zz_valyria_search_for_magic_decision = {
 		custom_tooltip = zz_valyria_search_for_magic_decision_tooltip
 		zz_spawn_magic_quest_contracts = yes 
 		zz_spawn_magic_quest_contracts = yes 
-		zz_spawn_magic_quest_contracts = yes
 		create_task_contract = {
 			task_contract_type = zz_valyria_magic_visit_library_dragonstone
 			task_contract_tier = 5

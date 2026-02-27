@@ -467,7 +467,7 @@ zz_valyria_magic_secrets_of_the_dooom = {
 		save_scope_as = task_contract
 		task_contract_location.county.holder = {save_scope_as = employer}
 		# Then we roll our first event..
-		task_contract_taker ?= { trigger_event = zz_valyria_magic_contracts.00010 }
+		task_contract_taker ?= { trigger_event = zz_valyria_magic_contracts.00030 }
 	}
 	on_create = {
 		scope:contract = {

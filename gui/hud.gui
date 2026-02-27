@@ -772,7 +772,7 @@ widget = {
 					visible = "[GetScriptedGui('zz_magic_crafting_open').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 					blockoverride "maintab_button"
 					{
-						texture = "gfx/interface/icons/zz_crafting_icon.dds"
+						texture = "gfx/interface/icons/zz_crafting_forge.dds"
 
 						#onclick = "[ToggleGameView('activity_list_window')]"
 
@@ -813,7 +813,7 @@ widget = {
 						onclick = "[CloseGameView( 'manage_tax_slots' )]"
 						onclick = "[CloseGameView( 'government_administration' )]"
 
-						texture = "gfx/interface/icons/zz_magic_management.dds"
+						texture = "gfx/interface/icons/zz_mages_tower.dds"
 						enabled = "[GetScriptedGui('zz_valyria_magic_management').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 						onclick = "[GetScriptedGui('zz_valyria_magic_management').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
 						tooltip = "[GetScriptedGui('zz_valyria_magic_management').BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
