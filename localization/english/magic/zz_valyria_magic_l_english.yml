@@ -114,7 +114,6 @@
   zz_valyria_magic_learn_spell_title:0 "Learn [new_memory.GetName]"
   zz_valyria_magic_learn_spell_desc:0 "[new_memory.GetDescription]"
 
-  zz_valyria_magic_blood_magic.0003.opt.a:0 "Let them be known as ... "
   
   ## Interaction
   #recipient_secondary_

@@ -10,6 +10,17 @@ zz_valyria_cast_click = {
 	}
 	effect = {
 		save_scope_as = actor 
+		scope:actor = {
+			if = {
+				limit = {
+					NOT = { exists = var:zz_miscast_count }
+				}
+				set_variable = {
+					name = zz_miscast_count
+					value = 0
+				}
+			}
+		}
 		scope:opened_character = {
 			save_scope_as = recipient
 		}
@@ -132,6 +143,44 @@ zz_valyria_magic_caster = {
 		set_variable = {
 			name = zz_magic_caster
 			value = scope:zz_magic_caster
+		}
+		if = {
+			limit = { NOT = { exists = scope:zz_magic_user.var:zz_miscast_count } }
+			scope:zz_magic_user ?= {
+				set_variable = {
+					name = zz_miscast_count
+					value = 0
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:zz_magic_caster.var:zz_miscast_count } }
+			scope:zz_magic_caster ?= {
+				set_variable = {
+					name = zz_miscast_count
+					value = 0
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { exists = scope:zz_magic_user.var:zz_miscast_count } }
+			scope:zz_magic_user ?= {
+				set_variable = {
+					name = zz_miscast_count
+					value = 0
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:zz_magic_user.var:zz_magic_target
+			}
+			scope:zz_magic_caster ?= {
+				set_variable = {
+					name = zz_magic_target
+					value = scope:zz_magic_user.var:zz_magic_target
+				}
+			}
 		}
 		zz_valyria_make_spell_list = {MAGIC_USER = zz_magic_user MAGIC_CASTER = zz_magic_caster}
 	}
