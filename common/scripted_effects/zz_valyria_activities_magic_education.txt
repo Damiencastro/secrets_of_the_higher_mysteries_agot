@@ -723,6 +723,51 @@ disburse_magic_education_reward_effect = {
 	}
 }
 
+zz_valyria_magic_contract_options_list = {
+	remove_variable = selected_flag
+	clear_variable_list = possible_flags
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:higher_mysteries
+	}
+	set_variable = {
+		name = selected_flag
+		value = flag:higher_mysteries
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:blood_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:dream_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:alchemical_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:shadow_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:air_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:fire_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:water_magic
+	}
+	add_to_variable_list = {
+		name = possible_flags
+		target = flag:dragon_magic
+	}
+}
+
 zz_valyria_magic_learn_list = {
 	remove_variable = selected_flag
 	clear_variable_list = possible_flags

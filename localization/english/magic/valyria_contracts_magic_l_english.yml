@@ -33,6 +33,14 @@
   zz_valyria_magic_contracts.00013.desc.outro:0 "\n\nI must leave [employer.GetPrimaryTitle.GetBaseNameNoTier] empty-handed, much to the visible relief of the local librarians."
   zz_valyria_magic_contracts.00013.a:0 "Damnations!"
 
+
+  zz_valyria_magic_visit_library_dragonstone_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
+
+  zz_valyria_magic_visit_library_dragonstone_contract:0 "Secrets of the Higher Mysteries"
+  zz_valyria_magic_visit_library_dragonstone_desc:0 "You have stumbled upon traces of a legacy of the lost Freehold. By following the trail of fragments, you may be able to recover the magics that once made Valyria the greatest empire in the world."
+  zz_valyria_magic_visit_library_dragonstone_desc_title:0 "$task_contract_mage_desc_title$"
+
+
   zz_valyria_magic_contracts.00021.t:0 "The archives of House [employer.GetHouse.GetBaseNameNoTooltip]""
   zz_valyria_magic_contracts.00021.desc:0 "Our arrival in [employer.GetPrimaryTitle.GetBaseNameNoTier] is met with little fanfare — the locals are in some measure of frustration of our desires to accesss the records stored in this location.\n\nWithout our rapid completion of our examinations the local population may become antagonised by our presence.$zz_valyria_magic_contracts.00021.desc.outro$"
   zz_valyria_magic_contracts.00021.desc.outro:0 "\n\n[employer.GetTitledFirstName|U] is at pains to let us know that their tolerance of our intrusion into their archives has its limits."
@@ -54,6 +62,11 @@
   zz_valyria_magic_contracts.00023.desc.outro:0 "\n\n[employer.GetTitledFirstName|U] watches me depart with a smug satisfaction, clearly pleased that their secrets remain safe from my prying eyes."
   zz_valyria_magic_contracts.00023.a:0 "Damnations!"
 
+  zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
+  zz_valyria_magic_secrets_of_the_dooom_contract:0 "Visions of the Doom"
+  zz_valyria_magic_secrets_of_the_dooom_desc:0 "The fall of Valyria left scars upon the world itself. Seek out fragments of knowledge to trigger a lingering connection you have to the esoteric forces that brought about Valyria's end"
+  zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
+  zz_valyria_magic_secrets_of_the_dooom_desc_title:0 "The mysteries of the Doom shall be revealed!"
 
 
   zz_valyria_magic_contracts.00031.t:0 "Visions of the Doom"
@@ -77,11 +90,12 @@
   zz_valyria_magic_contracts.00033.desc.outro:0 "\n\nThe shadows of the past remain elusive. I leave the archives feeling the heavy weight of failure, and the even heavier gaze of the locals."
   zz_valyria_magic_contracts.00033.a:0 "Damnations!"
 
-  zz_valyria_magic_visit_library_dragonstone_contract:0 "Secrets of the Higher Mysteries"
-  zz_valyria_magic_visit_library_dragonstone_desc:0 "You have stumbled upon traces of a legacy of the lost Freehold. By following the trail of fragments, you may be able to recover the magics that once made Valyria the greatest empire in the world."
-  zz_valyria_magic_visit_library_dragonstone_desc_title:0 "$task_contract_mage_desc_title$"
-
-  zz_valyria_magic_secrets_of_the_dooom_contract:0 "Visions of the Doom"
-  zz_valyria_magic_secrets_of_the_dooom_desc:0 "The fall of Valyria left scars upon the world itself. Seek out fragments of knowledge to trigger a lingering connection you have to the esoteric forces that brought about Valyria's end"
-  zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
-  zz_valyria_magic_secrets_of_the_dooom_desc_title:0 "The mysteries of the Doom shall be revealed!"
+  higher_mysteries:0 "[higher_mysteries]"
+  blood_magic:0 "[blood_magic]"
+  dream_magic:0 "[dream_magic]"
+  alchemical_magic:0 "[alchemy_magic]"
+  shadow_magic:0 "[shadow_magic]"
+  air_magic:0 "[air_magic]"
+  fire_magic:0 "[fire_magic]"
+  water_magic:0 "[water_magic]"
+  dragon_magic:0 "[dragon_magic]"
