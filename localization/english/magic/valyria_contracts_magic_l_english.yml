@@ -27,7 +27,7 @@
   zz_valyria_magic_contracts.00013.t:0 "$zz_valyria_magic_contracts.00011.t$: Failure!"
   zz_valyria_magic_contracts.00013.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00013.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
-  zz_valyria_magic_contracts.00013.a "Damnations!"
+  zz_valyria_magic_contracts.00013.a:0 "Damnations!"
 
 
   zz_valyria_magic_visit_library_dragonstone_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
@@ -52,7 +52,7 @@
   zz_valyria_magic_contracts.00023.t:0 "$zz_valyria_magic_contracts.00031.t$: Failure!"
   zz_valyria_magic_contracts.00023.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00023.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
-  zz_valyria_magic_contracts.00023.a "Damnations!"
+  zz_valyria_magic_contracts.00023.a:0 "Damnations!"
 
   zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
   zz_valyria_magic_secrets_of_the_dooom_contract:0 "Visions of the Doom"

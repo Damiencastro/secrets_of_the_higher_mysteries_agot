@@ -12,9 +12,9 @@
 
 
   zz_valyria_magic_knowledge: "Knowlege of the Higher Mysteries"
-  zz_valyria_magic_knowledge.memory_desc: "I gained knowledge of the Higher Mysteries $zz_mem_loc"
-  zz_valyria_magic_knowledge.memory_desc_second_perspective: "You gained knowledge of the Higher Mysteries $zz_mem_loc"
-  zz_valyria_magic_knowledge.memory_desc_third_perspective: "[owner.GetTitledFirstName|U] gained knowledge of the Higher Mysteries $zz_mem_loc"
+  zz_valyria_magic_knowledge.memory_desc: "I gained knowledge of the Higher Mysteries $zz_mem_loc$"
+  zz_valyria_magic_knowledge.memory_desc_second_perspective: "You gained knowledge of the Higher Mysteries $zz_mem_loc$"
+  zz_valyria_magic_knowledge.memory_desc_third_perspective: "[owner.GetTitledFirstName|U] gained knowledge of the Higher Mysteries $zz_mem_loc$"
 
 
   

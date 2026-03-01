@@ -9,7 +9,6 @@
   item_armour:0 "Valyrian Armour"
   item_armour_desc:0 "Craft a suit of Valyrian Armour"
   item_ring:0 "Magic Ring"
-  item_ring_desc:0 "Craft an Enchanted Ring of your design"
   item_crown:0 "Mage's Crown"
   item_rod:0 "Mage's Rod"
   item_glass_candle:0 "Glass Candle"
@@ -244,7 +243,7 @@
   item_modifier_21:0 "Monthly Income Multiplier"
   item_modifier_21_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
   item_modifier_22:0 "Drops of Power Capacity"
-  item_modifier_21_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
+  item_modifier_22_desc:0 "$BULLET_WITH_TAB$Additional Crafting Cost: [EmptyScope.ScriptValue('zz_modifier_diplomacy_range_mult_cost')|V0] \n"
   
 
   item_ring_desc:0 "An enchanted ring of magic, carrying within it a great power to change the world."

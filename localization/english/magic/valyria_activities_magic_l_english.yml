@@ -20,7 +20,7 @@ activity_zz_magic_education_special_type_bar_segment_tt_3: "#t Perfect Study (Ti
 
 activity_zz_valyria_blood_sacrifice_ritual:0 "Blood Sacrifice of Power"
 activity_zz_valyria_blood_sacrifice_ritual_desc:0 "Through the ritual death of a prisoner, it is possible to draw forth not inconsiderable magical power, granting to all participants some mesure of power."
-activity_zz_valyria_blood_sacrifice_ritual_selection_tooltip:1 "Sacrifice a prisoner in a collaborative ritual to acquire [drops_of_power|E] with your peers!\n\nAnticipated Rewards: \n$BULLET_WITH_TAB$Exponential [drops_of_power|E]]"
+activity_zz_valyria_blood_sacrifice_ritual_selection_tooltip:1 "Sacrifice a prisoner in a collaborative ritual to acquire [drops_of_power|E] with your peers!\n\nAnticipated Rewards: \n$BULLET_WITH_TAB$Exponential [drops_of_power|E]"
 
 activity_zz_valyria_blood_sacrifice_ritual_host_desc:0 "\n$BULLET_WITH_TAB$More [drops_of_power|E]"
 activity_zz_valyria_blood_sacrifice_ritual_conclusion_desc:0 "The [GetActivityType( 'activity_zz_valyria_blood_sacrifice_ritual' ).GetName] has concluded"
