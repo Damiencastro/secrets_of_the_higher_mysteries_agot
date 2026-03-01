@@ -357,7 +357,9 @@ magic_education_failure:0 "You must start again!"
 zz_valyria_magic_education.0010:0 "Arrival"
 zz_valyria_magic_education.0010.t:0 "Arrival"
 zz_valyria_magic_education.0010.desc: "You have arrived at [PROVINCE.GetName].\n It is time to begin your study and meditation on the arcane arts.\n Through your dilligence, you expect to learn either the secrets to further your use of the mystical skills, and perhaps to acquire new [zz_mystery_plural] with which to enchant the world around you."
-
+zz_valyria_magic_education.0010.desc_uni:0 "The air here hums with a resonance only those of the blood can truly hear. At last, I have reached the sanctum of [PROVINCE.GetName]. Far from the trivialities of the court, I can finally immerse myself in the shifting currents of the arcane."
+ 
+zz_valyria_magic_education.0010.desc_very_very_far:0 "My bones ache from the moons of travel, and the maps of lesser men nearly led me astray. Yet, as I stand within [PROVINCE.GetName], the sheer potency of the local ley lines makes the grueling journey feel like a minor price for the godhood that awaits me."
 
 
 
@@ -494,6 +496,7 @@ valyria_blood_sacrifices.1.a:0 "Chant from an ancient scroll of power"
 valyria_blood_sacrifices.1.a.great:0 "An ancient intelligence smiles upon you, and the star touches your soul."
 valyria_blood_sacrifices.1.a.poor:0 "And there is nothing that listens to your invocations"
 
+zz_valyria_item_crafting_human_sacrifice.01.opt.a:0 "Their soul shall be the fuel for my masterpiece."
 
 ### Further Magical Education System
 further_magical_education_scheme:0 "Further Magical Studies"
@@ -548,6 +551,10 @@ zz_valyria_magic_further_education.1022.t:0 "$zz_valyria_magic_further_education
 zz_valyria_magic_further_education.1022.desc:0 "Even with the countless hours you have spent studying the Valyrian characters it is clear that you have not made any progress."
 zz_valyria_magic_further_education.1022.a:0 "This damned language!"
 
+further_magical_education_complete:0 "$zz_valyria_magic_further_education.t$ Complete!"
+magic_education_studies_completed_log_title:0 "$zz_valyria_magic_education.0009.t$"
+magic_education_studies_completed_log_desc:0 "$zz_valyria_magic_education.0009.desc$"
+
 
 zz_valyria_magic_education.crit_success:0 "Massive Success"
 zz_valyria_magic_education.crit_success.tt:0 "Your [GetActivityType('activity_zz_magic_education').GetName] efforts become #P greatly more successful#!"
@@ -559,3 +566,21 @@ zz_valyria_magic_education.small_success:0 "Minor Success"
 zz_valyria_magic_education.z.small_success.tt:0 "Your [GetActivityType('activity_zz_magic_education').GetName] efforts become #P slightly more successful#!"
 zz_valyria_magic_education.failure:0 "Failure"
 zz_valyria_magic_education.failure.tt:0 "Your [GetActivityType('activity_zz_magic_education').GetName] efforts become #N less successful#!"
+
+zz_valyria_magic.0010.zz:0 "The flames begin to dim..."
+zz_valyria_magic.0011.zz:0 "The shadows recede into the corners."
+zz_valyria_magic.0012.zz:0 "The vision fades from my mind's eye."
+zz_valyria_magic.0013.zz:0 "The elements return to their slumber."
+zz_valyria_magic.0014.zz:0 "The ritual is complete."
+zz_valyria_magic.0015.zz:0 "My will is done."
+zz_valyria_magic.0016.zz:0 "The spirits fall silent."
+zz_valyria_magic.0018.zz:0 "I have seen enough for today."
+zz_valyria_magic.0019.zz:0 "Let the blood dry where it fell."
+zz_valyria_magic.0020.zz:0 "The arcane winds settle."
+zz_valyria_magic.0021.zz:0 "I shall reflect on these findings."
+zz_valyria_magic.0022.zz:0 "The circle is closed."
+zz_valyria_magic.0023.zz:0 "The incantation ends."
+zz_valyria_magic.0024.zz:0 "The Grimoire is shut."
+zz_valyria_magic.0025.zz:0 "So it was written, so it shall be."
+zz_valyria_magic.0026.zz:0 "I emerge from the trance."
+zz_valyria_magic.0027.zz:0 "The power sustains me."
