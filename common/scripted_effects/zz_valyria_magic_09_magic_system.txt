@@ -58,6 +58,20 @@ zz_valyria_make_zz_valyria_make_mages_list = {
 			}
 		}
 	}
+	every_in_list = {
+		variable = mages_list
+		if = {
+			limit = {
+				not = {
+					has_variable = zz_miscast_count
+				}
+			}
+			set_variable = {
+				name = zz_miscast_count
+				value = 0
+			}
+		}
+	}
 	ordered_in_list = {
 		variable = mages_list
 		position = 0
@@ -208,6 +222,20 @@ zz_valyria_make_mage_list = {
 			}
 		}
 	}
+	every_in_list = {
+		variable = mages_list
+		if = {
+			limit = {
+				not = {
+					has_variable = zz_miscast_count
+				}
+			}
+			set_variable = {
+				name = zz_miscast_count
+				value = 0
+			}
+		}
+	}
 	if = {
 		limit = {
 			not = {
@@ -242,13 +270,9 @@ zz_valyria_make_spell_list = {
 	scope:$MAGIC_CASTER$ = {
 		every_memory = {
 			limit = { 
-				has_memory_category = blood_magic
+				has_memory_category = magic 
 			}
 			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_blood_list
-					target = prev
-				}
 				add_to_variable_list = {
 					name = zz_valyria_spell_list
 					target = prev
@@ -260,140 +284,74 @@ zz_valyria_make_spell_list = {
 					set_variable = { name = zz_valyria_mystery value = prev }
 				}
 			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = shadow_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_shadow_list
-					target = prev
-				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = zz_valyria_mystery }
+			switch = {
+				trigger = has_memory_category
+
+				blood_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_blood_list
+							target = prev
+						}
 					}
-					set_variable = { name = zz_valyria_mystery value = prev }
 				}
-			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = dream_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_dream_list
-					target = prev
-				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = zz_valyria_mystery }
+				shadow_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_shadow_list
+							target = prev
+						}
 					}
-					set_variable = { name = zz_valyria_mystery value = prev }
 				}
-			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = alchemy_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_alchemy_list
-					target = prev
-				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = zz_valyria_mystery }
+				dream_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_dream_list
+							target = prev
+						}
 					}
-					set_variable = { name = zz_valyria_mystery value = prev }
 				}
-			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = fire_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_fire_list
-					target = prev
-				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = zz_valyria_mystery }
+				alchemy_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_alchemy_list
+							target = prev
+						}
 					}
-					set_variable = { name = zz_valyria_mystery value = prev }
 				}
-			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = air_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_air_list
-					target = prev
-				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
-				}
-				if = {
-					limit = {
-						NOT = { has_variable = zz_valyria_mystery }
+				fire_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_fire_list
+							target = prev
+						}
 					}
-					set_variable = { name = zz_valyria_mystery value = prev }
 				}
-			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = water_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_water_list
-					target = prev
+				air_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_air_list
+							target = prev
+						}
+					}
 				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
+				water_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_water_list
+							target = prev
+						}
+					}
 				}
-			}
-		}
-		every_memory = {
-			limit = { 
-				has_memory_category = dragon_magic
-			}
-			scope:$MAGIC_USER$ = {
-				add_to_variable_list = {
-					name = zz_valyria_spell_dragon_list
-					target = prev
+				dragon_magic = {
+					scope:$MAGIC_USER$ = {
+						add_to_variable_list = {
+							name = zz_valyria_spell_dragon_list
+							target = prev
+						}
+					}
 				}
-				add_to_variable_list = {
-					name = zz_valyria_spell_list
-					target = prev
-				}
+
 			}
 		}
 	}
@@ -456,6 +414,20 @@ zz_valyria_make_item_caster_list = {
 			add_to_variable_list = {
 				name = item_caster_list
 				target = prev
+			}
+		}
+	}
+	every_in_list = {
+		variable = item_caster_list
+		if = {
+			limit = {
+				not = {
+					has_variable = zz_miscast_count
+				}
+			}
+			set_variable = {
+				name = zz_miscast_count
+				value = 0
 			}
 		}
 	}
@@ -2414,9 +2386,9 @@ zz_ui_setup_effect = {
 	scope:actor = {
 		save_scope_as = zz_magic_user
 		zz_valyria_make_mage_list =  {MAGIC_USER = zz_magic_user}
-		
 		zz_valyria_make_spell_list = {MAGIC_USER = zz_magic_user MAGIC_CASTER = zz_magic_caster}
 		zz_valyria_make_item_caster_list = {MAGIC_USER = zz_magic_user}
+
 		zz_valyria_make_scroll_list = {MAGIC_USER = zz_magic_user ITEM_CASTER = zz_item_caster}
 		
 		remove_variable = cast_type
