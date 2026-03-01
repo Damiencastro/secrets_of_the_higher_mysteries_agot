@@ -1504,7 +1504,7 @@ zz_valyria_magic_02.interaction = {
 			}
 			if = {
 				limit = {
-					scope:set_homsexual = yes
+					scope:set_homosexual = yes
 				}
 				set_sexuality = homosexual
 			}
@@ -1601,8 +1601,8 @@ zz_valyria_magic_02.interaction = {
 		localization = set_heterosexual
 	}
 	send_option = {
-		flag = set_homsexual
-		localization = set_homsexual
+		flag = set_homosexual
+		localization = set_homosexual
 	}
 	
 }

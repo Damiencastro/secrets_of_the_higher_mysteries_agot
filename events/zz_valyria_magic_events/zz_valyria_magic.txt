@@ -400,7 +400,7 @@ zz_valyria_magic.0013 = {
 	type = character_event
 	title = zz_valyria_magic.0013.t
 	desc = zz_valyria_magic.0013.desc
-	theme = docks
+	theme = dungeon
 	override_background = {
 		reference = zz_valyria_castle_black
 	}
@@ -2493,7 +2493,7 @@ zz_valyria_magic_contracts.00012 = {
 					scope:resolution_type = flag:camp_purpose
 				}
 			}
-			desc = 1.desc.outro
+			desc = zz_valyria_magic_contracts.00012.desc.outro
 		}
 	}
 	theme = learning
@@ -2762,7 +2762,7 @@ zz_valyria_magic_contracts.00022 = {
 					scope:resolution_type = flag:camp_purpose
 				}
 			}
-			desc = 1.desc.outro
+			desc = zz_valyria_magic_contracts.00022.desc.outro
 		}
 	}
 	theme = learning
@@ -3031,7 +3031,7 @@ zz_valyria_magic_contracts.00032 = {
 					scope:resolution_type = flag:camp_purpose
 				}
 			}
-			desc = 1.desc.outro
+			desc = zz_valyria_magic_contracts.00032.desc.outro
 		}
 	}
 	theme = learning

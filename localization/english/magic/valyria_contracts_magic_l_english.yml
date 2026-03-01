@@ -23,10 +23,14 @@
   zz_valyria_magic_contracts.00012.t:0 "$zz_valyria_magic_contracts.00011.t$: Success!"
   zz_valyria_magic_contracts.00012.desc.resolution_type.stewardship:0 "Thankfully, I possess manifold abilities to manage administrative records, and this skill has proven transferable to navigating the archives of House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, a scroll from lost Valyria."
   zz_valyria_magic_contracts.00012.desc.resolution_type.secondary_skill:0 "Thankfully, my capacities as a scholar allows me to rapidly find my way through the records stored for the centuries by House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, a scroll from lost Valyria."
+  zz_valyria_magic_contracts.00012.desc.outro:0 "\n\nWith the scroll in hand, I make my exit before the local authorities can find a reason to 'confiscate' my findings."
   zz_valyria_magic_contracts.00012.a:0 "Eureka!"
+
   zz_valyria_magic_contracts.00013.t:0 "$zz_valyria_magic_contracts.00011.t$: Failure!"
   zz_valyria_magic_contracts.00013.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00013.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
+  zz_valyria_magic_contracts.00013.desc.stewardship:0 "Despite my talent for balancing ledgers and managing estates, these archives are a chaotic mess of decaying parchment and illegible scribbles. I have spent days reorganizing their tax records, yet the magical secrets I seek remain buried under mountains of mundane bureaucracy."
+  zz_valyria_magic_contracts.00013.desc.outro:0 "\n\nI must leave [employer.GetPrimaryTitle.GetBaseNameNoTier] empty-handed, much to the visible relief of the local librarians."
   zz_valyria_magic_contracts.00013.a:0 "Damnations!"
 
   zz_valyria_magic_contracts.00021.t:0 "The archives of House [employer.GetHouse.GetBaseNameNoTooltip]""
@@ -40,22 +44,16 @@
   zz_valyria_magic_contracts.00022.t:0 "$zz_valyria_magic_contracts.00021.t$: Success!"
   zz_valyria_magic_contracts.00022.desc.resolution_type.stewardship:0 "Thankfully, I possess manifold abilities to manage administrative records, and this skill has proven transferable to navigating the archives of House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, a scroll from lost Valyria."
   zz_valyria_magic_contracts.00022.desc.resolution_type.secondary_skill:0 "Thankfully, my capacities as a scholar allows me to rapidly find my way through the records stored for the centuries by House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, a scroll from lost Valyria."
+  zz_valyria_magic_contracts.00022.desc.outro:0 "\n\nWith the scroll in hand, I make my exit before the local authorities can find a reason to 'confiscate' my findings."
   zz_valyria_magic_contracts.00022.a:0 "Eureka!"
+
   zz_valyria_magic_contracts.00023.t:0 "$zz_valyria_magic_contracts.00031.t$: Failure!"
   zz_valyria_magic_contracts.00023.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00023.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
+  zz_valyria_magic_contracts.00023.desc.stewardship:0 "My administrative approach has failed me here. I attempted to categorize the library by date and origin, only to realize that the most important texts have been deliberately mislabeled for centuries. My time has been wasted on ancient grain manifests."
+  zz_valyria_magic_contracts.00023.desc.outro:0 "\n\n[employer.GetTitledFirstName|U] watches me depart with a smug satisfaction, clearly pleased that their secrets remain safe from my prying eyes."
   zz_valyria_magic_contracts.00023.a:0 "Damnations!"
 
-
-
-  zz_valyria_magic_visit_library_dragonstone_contract:0 "Secrets of the Higher Mysteries"
-  zz_valyria_magic_visit_library_dragonstone_desc:0 "You have stumbled upon traces of a legacy of the lost Freehold. By following the trail of fragments, you may be able to recover the magics that once made Valyria the greatest empire in the world."
-  zz_valyria_magic_visit_library_dragonstone_desc_title:0 "$task_contract_mage_desc_title$"
-
-  zz_valyria_magic_secrets_of_the_dooom_contract:0 "Visions of the Doom"
-  zz_valyria_magic_secrets_of_the_dooom_desc:0 "The fall of Valyria left scars upon the world itself. Seek out fragments of knowledge to trigger a lingering connection you have to the esoteric forces that brought about Valyria's end"
-  zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
-  zz_valyria_magic_secrets_of_the_dooom_desc_title:0 "The mysteries of the Doom shall be revealed!"
 
 
   zz_valyria_magic_contracts.00031.t:0 "Visions of the Doom"
@@ -69,8 +67,21 @@
   zz_valyria_magic_contracts.00032.t:0 "$zz_valyria_magic_contracts.00031.t$: Success!"
   zz_valyria_magic_contracts.00032.desc.resolution_type.stewardship:0 "Thankfully, I possess manifold abilities to manage administrative records, and this skill has proven transferable to navigating the archives of House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, an account of the days just before the doom befell the Freehold."
   zz_valyria_magic_contracts.00032.desc.resolution_type.secondary_skill:0 "Thankfully, my capacities as a scholar allows me to rapidly find my way through the records stored for the centuries by House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, a surviving account of refugees who fled the collapse of Valyria."
+  zz_valyria_magic_contracts.00032.desc.outro:0 "\n\n[employer.GetTitledFirstName|U] watches me depart with a smug satisfaction, clearly pleased that their secrets remain safe from my prying eyes."
   zz_valyria_magic_contracts.00032.a:0 "Eureka!"
+
   zz_valyria_magic_contracts.00033.t:0 "$zz_valyria_magic_contracts.00031.t$: Failure!"
   zz_valyria_magic_contracts.00033.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00033.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
+  zz_valyria_magic_contracts.00033.desc.stewardship:0 "Navigating the records of the Doom requires more than just a keen eye for logistics; it requires an intuition I simply could not find today. The trail of the refugees goes cold in a sea of unsorted death certificates and ruined property deeds."
+  zz_valyria_magic_contracts.00033.desc.outro:0 "\n\nThe shadows of the past remain elusive. I leave the archives feeling the heavy weight of failure, and the even heavier gaze of the locals."
   zz_valyria_magic_contracts.00033.a:0 "Damnations!"
+
+  zz_valyria_magic_visit_library_dragonstone_contract:0 "Secrets of the Higher Mysteries"
+  zz_valyria_magic_visit_library_dragonstone_desc:0 "You have stumbled upon traces of a legacy of the lost Freehold. By following the trail of fragments, you may be able to recover the magics that once made Valyria the greatest empire in the world."
+  zz_valyria_magic_visit_library_dragonstone_desc_title:0 "$task_contract_mage_desc_title$"
+
+  zz_valyria_magic_secrets_of_the_dooom_contract:0 "Visions of the Doom"
+  zz_valyria_magic_secrets_of_the_dooom_desc:0 "The fall of Valyria left scars upon the world itself. Seek out fragments of knowledge to trigger a lingering connection you have to the esoteric forces that brought about Valyria's end"
+  zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
+  zz_valyria_magic_secrets_of_the_dooom_desc_title:0 "The mysteries of the Doom shall be revealed!"
