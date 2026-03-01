@@ -83,21 +83,3 @@
   zz_valyria_magic_secrets_of_the_dooom_desc:0 "The fall of Valyria left scars upon the world itself. Seek out fragments of knowledge to trigger a lingering connection you have to the esoteric forces that brought about Valyria's end"
   zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
   zz_valyria_magic_secrets_of_the_dooom_desc_title:0 "The mysteries of the Doom shall be revealed!"
-
-
-  zz_valyria_magic_contracts.00031.t:0 "Visions of the Doom"
-  zz_valyria_magic_contracts.00031.desc:0 "My visions of the fall of Valyria has led me to [employer.GetPrimaryTitle.GetBaseNameNoTier]. While our arrival is met with little fanfare — the locals are in some measure of frustration of our desires to accesss the records stored in this location.\n\nWithout our rapid completion of our examinations the local population may become antagonised by our presence.$zz_valyria_magic_contracts.00031.desc.outro$"
-  zz_valyria_magic_contracts.00031.desc.outro:0 "\n\n[employer.GetTitledFirstName|U] is at pains to let us know that their tolerance of our intrusion into their archives has its limits."
-  zz_valyria_magic_contracts.00031.a:0 "Let us utilise our administrative mastery"
-  zz_valyria_magic_contracts.00031.b:0 "Let us utilise our administrative skill"
-  zz_valyria_magic_contracts.00031.c:0 "Let us utilise our learning mastery"
-  zz_valyria_magic_contracts.00031.d:0 "Let us utilise our learning skill"
-
-  zz_valyria_magic_contracts.00032.t:0 "$zz_valyria_magic_contracts.00031.t$: Success!"
-  zz_valyria_magic_contracts.00032.desc.resolution_type.stewardship:0 "Thankfully, I possess manifold abilities to manage administrative records, and this skill has proven transferable to navigating the archives of House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, an account of the days just before the doom befell the Freehold."
-  zz_valyria_magic_contracts.00032.desc.resolution_type.secondary_skill:0 "Thankfully, my capacities as a scholar allows me to rapidly find my way through the records stored for the centuries by House [employer.GetHouse.GetBaseNameNoTooltip]. Thus I rapidly find a true jewel among these records, a surviving account of refugees who fled the collapse of Valyria."
-  zz_valyria_magic_contracts.00032.a:0 "Eureka!"
-  zz_valyria_magic_contracts.00033.t:0 "$zz_valyria_magic_contracts.00031.t$: Failure!"
-  zz_valyria_magic_contracts.00033.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
-  zz_valyria_magic_contracts.00033.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
-  zz_valyria_magic_contracts.00033.a:0 "Damnations!"
