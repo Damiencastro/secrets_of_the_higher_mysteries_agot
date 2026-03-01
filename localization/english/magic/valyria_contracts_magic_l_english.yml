@@ -74,12 +74,3 @@
   zz_valyria_magic_contracts.00033.desc.resolution_type.stewardship:0 "My skills navigating the intricacies of governance sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00033.desc.resolution_type.secondary_skill:0 "My vaunted scholarly abilities sadly have not led me to make any sense of the archives of house [employer.GetHouse.GetBaseNameNoTooltip]. Thus, alas, with regrets I have not found what I was looking for."
   zz_valyria_magic_contracts.00033.a:0 "Damnations!"
-
-  zz_valyria_magic_visit_library_dragonstone_contract:0 "Secrets of the Higher Mysteries"
-  zz_valyria_magic_visit_library_dragonstone_desc:0 "You have stumbled upon traces of a legacy of the lost Freehold. By following the trail of fragments, you may be able to recover the magics that once made Valyria the greatest empire in the world."
-  zz_valyria_magic_visit_library_dragonstone_desc_title:0 "$task_contract_mage_desc_title$"
-
-  zz_valyria_magic_secrets_of_the_dooom_contract:0 "Visions of the Doom"
-  zz_valyria_magic_secrets_of_the_dooom_desc:0 "The fall of Valyria left scars upon the world itself. Seek out fragments of knowledge to trigger a lingering connection you have to the esoteric forces that brought about Valyria's end"
-  zz_valyria_magic_secrets_of_the_dooom_request:0 "Solve the situation potentially using your [learning|E] or [stewardship|E]"
-  zz_valyria_magic_secrets_of_the_dooom_desc_title:0 "The mysteries of the Doom shall be revealed!"
